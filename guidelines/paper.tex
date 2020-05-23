@@ -1,0 +1,385 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{comment}
+\usepackage{relsize}
+\usepackage{suffix}
+\usepackage{natbib}
+\usepackage[usenames]{color}
+\usepackage{xcolor}
+\usepackage{fourier}
+\usepackage[scaled=.87]{helvet}
+\usepackage[scaled=.8]{beramono}
+\usepackage{imakeidx}
+
+\bibliographystyle{abbrvnat}
+
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\definecolor{orange}{rgb}{1,0.5,0}
+\definecolor{mdred}{rgb}{0.8,0,0}
+\definecolor{mdgreen}{rgb}{0,0.6,0}
+\definecolor{mdblue}{rgb}{0,0,0.7}
+\definecolor{dkblue}{rgb}{0,0,0.5}
+\definecolor{dkgray}{rgb}{0.3,0.3,0.3}
+\definecolor{slate}{rgb}{0.25,0.25,0.4}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{ltgray}{rgb}{0.7,0.7,0.7}
+\definecolor{ltltgray}{rgb}{0.9,0.9,0.9}
+\definecolor{purple}{rgb}{0.7,0,1.0}
+\definecolor{lavender}{rgb}{0.65,0.55,1.0}
+\hypersetup{colorlinks=true,citecolor=darkblue, linkcolor=., urlcolor=darkblue}
+
+\newcommand{\shortdef}[1]{\begin{mdframed}\noindent\textlarger{#1}\end{mdframed}}
+
+\newenvironment{history}{\begin{mdframed}[linecolor=ltltgray,backgroundcolor=ltltgray]\small\noindent\textit{History.}}{\end{mdframed}}
+
+\newenvironment{discussion}{\begin{mdframed}[linecolor=ltltgray,backgroundcolor=ltltgray]\small\noindent\textit{Discussion.}}{\end{mdframed}}
+
+% Special macros for SNACS
+\newcommand{\w}[1]{\textit{#1}}	% word
+\newcommand{\p}[1]{\textbf{\textsf{#1}}\index{#1@\textbf{\textsf{#1}}}} % preposition type
+\WithSuffix\newcommand\p*[2]{\textbf{\textsf{#1}}\index{#2@\textbf{\textsf{#2}}}} % preposition token and lemma
+\newcommand{\lbl}[1]{\textsc{#1}} % class label
+\newcommand{\sst}[1]{\lbl{#1}\index{#1@\lbl{#1}}} % OLD supersense tag label
+\newcommand{\nsst}[1]{\sst{n:#1}} % noun supersense tag label
+\newcommand{\vsst}[1]{\sst{v:#1}} % verb supersense tag label
+\newcommand{\psst}[1]{\psstX{#1}{#1}} % preposition supersense tag label
+\newcommand{\psstX}[2]{\textcolor{mdgreen}{\hyperref[sec:#1]{\lbl{#2}}}\index{#1@\textcolor{mdgreen}{\textbf{\textsc{#1}}}}} % preposition supersense tag label
+\newcommand{\psstdef}[1]{\textcolor{mdgreen}{\hyperref[sec:#1]{\lbl{#1}}}\index{#1@\textcolor{mdgreen}{\textbf{\textsc{#1}}}|textbf}} % preposition supersense tag label
+\newcommand{\olbl}[1]{\textcolor{purple}{\textrm{#1}}} % other label: `i, `d, etc.
+%\newcommand{\nsst}[1]{\sst{#1~\textroundcap{\vphantom{-}}~}} % noun supersense tag label
+%\newcommand{\vsst}[1]{\sst{#1\raisebox{-1.5pt}{\textasciicaron}}} % verb supersense tag label
+%\newcommand{\psst}[1]{\sst{#1\raisebox{2pt}{\rotatebox{180}{\textsublhalfring{\phantom{.}}}}}} %\textcorner % preposition supersense tag label
+\newcommand{\rf}[2]{\psst{#1}$\leadsto$\psst{#2}\index[construals]{\protect\psst{#1}$\leadsto$\protect\psst{#2}}\index[revconstruals]{#2 #1@\protect\psst{#1}$\leadsto$\protect\psst{#2}}}
+\newcommand{\Rf}[2]{\sst{#1}$\leadsto$\psst{#2}}
+\newcommand{\rff}[3]{\psst{#1}$\leadsto$\psst{#2}$\leadsto$\psst{#3}\index[construals]{\psst{#1}$\leadsto$\psst{#2}$\leadsto$\psst{#3}}}
+\newcommand{\backc}[0]{\hyperref[sec:coord]{\olbl{\backtick c}}\index{\backtick c@\olbl{\backtick c}}\xspace}
+\newcommand{\backd}[0]{\hyperref[sec:discourse]{\olbl{\backtick d}}\index{\backtick d@\olbl{\backtick d}}\xspace}
+\newcommand{\backi}[0]{\hyperref[sec:specialinf]{\olbl{\backtick i}}\index{\backtick i@\olbl{\backtick i}}\xspace}
+\newcommand{\backposs}[0]{\hyperref[sec:possidiom]{\olbl{\backtick \$}}\index{\backtick \$@\olbl{\backtick \$}}\xspace}
+\newcommand{\tg}[1]{\texttt{#1}}	% supersense tag name
+\newcommand{\gfl}[1]{%\renewcommand\texttildelow{{\lower.74ex\hbox{\texttt{\char`\~}}}} % http://latex.knobs-dials.com/
+\mbox{\textsmaller{\texttt{#1}}}}	% supersense tag symbol
+ \newcommand{\tagdef}[1]{#1\hfill} % tag definition
+\newcommand{\tagt}[2]{\ensuremath{\underset{\textrm{\textlarger{\tg{#2}}}\strut}{\w{#1}\rule[-.3\baselineskip]{0pt}{0pt}}}} % tag text (a word or phrase) with an SST. (second arg is the tag)
+\newcommand{\glosst}[2]{\ensuremath{\underset{\textrm{#2}}{\textrm{#1}}}} % gloss text (a word or phrase) (second arg is the gloss)
+\newcommand{\AnnA}[0]{\mbox{\textbf{Ann-A}}} % annotator A
+\newcommand{\AnnB}[0]{\mbox{\textbf{Ann-B}}} % annotator B
+\newcommand{\sys}[1]{\mbox{\textbf{#1}}}   % name of a system (one of our experimental conditions)
+\newcommand{\dataset}[1]{\mbox{\textsc{#1}}}	% one of the datasets in our experiments
+\newcommand{\datasplit}[1]{\mbox{\textbf{#1}}}	% portion one of the datasets in our experiments
+\newcommand{\fnf}[1]{\textsc{\textsf{#1}}} % FrameNet frame
+\newcommand{\fnr}[1]{\textbf{\textsf{#1}}} % FrameNet role (frame element name)
+\newcommand{\fnrel}[1]{\textsl{#1}} % FrameNet frame relation type
+\newcommand{\fnst}[1]{\textsl{#1}} % FrameNet semantic type
+\newcommand{\fnlu}[1]{\textsf{#1}} % FrameNet lexical unit (predicate)
+\newcommand{\pbf}[1]{\mbox{\textsf{#1}}} % PropBank frame (roleset)
+\newcommand{\pbr}[1]{\textbf{\textsf{#1}}} % PropBank role (numbered or modifier argument label)
+\newcommand{\vpred}[1]{\textbf{#1}} % verb predicate
+%\newcommand{\lex}[1]{\textsmaller{\textsf{\textcolor{slate}{\textbf{#1}}}}}	% example lexical item
+\newcommand{\lex}[2][XXXX]{#2\index{#1@#2}} % lexical item/lexical example to include in index
+\WithSuffix\newcommand\lex*[2][XXXX]{\index{#1@#2}} % variant that only makes an index entry
+\newcommand{\pex}[1]{\textit{#1}} % phrasal example - don't index by default
+\newcommand{\ghi}[1]{\href{https://github.com/carmls/snacs-guidelines/issues/#1}{\##1}} % GitHub issue in SNACS doc repo
+
+\newcommand{\hierA}[1]{\textcolor{red}{\hyperref[sec:#1]{#1}}}
+\newcommand{\hierB}[1]{\textcolor{blue}{\hyperref[sec:#1]{#1}}}
+\newcommand{\hierC}[1]{\textcolor{mdgreen}{\hyperref[sec:#1]{#1}}}
+\newcommand{\hierD}[1]{\textcolor{orange}{\hyperref[sec:#1]{#1}}}
+
+\newcommand{\hierAdef}[1]{\section{\psstdef{#1}}\label{sec:#1}}
+\newcommand{\hierBdef}[1]{\subsection{\psstdef{#1}}\label{sec:#1}}
+\newcommand{\hierCdef}[1]{\subsubsection{\psstdef{#1}}\label{sec:#1}}
+\newcommand{\hierDdef}[1]{\paragraph{\psstdef{#1}}\label{sec:#1}}
+
+% Emails
+\newcommand{\emldisplay}[2]{\texttt{\href{mailto:#1}{#2}}}
+\newcommand{\eml}[1]{\textsmaller[1.5]{\emldisplay{#1}{#1}}}
+
+\usepackage[pagestyles]{titlesec}
+\usepackage{tipa}
+
+\titleformat{\section}[block]
+  {\Large\bfseries}
+  {}
+  {0pt}
+  {\hspace{-1.2cm}% Move into margin
+   \makebox[1cm][r]{\normalfont\thesection}\hspace{.2cm}}% Set number + title
+\titleformat{name=\section,numberless}[block] % \section*
+  {\Large\bfseries}
+  {}
+  {0pt}
+  {\hspace{-1.2cm}% Move into margin
+   \makebox[1cm][r]{\normalfont}\hspace{.2cm}}% Set  title
+\titleformat{\subsection}[block]
+  {\large\bfseries}
+  {}
+  {0pt}
+  {\hspace{-1.2cm}% Move into margin
+   \makebox[1cm][r]{\normalfont\thesubsection}\hspace{.2cm}}% Set number + title
+\titleformat{\subsubsection}[block]
+  {\normalsize\bfseries}
+  {}
+  {0pt}
+  {\hspace{-1.2cm}% Move into margin
+   \makebox[1cm][r]{\normalfont\thesubsubsection}\hspace{.2cm}}% Set number + title
+
+\usepackage{mdframed}
+\usepackage{leipzig}
+\usepackage{gb4e} % linguistic examples. put after all other package imports
+
+\newleipzig{Hab}{hab}{habitual}
+\newleipzig{Cont}{cont}{continuous}
+\newleipzig{Emph}{emph}{emphatic}
+
+\title{Adposition and Case Supersenses v1.0:
+Guidelines for Hindi}
+\author{\hspace{.2cm}\textbf{Aryaman Arora}\hspace{.2cm} \\ 
+  \hspace{.2cm}Georgetown University\hspace{.2cm} \\
+     \hspace{.2cm}\eml{aa2190@georgetown.edu}\hspace{.2cm}
+}
+\date{May 19, 2020}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+These are the guidelines for the application of SNACS (Semantic Network of Adposition and Case Supersenses; \citet{schneider-18}) to Hindi. SNACS is an inventory of 50 supersenses (semantic labels) for labelling the use of adpositions and case markers with respect to both lexical-semantic function and relation to the underlying context. The English guidelines \citep{en} were used as a model for this document.
+
+Hindi has an extremely rich postpositional (and, on occasion, prepositional) system. Beyond the few fundamental case markers which have been naturally derived through the historical descent of the language from Middle Indo-Aryan, Hindi has a productive system for producing novel postpositions (using \p{ke}, the oblique form of genitive \p{k\={a}}) from nouns, adjectives, and certain verb forms, as well as for native Hindi terms, Sanskrit learned borrowings, and Perso-Arabic loans--and even Hinglish.
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\hierAdef{Circumstance}
+
+\shortdef{Macrolabel for labels pertaining to space and time,
+and other relations that are usually semantically non-core properties of events.}
+
+\psst{Circumstance} is used directly as a scene role when some additional context is added to contextualize the main event. 
+
+\begin{exe}
+    \ex \gll durgha\d{t}n\={a} \p{me\.{m}} do log gh\={a}yal hue. \\
+             accident {\Loc} two people injured be.\Prf \\
+        \glt Two people were injured in the accident.
+\end{exe}
+
+It is used for \textbf{setting events}, often construed as a \psst{Locus} and perhaps serving as an answer to a location-based question, but the postposition itself does not give an explicit location.
+
+\begin{exe}
+    \ex \gll k\={a}m \p{par} (\rf{Circumstance}{Locus}) \\
+             work {\Loc} \\
+        \glt at work
+\end{exe}
+
+It is also used for \textbf{occasions}, when the event is only the background for the action (rather than a cause).
+
+\begin{exe}
+    \ex \gll janamdin \p{ke\_lie} ky\={a} kiy\={a}? \\
+             birthday for what do.\Prf \\
+        \glt What did you do for your birthday?
+    \ex \gll \={a}pne la\~{n}c \p{me\.{m}} ky\={a} kh\={a}y\={a}? \\
+             {you.\Erg} lunch {\Loc} what eat.\Prf \\
+        \glt What did you eat for lunch?
+\end{exe}
+
+\hierBdef{Temporal}
+
+\shortdef{Supercategory for temporal descriptions: 
+\textbf{when}, \textbf{for how long}, \textbf{how often}, \textbf{how many times}, 
+etc.\ something happened or will happen.}
+
+Not used directly so far.
+
+\hierCdef{Time}
+
+\shortdef{\textbf{When} something happened or will happen, in relation to an 
+explicit or implicit reference time or event.}
+
+\p{me\.m} indicates temporal placement in the context of some span of time (e.g. a day, a month, a century). \p{ko}, \p{par}, and \p{pe} are optionally used in a similar manner \citep{koul}. Note that these fixed time postpositional markers are often optional.
+
+\begin{exe}
+    \ex \begin{xlist}
+    \ex \gll ham j\={a}nvar\={\i} \p{me\.{m}} mile\.{n}ge.\\
+             we January {\Loc} {meet.\Fut} \\
+        \glt We will meet in January.
+    \ex \gll kam umr \p{me\.m} \\
+             less age {\Loc} \\
+        \glt at a young age \end{xlist}
+    \ex \gll kaun j\={a}ne kal \p{ko} ky\={a} hog\={a}? \\
+             who know tomorrow {\Dat} what {be.\Fut} \\
+        \glt Who knows what will happen in the future?
+\end{exe}
+
+Relative time markers such as \p{ke\_b\={a}d} ``after'' and \p{se\_pahle} ``before'' are also included. However, if the difference in time is explicitly stated that the construal \rf{Time}{Interval} is used.
+
+\begin{exe}
+    \ex \gll disambar \p{ke\_b\={a}d} \\
+             December after \\
+             after December
+    \ex \gll disambar \p*{ke\_}{ke\_b\={a}d} do mah\={\i}ne \p*{\_bad}{ke\_b\={a}d} (\rf{Time}{Interval})\\ 
+             December {\Gen} two months after \\
+             two months after December
+\end{exe}
+
+\begin{discussion}
+This is the only context in which \p{ko} would create an adverb. It doesn't fit under any other function very well. \rf{Time}{Goal} was considered at some point but the grammatical functions are entirely different.
+
+It was elected to not mix time and location in construals, following the precedent of \citet{en}.
+\end{discussion}
+
+\hierDdef{StartTime}
+
+\shortdef{When the event denoted by the governor begins.}
+
+The prototypical postposition is \p{se}.
+
+\begin{exe}
+    \ex \gll mujhe kal \p{se} \d{t}han\d{d} lag rah\={\i} hai.\\
+             {I.\Dat} yesterday {\Ins} coldness feel {\Cont} {be.\Prs} \\
+        \glt I have been feeling cold since yesterday.
+\end{exe}
+
+\hierDdef{EndTime}
+
+\shortdef{When the event denoted by the governor finishes.}
+
+The prototypical postposition is \p{tak}.
+
+\begin{exe}
+    \ex \gll kal se kal \p{tak}\\
+             yesterday {\Ins} tomorrow until\\
+        \glt from yesterday until tomorrow
+\end{exe}
+
+\hierCdef{Frequency}
+
+\shortdef{\textbf{At what rate} something happens or continues, 
+or the instance of repetition that the event represents.}
+
+The prototypical examples for \psst{Frequency} are expressed through reduplication (e.g. \textit{kabh\={\i}-kabh\={\i}}  `sometimes') rather than a postposition.
+
+For iterations marked ordinally with \p{ke\_lie}, \psst{Frequency} is used:
+
+\begin{exe}
+    \ex \gll t\={\i}sri\={\i} b\={a}r \p{ke\_lie}\\
+             third time for \\
+             for the third time
+\end{exe}
+
+\hierCdef{Duration}
+
+\shortdef{Indication of \textbf{how long} an event or state lasts
+(with reference to an amount of time or 
+time period\slash larger event that it spans).}
+
+\psst{Duration} covers two types of postpositions that are distinct in Hindi.
+
+\p{me\.{m}} focuses on the duration involved in achieving some outcome.
+
+\begin{exe}
+    \ex \begin{xlist}
+        \ex \gll kitne din \p{me\.m} likh p\={a}oge? \\
+                 {how-many} days {\Loc} write {be-able.\Fut} \\
+            \glt In how many days will you be able to write it?
+        \ex \gll do s\={a}l \p{me\.m} do b\={a}r kiy\={a}. \\
+                 two years {\Loc} two times {do.\Prf} \\
+            \glt I did it twice in two years.
+    \end{xlist}
+\end{exe}
+
+\p{ke\_lie} focuses on the duration over which an action occurs. The action occurs continuously over that span.
+
+\begin{exe}
+    \ex \begin{xlist}
+        \ex \gll kitne din \p{ke\_lie} likh p\={a}oge? \\
+                 {how-many} days for write {be-able.\Fut} \\
+            \glt For how many days will you be able to write? [e.g. said to a journalist]
+    \end{xlist}
+\end{exe}
+
+
+\hierCdef{Interval}
+
+\shortdef{A marker that points retrospectively or prospectively in time, 
+and if transitive, marks the time elapsed between two points in time.}
+
+This role is fulfilled by plain \p{pahle} `ago' and \p{b\={a}d} `later' when they are attached to a unit of time. Note that by themselves they are adverbs meaning `earlier' and `later'.
+
+\begin{exe}
+    \ex \gll do s\={a}l \p{pahle} \\
+             two years ago\\
+        \glt two years ago
+\end{exe}
+
+\hierBdef{Locus}
+
+\shortdef{Location, condition, or value. May be abstract.}
+
+\psst{Locus} is prototypically used to indicate a static location, whether literal or abstract (e.g. location on the Internet).
+
+For \p{me\.{m}} `in', this is within some enclosing entity (e.g. a geographical area, a container, a building). It cannot be a point location. \p{ke\_andar} `inside of' functions similarly.
+
+\begin{exe}
+    \ex \begin{xlist}
+        \ex \gll mai\.{m} mumba\={\i} \p{me\.{m}} raht\={a} h\={u}\.{m}.\\
+                 {\First\Sg} Mumbai {\Loc} {stay.\Prs.\Hab} {be.\Prs} \\
+            \glt I live in Mumbai.
+        \ex \gll us bakse \p{me\.m} ky\={a} hai?\\
+                 that box {\Loc} what {be.\Prs}\\
+            \glt What is in that box?
+    \end{xlist}
+    \ex \gll bakse \p{ke\_andar}\\
+             box inside-of\\
+        \glt inside the box
+\end{exe}
+
+For \p{par} and \p{pe}, on the other hand, the location may be a point, but it has to be an entity on top of or over which something can be placed.
+
+\begin{exe}
+    \ex \begin{xlist}
+        \ex \gll ghar \p{pe}\\
+                 home at\\
+            \glt at home
+        \ex \gll bakse \p{par}\\
+                 box at\\
+            \glt on [top of] the box
+    \end{xlist}
+\end{exe}
+
+\hierCdef{Source}
+
+\shortdef{Initial location, condition, or value. May be abstract.}
+
+The prototypical postposition for this is \p{se}, which often takes on the \psst{Source} function even in other roles. In this function it is comparable to English \textit{from}.
+
+This scene also covers initial states before a transformation.
+
+\begin{exe}
+    \ex \gll vah kal h\={\i} dill\={\i} \p{se} nikl\={\i}.\\
+             {\Third\Sg} yesterday {\Emph} Delhi {\Ins} {leave.\Prf}\\
+        \glt She left Delhi just yesterday.
+    \ex \gll mai\.{m}ne m\={a}\d{t}\={\i} \p{se} ban\={a}y\={a}.\\
+             {\First\Sg.\Erg} clay {\Ins} {make.\Prf}\\
+        \glt I made it out\_of clay.
+\end{exe}
+
+\hierCdef{Goal}
+
+\bibliography{references}
+
+
+\printindex
+\printindex[construals]
+\printindex[revconstruals]
+
+\end{document}
