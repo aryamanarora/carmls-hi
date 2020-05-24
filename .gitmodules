@@ -1,0 +1,3 @@
+[submodule "streusle"]
+	path = streusle
+	url = https://github.com/nert-nlp/streusle.git

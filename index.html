@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            .construal {
+                color: #3c3;
+            }
+
+            .label {
+                color: #a3f;
+            }
+            .adp {
+                color: #f93;
+            }
+            .sent {
+                line-height: 2.5rem;
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+        <script>
+            $(document).ready(function() {
+            $('#file').change(function(file) {
+                $('body').append('<div class="card shadow" id="card" style="opacity: 0%; position: fixed; width: 300px;"></div>')
+                var tooltip = $('#card')
+
+                const reader = new FileReader()
+                reader.onload = handleFileLoad
+                reader.readAsText(file.target.files[0])
+                
+                function handleFileLoad(event) {
+                    // d = $.parseJSON(event.target.result)
+
+                    console.log(event.target.result)
+                    header = ["ID", "FORM", "LEMMA", "UPOS", "XPOS", "FEATS", "HEAD", "DEPREL", "DEPS", "MISC", "SMWE", "LEXCAT", "LEXLEMMA", "SS", "SS2", "WMWE", "WCAT", "WLEMMA", "LEXTAG"]
+                    arrays = event.target.result.split('\n')
+
+                    d = []
+                    sent = []
+                    arrays.forEach((row, idx) => {
+                        var arr = row.split('\t')
+                        if (arr[0][0] == '#') {
+                            if (sent.length > 0) d.push(sent)
+                            sent = []
+                            return
+                        }
+                        else if (arr.length <= 1) return
+                        word = {}
+                        arr.forEach((entry, idx2) => {
+                            word[header[idx2]] = arr[idx2]
+                        })
+                        sent.push(word)
+                    })
+                    console.log(d)
+
+                    $('#main').empty()
+
+                    function sub(ss, ss2) {
+                        res = '<a href="http://flat.nert.georgetown.edu/' + ss + '--' + ss2 + '/">'
+                        res += '<sub class="label"><span class="construal">'
+                        if (ss == ss2) res += ss
+                        else {
+                            res += ss + '</span>↝<span class="construal">'
+                            res += ss2
+                        }
+                        res += "</span></sub></a>"
+                        return res
+                    }
+                    
+                    d.forEach((e, idx) => {
+                        mwe = {}
+                        var p = $('<li class="list-group-item lead sent"></li>')
+                        p.append($('<span class="bg-dark text-white shadow-sm rounded px-1 py-1 mr-3" style="font-size: 10px;">(' + idx + ')</span>'))
+                        e.forEach(f => {
+                            f.SS = f.SS.split('.')[1]
+                            f.SS2 = f.SS2.split('.')[1]
+                            var word = $('<span></span>').text(f.FORM).addClass('shadow-sm rounded px-1 py-1')
+                            word.attr('id', idx + '-' + f.ID)
+                            word.mouseover(function(d) {
+                                tooltip.empty()
+                                tooltip.css('opacity', '100%')
+                                tooltip.css('right', 50)
+                                tooltip.css('top', 50)
+                                var text = $('<div class="card-body"></div>')
+                                text.append('<h5 class="card-title">' + f.LEMMA + ' <small>(' + f.UPOS + ', ' + f.XPOS + ')</h5>')
+                                if (f.FEATS != '_') {
+                                    var feats = $('<p class="card-text"></p>')
+                                    f.FEATS.split('|').forEach(feat => {
+                                        feats.append('<span class="badge badge-secondary">' + feat + '</span> ')
+                                    })
+                                    text.append(feats)
+                                }
+                                text.append('<p class="card-text">Head: ' + f.HEAD + ' <small>(' + f.DEPREL + ')</small></p>')
+                                tooltip.append(text)
+                                $(this).css('background-color', 'blue').css('color', 'white')
+                                $('#' + idx + '-' + f.HEAD).css('background-color', 'red').css('color', 'white')
+                            })
+                            word.mouseout(function (d) {
+                                tooltip.empty()
+                                tooltip.css('opacity', '0%')
+                                $(this).css('background-color', 'inherit').css('color', 'inherit')
+                                $('#' + idx + '-' + f.HEAD).css('background-color', 'inherit').css('color', 'inherit')
+                            })
+                            p.append(word)
+                            p.append(' ')
+                            if (f.LEXLEMMA != '_') word.addClass('adp')
+                            if (f.SMWE != '_') {
+                                var count = f.SMWE.split(':')[0]
+                                if (count in mwe) {
+                                    word.append(mwe[count])
+                                }
+                                else {
+                                    word.append(sub(f.SS, f.SS2))
+                                    mwe[count] = sub(f.SS, f.SS2)
+                                }
+                            }
+                            else if (f.LEXLEMMA != '_') word.append(sub(f.SS, f.SS2))
+                        })
+                        $('#main').append(p)
+                        console.log(e)
+                    })
+                }
+            })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron mt-5">
+                <h1 class="display-4"><code>.conllulex</code> viewer</h1>
+                <p class="lead">This is a simple <code>.conllulex</code> viewer for SNACS adposition and case anotations. Links point to <a href="http://flat.nert.georgetown.edu/">Xposition</a>.</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <input type="file" id="file">
+                </div>
+            </div>
+            <div class="card my-3">
+                <ul class="list-group list-group-flush" id="main"></ul>
+            </div>
+        </div>
+    </body>
+</html>
