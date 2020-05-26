@@ -1,3 +1,6 @@
 [submodule "streusle"]
 	path = streusle
 	url = https://github.com/nert-nlp/streusle.git
+[submodule "conllulex-viewer"]
+	path = conllulex-viewer
+	url = https://github.com/aryamanarora/conllulex-viewer.git

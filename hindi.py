@@ -1,16 +1,18 @@
 import stanza
+import sys
 
 nlp = stanza.Pipeline(lang='hi', processors='tokenize,mwt,pos,lemma,depparse')
 
 global words
-with open('input.txt', 'r') as fin:
+with open(sys.argv[1], 'r') as fin:
     words = fin.read()
 
 doc = nlp(words)
 
-with open('output.conllulex', 'w') as fout:
+with open(sys.argv[2], 'w') as fout:
     for sent in doc.sentences:
-        fout.write(f'\n# text = {sent.text}')
+        text = sent.text.replace("\n", " ")
+        fout.write(f'\n# text = {text}')
         for i, word in enumerate(sent.words):
             fout.write(f'\n{i + 1}\t{word.text}\t{word.lemma}\t{word.upos}\t{word.xpos}')
             fout.write(f'\t{word.feats if word.feats else "_"}')
