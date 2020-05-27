@@ -76,13 +76,13 @@
 4	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	_	_	_	_	_	_	_	_	_
 5	एक	एक	NUM	QC	NumType=Card	6	nummod	_	_	_	_	_	_	_	_	_	_	_
 6	ग्रह	ग्रह	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_	_	_	_	_	_	_	_	_	_
-7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	6	case	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+7	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	6	case	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 8	खोज	खोज	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	compound	_	_	_	_	_	_	_	_	_	_	_
 9	करता	कर	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	19	advcl	_	_	_	_	_	_	_	_	_	_	_
 10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_	_	_	_	_	_	_	_	_	_
 11	तो	तो	SCONJ	CC	_	19	mark	_	_	_	_	_	_	_	_	_	_	_
 12	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_	_	_	_	_	_	_	_	_	_
-13	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+13	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 14	पहचान	पहचान	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obl	_	_	_	_	_	_	_	_	_	_	_
 15	के	का	ADP	PSP	AdpType=Post	14	case	_	_	1:1	_	के लिए	p.Purpose	p.Purpose	_	_	_	_
 16	लिए	लिए	ADP	PSP	AdpType=Post	14	case	_	_	1:2	_	के लिए	_	_	_	_	_	_
@@ -100,7 +100,7 @@
 1	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_	_	_	का	p.Experiencer	p.Gestalt	_	_	_	_
 2	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	det	_	_	_	_	_	_	_	_	_	_	_
 3	विश्वास	विश्वास	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_	_	_	_	_	_	_	_	_	_
-4	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	3	case	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+4	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	3	case	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 5	कई	कई	DET	QF	PronType=Ind	6	det	_	_	_	_	_	_	_	_	_	_	_
 6	कारण	कारण	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	_	_	_	_	_	_	_	_	_	_
 7	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	_	_	_	_	_	_	_	_
@@ -177,7 +177,7 @@
 
 # text = बी-612 के नक्षत्र अच्छे रहे होंगे क्योंकि तुर्की के एक तानाशाह ने, शायद इसी घटना के कारण, कानून बना दिया कि जो यूरोपीय ढंग के कपड़े नहीं पहनेगा उसे मौत की सजा मिलेगी।
 1	बी-612	बी-612	NUM	QC	Case=Acc|NumType=Card	3	nmod	_	_	_	_	_	_	_	_	_	_	_
-2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	1	case	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+2	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	1	case	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 3	नक्षत्र	नक्षत्र	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	अच्छे	अच्छा	ADJ	JJ	Gender=Masc|Number=Plur	5	xcomp	_	_	_	_	_	_	_	_	_	_	_
 5	रहे	रह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 24	जो	जो	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_	_	_	_	_	_	_	_	_	_
 25	यूरोपीय	यूरोपीय	ADJ	JJ	Case=Acc	26	amod	_	_	_	_	_	_	_	_	_	_	_
 26	ढंग	ढंग	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obl	_	_	_	_	_	_	_	_	_	_	_
-27	के	का	ADP	PSP	AdpType=Post	26	case	_	_	_	_	का	p.Characteristic	p.Characteristic	_	_	_	_
+27	के	का	ADP	PSP	AdpType=Post	26	case	_	_	_	_	का	p.Characteristic	p.Identity	_	_	_	_
 28	कपड़े	कपड़े	ADP	PSP	AdpType=Post	26	case	_	_	_	_	_	_	_	_	_	_	_
 29	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	30	advmod	_	_	_	_	_	_	_	_	_	_	_
 30	पहनेगा	पहन	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
@@ -458,12 +458,12 @@
 46	"	"	PUNCT	SYM	_	62	punct	_	_	_	_	_	_	_	_	_	_	_
 47	और	और	CCONJ	CC	_	62	cc	_	_	_	_	_	_	_	_	_	_	_
 48	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	62	nsubj	_	_	_	_	_	_	_	_	_	_	_
-49	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	nsubj	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+49	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	nsubj	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 50	होने	हो	VERB	VM	Case=Acc|VerbForm=Inf	62	advcl	_	_	_	_	_	_	_	_	_	_	_
 51	के	का	ADP	PSP	AdpType=Post	50	mark	_	_	1:1	_	के लिए	p.Purpose	p.Purpose	_	_	_	_
 52	लिए	लिए	ADP	PSP	AdpType=Post	50	mark	_	_	1:2	_	के लिए	_	_	_	_	_	_
 53	-	-	PUNCT	SYM	_	54	punct	_	_	_	_	_	_	_	_	_	_	_
-54	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+54	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 55	अस्तित्व	अस्तित्व	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	58	obj	_	_	_	_	_	_	_	_	_	_	_
 56	को	को	ADP	PSP	AdpType=Post	55	case	_	_	_	_	को	p.Topic	p.Theme	_	_	_	_
 57	साबित	साबित	ADJ	JJ	_	58	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -487,7 +487,7 @@
 75	कंधा	कंधा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	76	obj	_	_	_	_	_	_	_	_	_	_	_
 76	उचका	उचक	VERB	VM	_	80	advcl	_	_	_	_	_	_	_	_	_	_	_
 77	कर	कर	AUX	VAUX	_	76	aux	_	_	_	_	_	_	_	_	_	_	_
-78	तुम्हें	तुम	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	80	obj	_	_	_	_	को	p.Topic	p.Topic	_	_	_	_
+78	तुम्हें	तुम	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	80	obj	_	_	_	_	को	p.Topic	p.Theme	_	_	_	_
 79	बच्चा	बच्चा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	80	obj	_	_	_	_	_	_	_	_	_	_	_
 80	समझ	समझ	VERB	VM	Number=Plur|Person=3|Voice=Act	70	advcl	_	_	_	_	_	_	_	_	_	_	_
 81	लेंगे	ले	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	80	aux	_	_	_	_	_	_	_	_	_	_	_
@@ -627,7 +627,7 @@
 30	जो	जो	DET	DEM	Case=Nom|Number=Plur|Person=3|PronType=Dem	31	det	_	_	_	_	_	_	_	_	_	_	_
 31	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	34	nsubj	_	_	_	_	_	_	_	_	_	_	_
 32	जीवन	जीवन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	obj	_	_	_	_	_	_	_	_	_	_	_
-33	को	को	ADP	PSP	AdpType=Post	32	case	_	_	_	_	को	p.Topic	p.Topic	_	_	_	_
+33	को	को	ADP	PSP	AdpType=Post	32	case	_	_	_	_	को	p.Topic	p.Theme	_	_	_	_
 34	समझते	समझ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	36	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
 35	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_	_	_	_	_	_	_	_	_	_
 36	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	_	_	_	को	p.Experiencer	p.Theme	_	_	_	_
@@ -879,7 +879,7 @@
 # text = शायद वह मुझे अपने ही जैसा अक्लमंद समझता था।
 1	शायद	शायद	ADV	RB	_	8	obl	_	_	_	_	_	_	_	_	_	_	_
 2	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_	_	_	_	_	_	_	_	_	_
-3	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	8	obj	_	_	_	_	को	p.Topic	p.Topic	_	_	_	_
+3	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	8	obj	_	_	_	_	को	p.Topic	p.Theme	_	_	_	_
 4	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	7	nmod	_	_	_	_	_	_	_	_	_	_	_
 5	ही	ही	PART	RP	_	4	dep	_	_	_	_	_	_	_	_	_	_	_
 6	जैसा	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	4	case	_	_	_	_	जैसा	p.ComparisonRef	p.ComparisonRef	_	_	_	_

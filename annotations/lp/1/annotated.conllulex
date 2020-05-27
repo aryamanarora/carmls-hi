@@ -66,7 +66,7 @@
 11	भूख	भूख	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obl	_	_	_	_	_	_	_	_	_	_	_
 12	और	और	CCONJ	CC	_	13	cc	_	_	_	_	_	_	_	_	_	_	_
 13	सर्दी	सर्दी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	conj	_	_	_	_	_	_	_	_	_	_	_
-14	से	से	ADP	PSP	AdpType=Post	11	case	_	_	_	_	से 	p.Stimulus	p.Ancillary	_	_	_	_
+14	से	से	ADP	PSP	AdpType=Post	11	case	_	_	_	_	से	p.Stimulus	p.Ancillary	_	_	_	_
 15	जूझ	जूझ	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	3	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
 16	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	aux	_	_	_	_	_	_	_	_	_	_	_
 17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -84,7 +84,7 @@
 9	पुस्तक	पुस्तक	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obj	_	_	_	_	_	_	_	_	_	_	_
 10	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	11	nmod	_	_	_	_	का	p.SocialRel	p.Gestalt	_	_	_	_
 11	मित्र	मित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_	_	_	_	_	_	_	_	_	_
-12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	11	case	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+12	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	11	case	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 13	बचपन	बचपन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	_	_	_	_	_	_	_	_	_	_
 14	को	को	ADP	PSP	AdpType=Post	13	case	_	_	_	_	को	p.Beneficiary	p.Goal	_	_	_	_
 15	समर्पित	समर्पित	ADJ	JJ	_	16	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 1	तब	तब	PRON	PRP	Case=Acc|PronType=Prs	11	obl	_	_	_	_	_	_	_	_	_	_	_
 2	से	से	ADP	PSP	AdpType=Post	1	case	_	_	_	_	से	p.StartTime	p.StartTime	_	_	_	_
 3	जंगल	जंगल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_	_	_	_	_	_	_	_	_	_
-4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	3	case	_	_	_	_	का	p.Circumstance	p.Gestalt	_	_	_	_
+4	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	3	case	_	_	_	_	का	p.Locus	p.Gestalt	_	_	_	_
 5	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	7	det	_	_	_	_	_	_	_	_	_	_	_
 6	भयानक	भयानक	ADJ	JJ	Case=Acc	7	amod	_	_	_	_	_	_	_	_	_	_	_
 7	घटना	घटना	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obl	_	_	_	_	_	_	_	_	_	_	_
@@ -370,7 +370,7 @@
 2	पहले	पहले	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	1	case	_	_	_	_	_	_	_	_	_	_	_
 3	दो	दो	NUM	QC	NumType=Card	4	nummod	_	_	_	_	_	_	_	_	_	_	_
 4	चित्रों	चित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	6	nmod	_	_	_	_	_	_	_	_	_	_	_
-5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	4	case	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	4	case	_	_	_	_	का	p.Theme	p.Theme	_	_	_	_
 6	असपफलता	असपफलता	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obl	_	_	_	_	_	_	_	_	_	_	_
 7	पर	पर	ADP	PSP	AdpType=Post	6	case	_	_	_	_	पर	p.Topic	p.Locus	_	_	_	_
 8	ही	ही	PART	RP	_	6	dep	_	_	_	_	_	_	_	_	_	_	_
@@ -443,7 +443,7 @@
 6	एक	एक	NUM	QC	NumType=Card	8	nummod	_	_	_	_	_	_	_	_	_	_	_
 7	ही	ही	PART	RP	_	6	dep	_	_	_	_	_	_	_	_	_	_	_
 8	झलक	झलक	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obl	_	_	_	_	_	_	_	_	_	_	_
-9	में	में	ADP	PSP	AdpType=Post	8	case	_	_	_	_	में	p.Manner	p.Locus	_	_	_	_
+9	में	में	ADP	PSP	AdpType=Post	8	case	_	_	_	_	में	p.Manner	p.Manner	_	_	_	_
 10	पहचान	पहचान	VERB	VM	Gender=Masc|Number=Sing|Voice=Act	2	conj	_	_	_	_	_	_	_	_	_	_	_
 11	सकता	सक	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	10	aux	_	_	_	_	_	_	_	_	_	_	_
 12	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -580,7 +580,7 @@
 # text = मैं उन्हीं की तरह मौसम, राजनीति या फैशन की बातें करने लगता और वे मुझ जैसे समझदार व्यक्ति से मिल कर खुश होते।
 1	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_	_	_	_	_	_	_	_	_	_
 2	उन्हीं	वह	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_	_	_	_	_	_	_	_	_	_
-3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	2	case	_	_	1:1	_	की तरह	p.Manner	p.Manner	_	_	_	_
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	2	case	_	_	1:1	_	की तरह	p.Manner	p.ComparisonRef	_	_	_	_
 4	तरह	तरह	ADP	PSP	Case=Acc|Gender=Fem	2	case	_	_	1:2	_	की तरह	_	_	_	_	_	_
 5	मौसम	मौसम	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_	_	_	_	_	_	_	_	_	_
 6	,	COMMA	PUNCT	SYM	_	7	punct	_	_	_	_	_	_	_	_	_	_	_

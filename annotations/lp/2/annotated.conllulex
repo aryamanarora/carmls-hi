@@ -198,8 +198,8 @@
 12	।	।	PUNCT	SYM	_	9	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # text = बाद में मैंने याद करके उसकी जो सबसे अच्छी तस्वीर बनाई वह यह रही।
-1	बाद	बाद	ADV	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_	1:1	_	बाद में	p.Time	p.Time	_	_	_	_
-2	में	में	ADP	PSP	AdpType=Post	1	case	_	_	1:2	_	बाद में	_	_	_	_	_	_
+1	बाद	बाद	ADV	NST	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_	_	_	_	_	_	_	_	_	_
+2	में	में	ADP	PSP	AdpType=Post	1	case	_	_	_	_	में	p.Time	p.Time	_	_	_	_
 3	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_	_	_	ने	p.Experiencer	p.Agent	_	_	_	_
 4	याद	याद	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	_	_	_	_	_	_	_	_	_	_
 5	करके	कर	VERB	VM	VerbForm=Conv	11	advcl	_	_	_	_	_	_	_	_	_	_	_
@@ -227,8 +227,8 @@
 
 # text = तस्वीर उसकी जैसी नहीं बनी तो मेरा क्या दोष।
 1	तस्वीर	तस्वीर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
-2	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_	1:1	_	का जैसा	p.ComparisonRef	p.ComparisonRef	_	_	_	_
-3	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	1:2	_	का जैसा	_	_	_	_	_	_
+2	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_	_	_	का	p.Species	p.Species	_	_	_	_
+3	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	_	_	जैसा	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 4	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	_	_	_	_	_	_	_	_	_	_
 5	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
 6	तो	तो	PRON	PRP	PronType=Prs	8	nmod	_	_	_	_	_	_	_	_	_	_	_
@@ -384,7 +384,7 @@
 # text = बात टालने का साहस नहीं हुआ।
 1	बात	बात	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	obj	_	_	_	_	_	_	_	_	_	_	_
 2	टालने	टाल	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	4	nmod	_	_	_	_	_	_	_	_	_	_	_
-3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	2	mark	_	_	_	_	का	p.ComparisonRef	p.Purpose	_	_	_	_
+3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	2	mark	_	_	_	_	का	p.Purpose	p.Purpose	_	_	_	_
 4	साहस	साहस	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_	_	_	_	_	_	_	_	_	_
 5	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	_	_	_	_	_	_	_	_
 6	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -481,8 +481,7 @@
 7	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	aux	_	_	_	_	_	_	_	_	_	_	_
 8	।	।	PUNCT	SYM	_	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
-# text = मैं स्तब्ध रह गया जब वह बोलाः
-नहीं, नहीं।																		
+# text = मैं स्तब्ध रह गया जब वह बोलाः नहीं, नहीं।
 1	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_	_	_	_	_	_	_	_	_	_
 2	स्तब्ध	स्तब्ध	ADJ	JJ	_	3	xcomp	_	_	_	_	_	_	_	_	_	_	_
 3	रह	रह	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -627,8 +626,7 @@
 4	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	_	_	_	_	_	_	_	_	_
 5	।	।	PUNCT	SYM	_	3	punct	_	_	_	_	_	_	_	_	_	_	_
 
-# text = बहुत दिन जियेगा थोड़े!
-मुझे अपने जहाज की मोटर ठीक करनी थी।																		
+# text = बहुत दिन जियेगा थोड़े! मुझे अपने जहाज की मोटर ठीक करनी थी।
 1	बहुत	बहुत	DET	QF	PronType=Ind	2	det	_	_	_	_	_	_	_	_	_	_	_
 2	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl	_	_	_	_	_	_	_	_	_	_	_
 3	जियेगा	जियेग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
@@ -682,7 +680,7 @@
 3	थोड़ा	थोड़ा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	अचरज	अचरज	ADJ	JJ	_	5	compound	_	_	_	_	_	_	_	_	_	_	_
 5	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-6	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	8	nmod	_	_	_	_	का	p.Theme	p.Gestalt	_	_	_	_
+6	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	8	nmod	_	_	_	_	का	p.SocialRel	p.Gestalt	_	_	_	_
 7	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	det	_	_	_	_	_	_	_	_	_	_	_
 8	नन्हें	नन्हा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	_	_	_	_	_	_	_	_	_	_
 9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	_	_	_	_	_	_	_	_
