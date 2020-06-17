@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <h1>Bruh</h1>
+        <svg id="chart"></svg>
+        <svg id="matrix"></svg>
+        <script>
+            var roles = ['??', 'Agent', 'Ancillary', 'Approximator', 'Beneficiary', 'Causer', 'Characteristic', 'Circumstance', 'ComparisonRef', 'Cost', 'Direction', 'Duration', 'EndTime', 'Ensemble', 'Experiencer', 'Explanation', 'Extent', 'Frequency', 'Gestalt', 'Goal', 'Identity', 'Instrument', 'Interval', 'Locus', 'Manner', 'Means', 'NONSNACS', 'Org', 'OrgMember', 'Originator', 'PartPortion', 'Path', 'Possession', 'Possessor', 'Purpose', 'QuantityItem', 'QuantityValue', 'RateUnit', 'Recipient', 'SocialRel', 'Source', 'Species', 'StartTime', 'Stimulus', 'Stuff', 'Temporal', 'Theme', 'Time', 'Topic', 'Whole', '_', '`$', '`c', '`d', '`i', '`j']
+            var stringToColour = function(str) {
+                var hash = 0;
+                for (var i = 0; i < str.length; i++) {
+                    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+                }
+                var colour = '#';
+                for (var i = 0; i < 3; i++) {
+                    var value = (hash >> (i * 8)) & 0xFF;
+                    colour += ('00' + value.toString(16)).substr(-2);
+                }
+                return colour;
+            }
+
+            // https://stackoverflow.com/questions/6367010/average-2-hex-colors-together-in-javascript
+            var averageRGB = (function () {
+
+                // Keep helper stuff in closures
+                var reSegment = /[\da-z]{2}/gi;
+
+                // If speed matters, put these in for loop below
+                function dec2hex(v) {return v.toString(16);}
+                function hex2dec(v) {return parseInt(v,16);}
+
+                return function (c1, c2) {
+
+                // Split into parts
+                var b1 = c1.match(reSegment);
+                var b2 = c2.match(reSegment);
+                var t, c = [];
+
+                // Average each set of hex numbers going via dec
+                // always rounds down
+                for (var i=b1.length; i;) {
+                    t = dec2hex( (hex2dec(b1[--i]) + hex2dec(b2[i])) >> 1 );
+
+                    // Add leading zero if only one character
+                    c[i] = t.length == 2? '' + t : '0' + t; 
+                }
+                return  c.join('');
+                }
+            }());
+            $(function() {
+                d3.csv('supersenses.csv').then(function(d) {
+                    var data = {}
+                    var matrix = {}
+                    d.forEach(e => {
+                        if (!(e.Postposition in data)) {
+                            data[e.Postposition] = []
+                        }
+                        if (!([e.Function, e['Scene Role']] in matrix)) {
+                            matrix[[e.Function, e['Scene Role']]] = 0
+                        }
+                        data[e.Postposition].push([e.Function, e['Scene Role'], parseInt(e.Count)])
+                        data[e.Postposition].sort()
+                        matrix[[e.Function, e['Scene Role']]] += parseInt(e.Count)
+                    });
+                    for (var prop in data) {
+                        data[prop][data[prop].length - 1].push(0)
+                        for (var i = data[prop].length - 2; i >= 0; i--) {
+                            data[prop][i][2] += data[prop][i + 1][2]
+                            data[prop][i].push(data[prop][i + 1][2])
+                        }
+                    }
+                    console.log(Object.entries(data))
+                    var margin = 20
+                    var width = 2000, height = 2000
+                    var x = d3.scaleBand()
+                        .domain(Object.keys(data))
+                        .range([margin, width - margin])
+                        .padding(0.1)
+                    var y = d3.scaleLinear()
+                        .domain([0, 200])
+                        .range([height - margin, margin])
+                    d3.select('#chart')
+                        .attr('width', width)
+                        .attr('height', height)
+                        .append('g')
+                            .selectAll('g')
+                            .data(Object.entries(data))
+                            .enter()
+                            .append('g')
+                                .selectAll('rect')
+                                .data(d => {
+                                    for (var i = 0; i < d[1].length; i++) {
+                                        d[1][i].push(d[0])
+                                    }
+                                    return d[1]
+                                })
+                                .enter()
+                                .append('rect')
+                                    .attr('x', d => x(d[4]))
+                                    .attr('width', x.bandwidth())
+                                    .attr('y', d => y(d[2]))
+                                    .attr('height', d => y(d[3]) - y(d[2]))
+                                    .attr('fill', d => {
+                                        var res = '#' + averageRGB(stringToColour(d[1]), stringToColour(d[0]))
+                                        res = '#' + averageRGB(res, stringToColour(d[0]))
+                                        res = '#' + averageRGB(res, stringToColour(d[0]))
+                                        res = '#' + averageRGB(res, stringToColour(d[0]))
+                                        return res
+                                    })
+                    
+                    var y = d3.scaleBand()
+                        .domain(roles)
+                        .range([height - margin, margin])
+                    var x = d3.scaleBand()
+                        .domain(roles)
+                        .range([margin, width - margin])
+                    var color = d3.scaleLinear()
+                        .domain([0, 70])
+                        .range(['#fff', '#000'])
+                    d3.select('#matrix')
+                        .attr('width', width)
+                        .attr('height', height)
+                        .append('g')
+                            .selectAll('rect')
+                            .data(Object.entries(matrix))
+                            .enter()
+                            .append('rect')
+                                .attr('x', d => x(d[0].split(',')[0]))
+                                .attr('y', d => x(d[0].split(',')[1]))
+                                .attr('width', x.bandwidth())
+                                .attr('height', y.bandwidth())
+                                .attr('fill', d => color(d[1]))
+                })
+            })
+        </script>
+    </body>
+</html>
