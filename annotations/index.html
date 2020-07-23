@@ -5,7 +5,7 @@
         <script src="https://d3js.org/d3.v5.min.js"></script>
     </head>
     <body>
-        <h1>Bruh</h1>
+        <h1>Overview</h1>
         <svg id="chart"></svg>
         <svg id="matrix"></svg>
         <script>
@@ -111,6 +111,7 @@
                                         res = '#' + averageRGB(res, stringToColour(d[0]))
                                         return res
                                     })
+                                    .attr('alt', d => d[4] + ': ' + d[1] + ', ' + d[0])
                     
                     var y = d3.scaleBand()
                         .domain(roles)

@@ -76,7 +76,7 @@ Postposition,Scene Role,Function,Count
 का,QuantityValue,QuantityValue,2
 से,StartTime,StartTime,2
 के लिए,Experiencer,Beneficiary,2
-के पास,Possessor,Possessor,1
+के पास,Possessor,Locus,1
 से,Originator,Source,1
 के बीच,Locus,Whole,1
 की कृपा से,Explanation,Explanation,1
