@@ -1,133 +1,229 @@
 Postposition,Scene Role,Function,Count
-ने,Originator,Agent,38
-को,Experiencer,Recipient,36
-को,Theme,Theme,25
-का,Gestalt,Gestalt,23
-का,Possessor,Possessor,20
-में,Locus,Locus,20
-का,Topic,Topic,20
-ने,Agent,Agent,20
-से,Source,Source,19
-का,Theme,Theme,17
-ने,Experiencer,Agent,16
-का,Whole,Whole,16
-का,Topic,Identity,14
-को,Topic,Topic,14
-का,Originator,Gestalt,13
-पर,Locus,Locus,12
-को,Stimulus,Theme,12
-को,Recipient,Recipient,11
-का,SocialRel,Gestalt,11
-में,Topic,Topic,10
-के बारे में,Topic,Topic,10
-का,Identity,Identity,10
-के लिए,Purpose,Purpose,9
-की तरह,ComparisonRef,ComparisonRef,9
-से,Manner,Manner,9
-को,Agent,Agent,8
-से,Stimulus,Source,8
-का,Experiencer,Gestalt,8
-के लिए,Beneficiary,Beneficiary,7
-बिना,Manner,Manner,6
-से,ComparisonRef,ComparisonRef,6
-में,Time,Time,6
-से,Recipient,Ancillary,5
-में,Circumstance,Circumstance,5
-पर,Topic,Topic,5
-से,Instrument,Instrument,5
-में,Characteristic,Locus,4
-में,Goal,Locus,4
-जैसे,ComparisonRef,ComparisonRef,4
-की तरह,Manner,ComparisonRef,4
-से,Agent,Ancillary,4
-को,Beneficiary,Recipient,4
+को,Experiencer,Recipient,129
+ने,Originator,Agent,121
+का,Gestalt,Gestalt,106
+को,Theme,Theme,87
+का,Possessor,Possessor,68
+ने,Agent,Agent,68
+ने,Experiencer,Agent,60
+में,Locus,Locus,58
+का,Topic,Topic,57
+का,Whole,Whole,51
+का,Theme,Theme,48
+से,Source,Source,47
+पर,Locus,Locus,44
+को,Recipient,Recipient,43
+का,Originator,Gestalt,43
+को,Stimulus,Theme,37
+का,Experiencer,Gestalt,31
+के लिए,Purpose,Purpose,29
+को,Topic,Theme,29
+में,Goal,Locus,25
+का,Identity,Identity,24
+के बारे में,Topic,Topic,23
+में,Topic,Topic,22
+को,Agent,Agent,21
+से,Recipient,Ancillary,20
+से,Manner,Manner,20
+का,Topic,Identity,20
+का,SocialRel,Gestalt,19
+की तरह,ComparisonRef,ComparisonRef,18
+का,Locus,Gestalt,18
+के लिए,Experiencer,Beneficiary,18
+से,ComparisonRef,ComparisonRef,16
+से,Instrument,Instrument,16
+पर,Goal,Locus,15
+का,Characteristic,Identity,14
+में,Time,Time,14
+में,Circumstance,Circumstance,12
+का,Agent,Gestalt,12
+के लिए,Explanation,Explanation,12
+जैसा,ComparisonRef,ComparisonRef,12
+से,Stimulus,Source,11
+वाला,NONSNACS,NONSNACS,11
+बिना,Manner,Manner,10
+से,Explanation,Source,10
+जैसे,ComparisonRef,ComparisonRef,10
+के लिए,Beneficiary,Beneficiary,10
+से,Locus,Source,10
+से,Causer,Source,10
+पर,Theme,Theme,10
+का,Stimulus,Topic,9
+में,Characteristic,Locus,8
+जैसे,Manner,ComparisonRef,8
+के पास,Possessor,Locus,7
+का,Purpose,Purpose,7
+पर,Topic,Topic,7
+का,QuantityItem,Stuff,7
+के अलावा,PartPortion,PartPortion,7
+की तरह,Manner,ComparisonRef,7
+से,Agent,Ancillary,6
+में,Manner,Manner,6
+के बाद,Time,Time,6
+ने,Recipient,Agent,6
+की वजह से,Explanation,Explanation,6
+को,Experiencer,Agent,6
+तक,EndTime,EndTime,6
+से,Theme,Source,6
+के कारण,Explanation,Explanation,6
+को,Beneficiary,Recipient,6
+से,Recipient,Source,6
+को,Time,Time,6
+का,QuantityItem,Whole,5
+पर,Time,Time,5
+से,Stimulus,Causer,5
+से पहले,Time,Time,5
+का,Stuff,Stuff,5
+से,Topic,Ancillary,5
+में,Gestalt,Locus,5
+का,Beneficiary,Theme,5
+के पास,Goal,Locus,5
+को,Possession,Theme,5
+का,Possession,Possession,5
+जैसे,Time,Time,4
+से,Theme,Instrument,4
+से,Causer,Causer,4
+का,Characteristic,Characteristic,4
+में,Duration,Duration,4
+के साथ,Ancillary,Ancillary,4
+तक,Goal,Goal,4
+का,Characteristic,Stuff,4
+की ओर,Direction,Direction,4
+तक,`d,`d,4
+का,Topic,Theme,4
 तक,Duration,EndTime,3
-का,Purpose,Purpose,3
-के बाद,Time,Time,3
-जैसे,Time,Time,3
 से,Duration,StartTime,3
-का,QuantityItem,Stuff,3
-जैसे,Manner,ComparisonRef,3
-ने,Recipient,Agent,3
-के अलावा,PartPortion,PartPortion,3
-का,Agent,Gestalt,3
-का,Characteristic,Characteristic,3
-तक,EndTime,EndTime,3
-से,Theme,Source,3
-के लिए,Explanation,Explanation,3
-से,Locus,Source,3
-का,QuantityItem,Whole,2
-में,Manner,Manner,2
-पर,Time,Time,2
+का,Stimulus,Gestalt,3
+तक,Extent,Extent,3
+का,Source,Gestalt,3
+जैसे,PartPortion,PartPortion,3
+के बाद,Time,Interval,3
+पर,Explanation,Time,3
+से,StartTime,StartTime,3
+को,Experiencer,Theme,3
+में,Whole,Whole,3
+पहले,Time,Interval,3
+के पास,Possessor,Possessor,3
+के ख़याल से,`d,`d,3
+के लिए,`i,`i,3
+को,Recipient,Theme,3
+से,Originator,Source,3
+वाला,PartPortion,Characteristic,3
+के पास,Locus,Locus,3
+पर,Stimulus,Theme,3
+पर,Stimulus,Topic,3
+में,Time,Interval,2
+पर,Direction,Locus,2
+वाला,Characteristic,Characteristic,2
 से,Stimulus,Ancillary,2
-से,Causer,Causer,2
-का,Characteristic,Identity,2
-तक,Extent,Extent,2
-का,Source,Gestalt,2
-जैसे,PartPortion,PartPortion,2
 बाद में,Time,Time,2
-का,Locus,Gestalt,2
-के बाद,Time,Interval,2
-के कारण,Explanation,Explanation,2
+में,Circumstance,Locus,2
+का,Org,Gestalt,2
+से,Possession,Instrument,2
 को,Originator,Agent,2
 का,Recipient,Gestalt,2
 फिर से,NONSNACS,NONSNACS,2
 के अंदर,Locus,Locus,2
+में,Whole,Locus,2
 का,QuantityValue,QuantityValue,2
-से,StartTime,StartTime,2
-के लिए,Experiencer,Beneficiary,2
-के पास,Possessor,Locus,1
-से,Originator,Source,1
+के साथ,Locus,Ancillary,2
+ने,Causer,Causer,2
+के पीछे,Locus,Locus,2
+के लिए,Duration,Duration,2
+के साथ,Agent,Ancillary,2
+से,ComparisonRef,Source,2
+के प्रति,Beneficiary,Direction,2
+का,Stimulus,Theme,2
+से ज़्यादा,Approximator,Approximator,2
+के बीच,Locus,Locus,2
+के लिए,`d,`d,2
+का,Beneficiary,Gestalt,2
+के सामने,Locus,Locus,2
+के साथ,Beneficiary,Ancillary,2
+को,Goal,Goal,2
 के बीच,Locus,Whole,1
 की कृपा से,Explanation,Explanation,1
-का,Stimulus,Gestalt,1
 के प्रति,Source,Direction,1
-से,Explanation,Explanation,1
-में,Time,Interval,1
-पर,Goal,Goal,1
-पर,Direction,Goal,1
-वाला,Characteristic,Characteristic,1
 को,Possessor,Recipient,1
-से,Theme,Instrument,1
 का,Agent,Whole,1
-से,Stimulus,Causer,1
-की वजह से,Explanation,Explanation,1
 जैसे,Theme,ComparisonRef,1
 के ऊपर,Goal,Locus,1
-से पहले,Time,Time,1
-को,Experiencer,Agent,1
 के माध्यम सें,Instrument,Instrument,1
-पर,Explanation,Time,1
 का,Explanation,Gestalt,1
-में,Circumstance,Locus,1
-का,Org,Gestalt,1
-का,Stuff,Stuff,1
 वाला,Cost,,1
 के प्रति,Topic,Direction,1
-से,Topic,Ancillary,1
-जैसा,ComparisonRef,ComparisonRef,1
-में,Whole,Locus,1
 का,Beneficiary,Possessor,1
 ऐसा,ComparisonRef,ComparisonRef,1
 में,Stimulus,Goal,1
-को,Experiencer,Theme,1
 में,Path,Locus,1
-में,Duration,Duration,1
 के दौरान,Time,Time,1
-के साथ,Ancillary,Ancillary,1
 को,Theme,Recipient,1
 का,ComparisonRef,Gestalt,1
 पर,Instrument,Locus,1
-में,Whole,Whole,1
-में,Gestalt,Locus,1
-को,Time,Goal,1
 की सीध में,Direction,Direction,1
-पहले,Time,Interval,1
-के साथ,Locus,Ancillary,1
-के पास,Possessor,Locus,1
 के लिए,ComparisonRef,Purpose,1
-ने,Causer,Causer,1
 का जैसा,Manner,ComparisonRef,1
 का,ComparisonRef,Purpose,1
-पर,Experiencer,Locus,1
-पर,Direction,Locus,1
+से,Sourc,Source,1
+से,Goal,Ancillary,1
+ने,Originator,,1
+के,Whole,Locus,1
+का,Locus,Locus,1
+तक,EndTime,Interval,1
+के पास,Gestalt,Gestalt,1
+जैसे-जैसे,Circumstance,Circumstance,1
+फिर से,`d,`d,1
+पर,Beneficiary,Locus,1
+के लिए,Beneficiary,Direction,1
+में,Instrument,Locus,1
+के ऊपर,Gestalt,Locus,1
+से,`d,`d,1
+के अतिरिक्त,PartPortion,PartPortion,1
+की तरह,Identity,ComparisonRef,1
+पूर्वक,Manner,Manner,1
+के पास,Gestalt,Locus,1
+का,Manner,Gestalt,1
+को,Purpose,Purpose,1
+का,Originator,Agent,1
+से,Topic,Source,1
+पर,Circumstance,Time,1
+के नीचे,Locus,Locus,1
+के लिए,Stimulus,Beneficiary,1
+का,Locus,Whole,1
+के ऊपर,Locus,Locus,1
+से,SocialRel,Ancillary,1
+ऐसा,PartPortion,ComparisonRef,1
+के अनुसार,`d,`d,1
+के पास,Whole,Locus,1
+का,Goal,Gestalt,1
+का,Path,Gestalt,1
+के क़रीब,Locus,Locus,1
+के लिए,Explanation,Experiencer,1
+के विरुद्ध,Characteristic,Beneficiary,1
+का,Extent,Identity,1
+के नाते,Explanation,Explanation,1
+पर,Beneficiary,Theme,1
+को ,Experiencer,Recipient,1
+को,Agent,Recipient,1
+का,OrgMember,Possessor,1
+के प्रति,Recipient,Direction,1
+का,`i,`i,1
+पर,Circumstance,Circumstance,1
+के अंदर,Duration,Duration,1
+बिना,Circumstance,Circumstance,1
+से,StartTime,Interval,1
+के बीच,Time,Time,1
+में,Theme,Theme,1
+से,Agent,Agent,1
+को,Gestalt,Recipient,1
+से,Topic,Topic,1
+को,Goal,Theme,1
+के सामने,ComparisonRef,Locus,1
+वाला,Characteristic,Identity,1
+को,??,??,1
+का,Time,Gestalt,1
+से,Experiencer,Agent,1
+में से,Source,Source,1
+के पहले,Time,Time,1
+के बावजूद,Circumstance,Circumstance,1
+में,Experiencer,Locus,1
