@@ -68,11 +68,11 @@
 एक,,,,,,,,,,,,,,
 सुप्त,,,,,,,,,,,,,,
 ज्वालामुखी,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 था,,,,,,,,,,,,,,
-पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,,,coordinating conjunction
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,coordinating conjunction
 ",",,,,,,,,,,,,,,
-पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 कौन,,,,,,,,,,,,,,
 जाने,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
@@ -80,7 +80,7 @@
 ,,,,,,,,,,,,,,
 उसने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
 उसे,को,Theme,Theme,,को,Theme,Theme,,,को,Theme,Theme,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,this is like 'too'
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,this is like 'too'
 झाड़,,,,,,,,,,,,,,
 कर,,,,,,,,,,,,,,
 ढंक,,,,,,,,,,,,,,
@@ -112,7 +112,7 @@
 हैं,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-पर,पर,NONSNACS,,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 इस,,,,,,,,,,,,,,
 धरती,,,,,,,,,,,,,,
 की,की,Topic,Identity,,का,Topic,Identity,,,की,Topic,Identity,,
@@ -139,7 +139,7 @@
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 इसीलिए,के लिए,Explanation,Explanation,,के लिए,Explanation,Explanation,,,के लिए,Explanation,Explanation,,
-तो,तो,FOCUS,,,,,,,,तो,FOCUS,,,
+तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 कभी-कभी,,,,,,,,,,,,,,
 इतना,,,,,,,,,,,,,,
 उत्पात,,,,,,,,,,,,,,
@@ -153,7 +153,7 @@
 थोड़ा,,,,,,,,,,,,,,
 दुख,,,,,,,,,,,,,,
 हुआ,,,,,,,,,,,,,,
-पर,पर,NONSNACS,,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 उसने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
 बाओबाब,,,,,,,,,,,,,,
 के,के,Whole,Whole,,का,Whole,Whole,,,के,Identity,Identity,,"not entirely convinced   of Whole
@@ -171,7 +171,7 @@ because removal of the branch here implies removal of the baobab"
 कभी,,,,,,,,,,,,,,
 लौटेगा,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
-पर,पर,NONSNACS,,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 ये,,,,,,,,,,,,,,
 रोजमर्रा,,,,,,,,,,,,,,
 काम,,,,,,,,,,,,,,
@@ -314,7 +314,7 @@ the 'karna' provides this action."
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 मेरी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Possessor,Possessor,,mistakes are alienable ?
-ही,ही,FOCUS,,,,,,,,ही,FOCUS,,,this is my mistake 'only'
+ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,this is my mistake 'only'
 गलती,,,,,,,,,,,,,,
 थी,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
@@ -324,7 +324,7 @@ the 'karna' provides this action."
 समझा,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-पर,पर,NONSNACS,,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 अब,,,,,,,,,,,,,,
 उसे,को,Topic,Theme,,को,??,??,,*Q* no idea,को,Topic,Theme,,"the french analogous phrase is: Cela n'a aucune importance
 (That has no importance).
@@ -335,7 +335,7 @@ French sentence is Theme but english and hindi may be Topic"
 ,,,,,,,,,,,,,,
 लेकिन,,,,,,,,,,,,,,
 तुम,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 मेरी,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,1:1,
 तरह,की तरह,,,1:2,की तरह,,,1:2,,की तरह,,,1:2,
 मूर्ख,,,,,,,,,,,,,,
@@ -422,7 +422,7 @@ This suggests that the flower wants to know the butterflies directly, and not ju
 कुछ,,,,,,,,,,,,,,
 कीड़ों,,,,,,,,,,,,,,
 को,को,Topic,Theme,,को,Topic,Theme,,,को,Theme,Theme,,"same argument as 394, above"
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 जानूं,,,,,,,,,,,,,,
 !,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
@@ -436,7 +436,7 @@ This suggests that the flower wants to know the butterflies directly, and not ju
 ,,,,,,,,,,,,,,
 तू,,,,,,,,,,,,,,
 ....,,,,,,,,,,,,,,
-तो,तो,FOCUS,,,,,,,,तो,FOCUS,,,
+तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 दूर,,,,,,,,,,,,,,
 रहेगा,,,,,,,,,,,,,,
 मुझसे,से,Locus,Source,,से,Locus,Source,,,से,Locus,Source,,

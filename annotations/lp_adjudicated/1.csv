@@ -104,11 +104,11 @@ This also fails (i think) the Ancillary (together_with) diagnostic, so the scene
 वयस्क,,,,,,,,,,,,,,
 कभी,,,,,,,,,,,,,,
 बच्चे,,,,,,,,,,,,,,
-ही,ही,Focus,Focus,,ही,,,,,ही,FOCUS,,,emphasis? / Focus
-तो,तो,Focus,Focus,,तो,,,,,तो,FOCUS,,,emphasis?
+ही,ही,Focus,Focus,,ही,,,,,ही,Focus,Focus,,emphasis? / Focus
+तो,तो,Focus,Focus,,तो,,,,,तो,Focus,Focus,,emphasis?
 थे,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-पर,,,,,,,,,,पर,NONSNACS,,,coordinating conjunction use 'but'
+पर,,,,,,,,,,पर,NONSNACS,NONSNACS,,coordinating conjunction use 'but'
 कहां,,,,,,,,,,,,,,
 याद,,,,,,,,,,,,,,
 रहती,,,,,,,,,,,,,,
@@ -253,7 +253,7 @@ So, Causer, Explanation, or Source for function,but this has a strong Causer-lik
 """",,,,,,,,,,,,,,
 मैंने,ने,Originator,Agent,,ने,Originator,Agent,,,ने,Originator,Agent,,
 टोपी,,,,,,,,,,,,,,
-तो,तो,Focus,Focus,,तो,,,,,तो,FOCUS,,,emphasis
+तो,तो,Focus,Focus,,तो,,,,,तो,Focus,Focus,,emphasis
 बनाई,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 थी,,,,,,,,,,,,,,
@@ -282,7 +282,7 @@ So, Causer, Explanation, or Source for function,but this has a strong Causer-lik
 के,का,Locus,Locus,,का,Whole,Whole,,,के अंदर,Locus,Locus,1:1,के अंदर is not a PartPortion
 अंदर,,,,,,,,,,के अंदर,,,1:2,
 की,का,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
-भी,भी,Focus,Focus,,भी,,,,,भी,FOCUS,,,emphasis
+भी,भी,Focus,Focus,,भी,,,,,भी,Focus,Focus,,emphasis
 तस्वीर,,,,,,,,,,,,,,
 बनाई,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -291,7 +291,7 @@ So, Causer, Explanation, or Source for function,but this has a strong Causer-lik
 ये,,,,,,,,,,,,,,
 बड़े,,,,,,,,,,,,,,
 लोग,,,,,,,,,,,,,,
-भी,भी,Focus,Focus,,भी,,,,,भी,FOCUS,,,emphasis
+भी,भी,Focus,Focus,,भी,,,,,भी,Focus,Focus,,emphasis
 समझ,,,,,,,,,,,,,,
 सकें,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -350,7 +350,7 @@ seem to have mirrors"
 सी,सा,Extent,Extent,,सा,,,,,सी,Extent,Extent,,Unsure - positioned post a noun/adjective but what does it do? Only modifies the preceding word. If we annotate wala then should annotate this too
 उम्र,,,,,,,,,,,,,,
 में,में,Time,Time,,में,Time,Time,,,में,Time,Time,,
-ही,ही,Focus,Focus,,ही,,,,,ही,FOCUS,,,emphasis
+ही,ही,Focus,Focus,,ही,,,,,ही,Focus,Focus,,emphasis
 मुझे,को,Agent,Agent,,को,Agent,Agent,,,को,Agent,Agent,,
 अपनी,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Possessor,Possessor,,"Assumes that one's dream is an alienable thing,"
 महान,,,,,,,,,,,,,,
@@ -373,7 +373,7 @@ seem to have mirrors"
 Locus taking the traditional usage of par
 
 'dhokaa dene par use sazaa huii'"
-ही,ही,Focus,Focus,,ही,,,,,ही,FOCUS,,,emphasis
+ही,ही,Focus,Focus,,ही,,,,,ही,Focus,Focus,,emphasis
 मुझे,को,Experiencer,Theme,,को,Experiencer,Theme,,,को,Experiencer,Theme,,
 हतोत्साहित,,,,,,,,,,,,,,
 कर,,,,,,,,,,,,,,
@@ -437,7 +437,7 @@ Locus taking the traditional usage of par
 अरीजोना,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 एक,,,,,,,,,,,,,,
-ही,ही,Focus,Focus,,ही,,,,,ही,FOCUS,,,emphasis
+ही,ही,Focus,Focus,,ही,,,,,ही,Focus,Focus,,emphasis
 झलक,,,,,,,,,,,,,,
 में,में,Duration,Duration,,में,Duration,Duration,,unsure if Manner,में,Duration,Duration,,open github issue
 पहचान,,,,,,,,,,,,,,
@@ -486,7 +486,7 @@ Locus taking the traditional usage of par
 'I got to see them from up close'"
 देखा-समझा।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-पर,,,,,,,,,,पर,NONSNACS,,,conjunctive use ('but') - not marking as post position
+पर,,,,,,,,,,पर,NONSNACS,NONSNACS,,conjunctive use ('but') - not marking as post position
 मेरी,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Gestalt,Gestalt,,my opinion' - alienable?
 उनके,के बारे में,Topic,Topic,1:1,के बारे में,Topic,Topic,1:1,,के बारे में,Topic,Topic,1:1,
 बारे,के बारे में,,,1:2,के बारे में,,,1:2,,के बारे में,,,1:2,
@@ -497,7 +497,7 @@ Locus taking the traditional usage of par
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
-भी,भी,Focus,Focus,,भी,,,,,भी,FOCUS,,,the particle makes 'when' -> 'whenever'
+भी,भी,Focus,Focus,,भी,,,,,भी,Focus,Focus,,the particle makes 'when' -> 'whenever'
 कोई,,,,,,,,,,,,,,
 महानुभाव,,,,,,,,,,,,,,
 मिलते,,,,,,,,,,,,,,
@@ -544,7 +544,7 @@ Locus taking the traditional usage of par
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 यह,,,,,,,,,,,,,,
-तो,तो,Focus,Focus,,तो,,,,,तो,FOCUS,,,emphasis
+तो,तो,Focus,Focus,,तो,,,,,तो,Focus,Focus,,emphasis
 टोपी,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,

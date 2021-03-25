@@ -12,7 +12,7 @@ The sheep is a core participant?
 The sheep's grace is not an explanation of the prince's secret being found out?"
 कृपा,की कृपा से,,,1:2,की कृपा से,,,2:2,,की कृपा से,,,1:2,
 से,की कृपा से,,,1:3,की कृपा से,,,2:3,,की कृपा से,,,1:3,
-ही,ही,FOCUS,,,,,,,,ही,FOCUS,,,emphasis
+ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,emphasis
 ",",,,,,,,,,,,,,,
 नन्हे,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
@@ -62,7 +62,7 @@ I think this is MWE with jhat, and not a classic adposition"
 है,,,,,,,,,,,,,,
 तो,तो,`d,,,,,,,,तो,`d,,,'then'
 फूल,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,too' emphasis
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,too' emphasis
 खा,,,,,,,,,,,,,,
 सकती,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
@@ -72,7 +72,7 @@ I think this is MWE with jhat, and not a classic adposition"
 """",,,,,,,,,,,,,,
 भेड़,,,,,,,,,,,,,,
 जो,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,what 'ever'
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,what 'ever'
 मिल,,,,,,,,,,,,,,
 जाए,,,,,,,,,,,,,,
 खा,,,,,,,,,,,,,,
@@ -84,7 +84,7 @@ I think this is MWE with jhat, and not a classic adposition"
 """कांटे",,,,,,,,,,,,,,
 वाले,,,,,,,,,,,,,,
 फूल,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 ?,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
@@ -93,7 +93,7 @@ I think this is MWE with jhat, and not a classic adposition"
 ",",,,,,,,,,,,,,,
 कांटेदार,,,,,,,,,,,,,,
 फूल,,,,,,,,,,,,,,
-भी।,भी।,FOCUS,,,,,,,,भी।,FOCUS,,,
+भी।,भी।,Focus,Focus,,,,,,,भी।,Focus,Focus,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
@@ -185,7 +185,7 @@ I think this is MWE with jhat, and not a classic adposition"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 जो,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 मुंह,,,,,,,,,,,,,,
 में,में,Goal,Locus,,में,Goal,Locus,,,में,Goal,Locus,,
 आए,,,,,,,,,,,,,,
@@ -260,7 +260,7 @@ en guidelines 390"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 फूल,,,,,,,,,,,,,,
-तो,तो,FOCUS,,,,,,,,तो,FOCUS,,,
+तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 कोमल,,,,,,,,,,,,,,
 होते,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
@@ -274,7 +274,7 @@ en guidelines 390"
 it seems that the भी marginalises over all manner possibilities, 
 but a comparison with each manner possibility is still made. 
 "
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 हो,,,,,,,,,,,,,,
 अपने,,,,,,,,,,,,,,
 को,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,Goal or Recipient of their own selves?
@@ -358,7 +358,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 ,,,,,,,,,,,,,,
 मैंने,ने,Originator,Agent,,ने,Recipient,Agent,,,ने,Originator,Agent,,two governors?
 जो,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 समझा,,,,,,,,,,,,,,
 जवाब,,,,,,,,,,,,,,
 दे,,,,,,,,,,,,,,
@@ -413,7 +413,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 तू,,,,,,,,,,,,,,
-तो,तो,FOCUS,,,,,,,,तो,FOCUS,,,
+तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 बूढ़ों,,,,,,,,,,,,,,
 जैसे,जैसे,ComparisonRef,ComparisonRef,,जैसे,ComparisonRef,ComparisonRef,,,जैसे,ComparisonRef,ComparisonRef,,
 बातें,,,,,,,,,,,,,,
@@ -426,7 +426,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 थोड़ी,,,,,,,,,,,,,,
 शर्म,,,,,,,,,,,,,,
 आई,,,,,,,,,,,,,,
-पर,पर,NONSNACS,,,,,,,,पर,NONSNACS,,,
+पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 उस,,,,,,,,,,,,,,
 पर,पर,Topic,Theme,,पर,Topic,Topic,,,पर,Topic,Theme,,
 बिना,बिना,Manner,Manner,,बिना,Manner,Manner,,,बिना,Manner,Manner,,
@@ -535,7 +535,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 सारे,,,,,,,,,,,,,,
 दिन,,,,,,,,,,,,,,
 तेरी,की तरह,ComparisonRef,ComparisonRef,,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,,
@@ -573,7 +573,7 @@ Causer?"
 ,,,,,,,,,,,,,,
 लेकिन,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
-भी,भी,FOCUS,,,,,,,,भी,FOCUS,,,
+भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 कोई,,,,,,,,,,,,,,
 आदमी,,,,,,,,,,,,,,
 हुआ,,,,,,,,,,,,,,
@@ -706,7 +706,7 @@ take an external role?"
 एक,,,,,,,,,,,,,,
 दिन,,,,,,,,,,,,,,
 ऐसे,,,,,,,,,,,,,,
-ही,ही,FOCUS,,,,,,,,ही,FOCUS,,,
+ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,
 बिना,बिना,,,,बिना,Manner,Manner,,,बिना,Manner,Manner,,
 सोचे-समझे,,,,,,,,,,,,,,
 चर,,,,,,,,,,,,,,
@@ -959,7 +959,7 @@ in the original its parallel is l'atteindre (reach him)"
 !,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 बड़ा,,,,,,,,,,,,,,
-ही,ही,FOCUS,,,,,,,,ही,FOCUS,,,
+ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,
 रहस्यमय,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 आंसुओं,,,,,,,,,,,,,,
