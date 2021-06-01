@@ -127,8 +127,8 @@
 ,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
 ने,ने,Originator,Agent,,ने,Originator,Agent,,,ने,Originator,Agent,,
-फिर,फिर से,`d,,,फिर से,`d,`d,1:1,,फिर से,`d,,,
-से,फिर से,,,,फिर से,,,1:2,,फिर से,,,,
+फिर,फिर से,`d,`d,1:1,फिर से,`d,`d,1:1,,फिर से,`d,,,
+से,फिर से,,,1:2,फिर से,,,1:2,,फिर से,,,,
 कहा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
@@ -328,8 +328,8 @@ Ancillary as scene as the khankhanahat can be entirelt eliminated
 also together with test pass"
 साथ,के साथ,,,1:2,के साथ,,,1:2,,के साथ,,,1:2,
 पत्थरों,,,,,,,,,,,,,,
-के,के बीच,Locus,Locus,1:1,के बीच,Locus,Locus,2:1,,के बीच,Locus,Locus,1:1,
-बीच,के बीच,,,1:2,के बीच,,,2:2,,के बीच,,,1:2,
+के,के बीच,Locus,Locus,2:1,के बीच,Locus,Locus,2:1,,के बीच,Locus,Locus,1:1,
+बीच,के बीच,,,2:2,के बीच,,,2:2,,के बीच,,,1:2,
 रेंग,,,,,,,,,,,,,,
 गया,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -421,8 +421,8 @@ also together with test pass"
 चिड़िया,,,,,,,,,,,,,,
 की,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q*,की,Whole,Whole,,cannot exist without the bird / person
 धड़कन,,,,,,,,,,,,,,
-की,की तरह,ComparisonRef,ComparisonRef,,की तरह,Manner,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,,not comparing verb?
-तरह,की तरह,,,,की तरह,,,1:2,,की तरह,,,,
+की,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,Manner,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,,not comparing verb?
+तरह,की तरह,,,1:2,की तरह,,,1:2,,की तरह,,,,
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 उसकी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q*,की,Whole,Whole,,
 धड़कन,,,,,,,,,,,,,,
@@ -878,8 +878,8 @@ Manner typically for simpler predicates (verbs)"
 घिरनी,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 रस्सी,,,,,,,,,,,,,,
-के,के कारण,Explanation,Explanation,,के कारण,Explanation,Explanation,1:1,,के कारण,Explanation,Explanation,,
-कारण,के कारण,,,,के कारण,,,1:2,,के कारण,,,,
+के,के कारण,Explanation,Explanation,1:1,के कारण,Explanation,Explanation,1:1,,के कारण,Explanation,Explanation,,
+कारण,के कारण,,,1:2,के कारण,,,1:2,,के कारण,,,,
 संगीत,,,,,,,,,,,,,,
 सा,सा,ComparisonRef,ComparisonRef,,,,,,,सा,Extent,Extent,,
 लगा,,,,,,,,,,,,,,
@@ -935,8 +935,8 @@ Manner typically for simpler predicates (verbs)"
 तारा,,,,,,,,,,,,,,
 इन्हीं,,,,,,,,,,,,,,
 तारों,,,,,,,,,,,,,,
-में,में से,Whole,Source,,में से,Whole,Whole,1:1,,में से,Whole,Source,,
-से,में से,,,,में से,,,1:2,,में से,,,,
+में,में से,Whole,Source,1:1,में से,Whole,Whole,1:1,,में से,Whole,Source,,
+से,में से,,,1:2,में से,,,1:2,,में से,,,,
 एक,,,,,,,,,,,,,,
 होगा,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
@@ -1007,8 +1007,8 @@ Manner typically for simpler predicates (verbs)"
 कोई,,,,,,,,,,,,,,
 सितारों,,,,,,,,,,,,,,
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
-अपनी,की,Gestalt,Gestalt,1:1,का,Gestalt,Gestalt,,,की,Manner,Gestalt,1:1,' see in their own way'
-तरह,,,,1:2,,,,,,,,,1:2,
+अपनी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Manner,Gestalt,1:1,' see in their own way'
+तरह,,,,,,,,,,,,,1:2,
 देखता,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -1184,8 +1184,8 @@ with indefinite verb)"
 ऐसे,,,,,,,,,,,,,,
 ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,
 मजे,,,,,,,,,,,,,,
-के,के लिए,Purpose,Purpose,1:1,के लिए,Purpose,Purpose,1:1,,के लिए,Purpose,Purpose,1:1,
-लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,1:2,
+के,के लिए,Purpose,Purpose,2:1,के लिए,Purpose,Purpose,1:1,,के लिए,Purpose,Purpose,1:1,
+लिए,के लिए,,,2:2,के लिए,,,1:2,,के लिए,,,1:2,
 अपनी,की,Possessor,Possessor,,का,Possessor,Possessor,,,की,Possessor,Possessor,,
 खिड़की,,,,,,,,,,,,,,
 खोल,,,,,,,,,,,,,,
@@ -1251,8 +1251,8 @@ with indefinite verb)"
 मैंने,ने,Originator,Agent,,ने,Originator,Agent,,,ने,Originator,Agent,,not convinced originated the bells
 तुझे,को,Recipient,Recipient,,को,Recipient,Recipient,,,को,Recipient,Recipient,,
 सितारों,,,,,,,,,,,,,,
-की,की जगह,ComparisonRef,ComparisonRef,,की जगह,ComparisonRef,ComparisonRef,1:1,,की जगह,Theme,Locus,,secondary theme en guidelines p.36
-जगह,की जगह,,,,की जगह,,,1:2,,की जगह,,,,
+की,की जगह,ComparisonRef,ComparisonRef,1:1,की जगह,ComparisonRef,ComparisonRef,1:1,,की जगह,Theme,Locus,,secondary theme en guidelines p.36
+जगह,की जगह,,,1:2,की जगह,,,1:2,,की जगह,,,,
 छोटी-छोटी,,,,,,,,,,,,,,
 घंटियां,,,,,,,,,,,,,,
 दे,,,,,,,,,,,,,,
@@ -1537,7 +1537,7 @@ with indefinite verb)"
 इस,,,,,,,,,,,,,,
 भारी,,,,,,,,,,,,,,
 शरीर,,,,,,,,,,,,,,
-को,को,Possession,Theme,,को,Possession,Theme,,*Q* metaphorical,को,Theme,Theme,,**revisit** - tentative Theme? 
+को,को,Possession,Theme,,को,Possession,Theme,,*Q* metaphorical,को,Theme,Theme,,"**revisit** - tentative Theme? "
 वहां,,,,,,,,,,,,,,
 तक,तक,Goal,Extent,,तक,Goal,Goal,,,तक,Goal,Extent,,
 नहीं,,,,,,,,,,,,,,

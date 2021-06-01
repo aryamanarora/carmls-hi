@@ -35,7 +35,7 @@
 थोड़ी,,,,,,,,,,,,,,
 सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
 जगह,,,,,,,,,,,,,,
-में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,in a little corner only 
+में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,"in a little corner only "
 बिना,बिना,Manner,Manner,,बिना,Manner,Manner,,,बिना,Manner,Manner,,
 किसी,,,,,,,,,,,,,,
 को,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
@@ -233,8 +233,8 @@ metaphorically, might be alienable"
 perhaps not source because the rays and the sun are not separable?"
 पहली,,,,,,,,,,,,,,
 किरण,,,,,,,,,,,,,,
-के,के साथ,Ancillary,Ancillary,,के साथ,Ancillary,Ancillary,1:1,*Q*,के साथ,Ancillary,Ancillary,,might pass together with test
-साथ,के साथ,,,,के साथ,,,1:2,,के साथ,,,,
+के,के साथ,Ancillary,Ancillary,1:1,के साथ,Ancillary,Ancillary,1:1,*Q*,के साथ,Ancillary,Ancillary,,might pass together with test
+साथ,के साथ,,,1:2,के साथ,,,1:2,,के साथ,,,,
 वह,,,,,,,,,,,,,,
 अधखिली,,,,,,,,,,,,,,
 कली,,,,,,,,,,,,,,
@@ -586,9 +586,9 @@ feels like a property
 दूसरी,,,,,,,,,,,,,,
 किसी,,,,,,,,,,,,,,
 दुनिया,,,,,,,,,,,,,,
-के,के बारे में,Topic,Topic,,के बारे में,Topic,Topic,1:1,,के बारे में,Topic,Topic,,
-बारे,के बारे में,,,,के बारे में,,,1:2,,के बारे में,,,,
-में,के बारे में,,,,के बारे में,,,1:3,,के बारे में,,,,
+के,के बारे में,Topic,Topic,1:1,के बारे में,Topic,Topic,1:1,,के बारे में,Topic,Topic,,
+बारे,के बारे में,,,1:2,के बारे में,,,1:2,,के बारे में,,,,
+में,के बारे में,,,1:3,के बारे में,,,1:3,,के बारे में,,,,
 उसे,को,Experiencer,Recipient,,,,,,,को,Experiencer,Recipient,,
 कुछ,,,,,,,,,,,,,,
 पता,,,,,,,,,,,,,,
@@ -616,8 +616,8 @@ feels like a property
 गलत,,,,,,,,,,,,,,
 साबित,,,,,,,,,,,,,,
 करने,,,,,,,,,,,,,,
-के,के लिए,Purpose,Purpose,,के लिए,Purpose,Purpose,1:1,,के लिए,Purpose,Purpose,,
-लिए,के लिए,,,,के लिए,,,1:2,,के लिए,,,,
+के,के लिए,Purpose,Purpose,1:1,के लिए,Purpose,Purpose,1:1,,के लिए,Purpose,Purpose,,
+लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,,
 एक-दो,,,,,,,,,,,,,,
 बार,,,,,,,,,,,,,,
 खांसती,,,,,,,,,,,,,,
@@ -663,8 +663,8 @@ feels like a property
 ,,,,,,,,,,,,,,
 इस,,,,,,,,,,,,,,
 प्रकार,,,,,,,,,,,,,,
-बावजूद,के बावजूद,`d,`d,1:2,के बावजूद,Circumstance,Circumstance,1:1,*Q*,के बावजूद,`d,`d,1:2,not a space-time phenomenon (in spite of)
-इसके,के बावजूद,,,1:1,के बावजूद,,,1:2,,के बावजूद,,,1:1,
+बावजूद,के बावजूद,`d,`d,1:1,के बावजूद,Circumstance,Circumstance,1:1,*Q*,के बावजूद,`d,`d,1:2,not a space-time phenomenon (in spite of)
+इसके,के बावजूद,,,1:2,के बावजूद,,,1:2,,के बावजूद,,,1:1,
 कि,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
 मन,,,,,,,,,,,,,,

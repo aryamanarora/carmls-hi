@@ -64,8 +64,8 @@ explanation?"
 अरब,,,,,,,,,,,,,,
 मनुष्य,,,,,,,,,,,,,,
 एक-दूसरे,,,,,,,,,,,,,,
-के,के पास,Locus,Locus,,के पास,Locus,Locus,1:1,,के पास,Locus,Locus,,
-पास,के पास,,,,के पास,,,1:2,,के पास,,,,
+के,के पास,Locus,Locus,1:1,के पास,Locus,Locus,1:1,,के पास,Locus,Locus,,
+पास,के पास,,,1:2,के पास,,,1:2,,के पास,,,,
 खड़े,,,,,,,,,,,,,,
 हो,,,,,,,,,,,,,,
 जाएं,,,,,,,,,,,,,,
@@ -89,7 +89,7 @@ the action of standing is not being compared here for Manner"
 मील,,,,,,,,,,,,,,
 चैड़ी,,,,,,,,,,,,,,
 जगह,,,,,,,,,,,,,,
-से,से,ComparisonRef,ComparisonRef,1:1,से ज़्यादा,Approximator,Approximator,2:1,,से,ComparisonRef,ComparisonRef,1:1,"Does not fuzzify the 20 by 20 km area like an approximator does
+से,से,ComparisonRef,ComparisonRef,,से ज़्यादा,Approximator,Approximator,2:1,,से,ComparisonRef,ComparisonRef,1:1,"Does not fuzzify the 20 by 20 km area like an approximator does
 'will not take more than a 20 by 20 km area
 Sketch engine - zyaada does not collocate with se often 
 (missing in 8/15 examples)"
@@ -232,7 +232,7 @@ I cannot stimulate trust? **revisit**"
 उसने,ने,Experiencer,Agent,,ने,Experiencer,Agent,,,ने,Experiencer,Agent,,
 एक,,,,,,,,,,,,,,
 गोल,,,,,,,,,,,,,,
-सी,सी,Extent,,,,,,,,सी,Extent,,,
+सी,सी,Extent,Extent,,,,,,,सी,Extent,,,
 सुनहरी,,,,,,,,,,,,,,
 चीज,,,,,,,,,,,,,,
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
@@ -285,7 +285,7 @@ I cannot stimulate trust? **revisit**"
 """",,,,,,,,,,,,,,
 ठीक,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,,,
 क्या,,,,,,,,,,,,,,
 फिर,,,,,,,,,,,,,,
 पृथ्वी,,,,,,,,,,,,,,

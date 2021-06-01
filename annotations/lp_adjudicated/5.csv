@@ -337,8 +337,8 @@ context for Source / Gestalt is too hard for algorithm?"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 वे,,,,,,,,,,,,,,
-तब,तब तक,,,1:1,,,,,,तब तक,,,1:1,
-तक,तब तक,EndTime,Interval,1:2,तक,EndTime,EndTime,,,तब तक,Temporal,Temporal,1:2,"Temporal because it is an 'ongoing event' marked with jab tak - tab tak.
+तब,तब तक,EndTime,Interval,1:1,,,,,,तब तक,,,1:1,
+तक,तब तक,,,1:2,तक,EndTime,EndTime,,,तब तक,Temporal,Temporal,1:2,"Temporal because it is an 'ongoing event' marked with jab tak - tab tak.
 There is no reference absolute or interval time associated with a reference event , and also no reference event itself to govern it!
 **revisit**"
 पृथ्वी,,,,,,,,,,,,,,
@@ -350,8 +350,8 @@ There is no reference absolute or interval time associated with a reference even
 सोते,,,,,,,,,,,,,,
 रहते,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
-जब,जब तक,,,1:1,,,,,,जब तक,,,1:1,
-तक,जब तक,EndTime,Interval,1:2,तक,EndTime,EndTime,,,जब तक,Temporal,Temporal,1:2,"Temporal because it is an 'ongoing event' marked with jab tak - tab tak.
+जब,जब तक,EndTime,Interval,1:1,,,,,,जब तक,,,1:1,
+तक,जब तक,,,1:2,तक,EndTime,EndTime,,,जब तक,Temporal,Temporal,1:2,"Temporal because it is an 'ongoing event' marked with jab tak - tab tak.
 There is no reference absolute or interval time associated with a reference event , and also no reference event itself to govern it!
 **revisit**"
 वह,,,,,,,,,,,,,,

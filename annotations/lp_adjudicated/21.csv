@@ -29,7 +29,7 @@
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,coordinating conjunction
-उसे,को,Experiencer ,Recipient,,को,Experiencer,Recipient,,,को,Experiencer ,Recipient,,
+उसे,को,"Experiencer ",Recipient,,को,Experiencer,Recipient,,,को,"Experiencer ",Recipient,,
 कुछ,,,,,,,,,,,,,,
 दिखाई,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
@@ -263,9 +263,9 @@
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 तू,,,,,,,,,,,,,,
-मेरे,के लिए,Experiencer,Beneficiary,,के लिए,Experiencer,Beneficiary,1:1,,के लिए,Beneficiary,Beneficiary,,"en guidelines 294 - scene doubtful 
+मेरे,के लिए,Experiencer,Beneficiary,1:1,के लिए,Experiencer,Beneficiary,1:1,,के लिए,Beneficiary,Beneficiary,,"en guidelines 294 - scene doubtful 
 (can an animate entity (tu)  be experienced?)"
-लिए,के लिए,,,,के लिए,,,1:2,,के लिए,,,,
+लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,,
 हजारों,,,,,,,,,,,,,,
 बच्चों,,,,,,,,,,,,,,
 जैसा,जैसा,ComparisonRef,ComparisonRef,,जैसा,ComparisonRef,ComparisonRef,,,जैसा,PartPortion,ComparisonRef,,"मात्रा - from OHED - measure, part, 
@@ -326,8 +326,8 @@ suggesting PartPortion"
 लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,1:2,
 और,,,,,,,,,,,,,,
 मैं,,,,,,,,,,,,,,
-तेरे,के लिए,Experiencer,Beneficiary,,के लिए,Experiencer,Beneficiary,1:1,,के लिए,Beneficiary,Beneficiary,,
-लिए,के लिए,,,,के लिए,,,1:2,,के लिए,,,,
+तेरे,के लिए,Experiencer,Beneficiary,2:1,के लिए,Experiencer,Beneficiary,1:1,,के लिए,Beneficiary,Beneficiary,,
+लिए,के लिए,,,2:2,के लिए,,,1:2,,के लिए,,,,
 दुनिया,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Whole,Whole,,,में,Whole,Locus,,
 बस,,,,,,,,,,,Locus,Locus,,
@@ -367,7 +367,7 @@ suggesting PartPortion"
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 अच्छा,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,,,
 यह,,,,,,,,,,,,,,
 इस,,,,,,,,,,,,,,
 धरती,,,,,,,,,,,,,,
@@ -1037,8 +1037,8 @@ en guidelines 192, 185 + infinitival clause hindi
 ,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
-इसके,के लिए,Beneficiary/`i,Beneficiary/`i,,के लिए,`i,`i,1:1,*Q*,के लिए,Beneficiary,Beneficiary,,**revisit**
-लिए,के लिए,,,,के लिए,,,1:2,,के लिए,,,,
+इसके,के लिए,Beneficiary/`i,Beneficiary/`i,1:1,के लिए,`i,`i,1:1,*Q*,के लिए,Beneficiary,Beneficiary,,**revisit**
+लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,,
 जाने,,,,,,,,,,,,,,
 का,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Identity,Identity,,**twitter poll for jaane ka / aane ka/** also see #99
 दिन,,,,,,,,,,,,,,
@@ -1212,7 +1212,7 @@ en guidelines 192, 185 + infinitival clause hindi
 ,,,,,,,,,,,,,,
 तुम,,,,,,,,,,,,,,
 वैसे,,,,,,,,,,,,,,
-ही,ही,,,,,,,,,ही,,,,
+ही,ही,Focus,Focus,,,,,,,ही,,,,
 हो,,,,,,,,,,,,,,
 जैसी,जैसा,ComparisonRef,ComparisonRef,,जैसा,ComparisonRef,ComparisonRef,,,जैसा,Manner,ComparisonRef,,analogy reading en guidelines 464
 मेरी,,,,,,,,,,,,,,
@@ -1504,8 +1504,8 @@ or gives a Topic to the voice?
 ",",,,,,,,,,,,,,,
 अपने,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
 गुलाब,,,,,,,,,,,,,,
-के,के प्रति,Beneficiary,Direction,1:1,के लिए,Beneficiary,Direction,1:1,,के प्रति,Source/Direction,Direction,1:1,
-प्रति,के प्रति,,,1:2,के लिए,,,1:2,,के प्रति,,,1:2,
+के,के प्रति,Beneficiary,Direction,2:1,के लिए,Beneficiary,Direction,1:1,,के प्रति,Source/Direction,Direction,1:1,
+प्रति,के प्रति,,,2:2,के लिए,,,1:2,,के प्रति,,,1:2,
 तू,,,,,,,,,,,,,,
 उत्तरदायी,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
@@ -1515,8 +1515,8 @@ or gives a Topic to the voice?
 """",,,,,,,,,,,,,,
 मेरे,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
 गुलाब,,,,,,,,,,,,,,
-के,के प्रति,Beneficiary,Direction,,के प्रति,Beneficiary,Direction,1:1,,के प्रति,Source/Direction,Direction,,
-प्रति,के प्रति,,,,के प्रति,,,1:2,,के प्रति,,,,
+के,के प्रति,Beneficiary,Direction,1:1,के प्रति,Beneficiary,Direction,1:1,,के प्रति,Source/Direction,Direction,,
+प्रति,के प्रति,,,1:2,के प्रति,,,1:2,,के प्रति,,,,
 मेरा,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 कुछ,,,,,,,,,,,,,,
 दायित्व,,,,,,,,,,,,,,

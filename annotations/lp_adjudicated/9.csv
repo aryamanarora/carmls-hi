@@ -91,8 +91,8 @@
 चिमनी,,,,,,,,,,,,,,
 की,की,Whole,Whole,,का,Whole,Whole,,,की,Whole,Whole,,
 आग,,,,,,,,,,,,,,
-की,की तरह,ComparisonRef,ComparisonRef,,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,,
-तरह,की तरह,,,,की तरह,,,1:2,,की तरह,,,,
+की,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,,
+तरह,की तरह,,,1:2,की तरह,,,1:2,,की तरह,,,,
 होते,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -351,7 +351,7 @@ French sentence is Theme but english and hindi may be Topic"
 !,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 अब,,,,,,,,,,,,,,
-क्या ,,,,,,,,,,,,,,
+"क्या ",,,,,,,,,,,,,,
 होगा,,,,,,,,,,,,,,
 इसका,का,Theme,Theme,,का,Topic,Topic,,*Q* ???,का,Theme,Theme,,"Je n'en veux plus (original french)
 What (use) will come of it (ad-hoc translation)
@@ -442,8 +442,8 @@ This suggests that the flower wants to know the butterflies directly, and not ju
 मुझसे,से,Locus,Source,,से,Locus,Source,,,से,Locus,Source,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-जहां,जहां तक,,,1:1,,,,,,,,,1:1,
-तक,जहां तक,`d,`d,1:2,तक,Extent,Extent,,,तक,Circumstance,Extent,1:2,"French: Quant a ('regarding')
+जहां,जहां तक,`d,`d,1:1,,,,,,,,,1:1,
+तक,जहां तक,,,1:2,तक,Extent,Extent,,,तक,Circumstance,Extent,1:2,"French: Quant a ('regarding')
 English: as for 
 both are circumstantial"
 बड़े,,,,,,,,,,,`d,`d,,
@@ -466,8 +466,8 @@ both are circumstantial"
 ,,,,,,,,,,,,,,
 एक,,,,,,,,,,,,,,
 अल्हड़,,,,,,,,,,,,,,
-की,की तरह,ComparisonRef,ComparisonRef,,की तरह,ComparisonRef,ComparisonRef,1:1,*Q* as if she were a fool => Identity?,की तरह,ComparisonRef,ComparisonRef,,
-तरह,की तरह,,,,की तरह,,,1:2,,की तरह,,,,
+की,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,ComparisonRef,ComparisonRef,1:1,*Q* as if she were a fool => Identity?,की तरह,ComparisonRef,ComparisonRef,,
+तरह,की तरह,,,1:2,की तरह,,,1:2,,की तरह,,,,
 उसने,ने,Agent,Agent,,ने,Originator,Agent,,,ने,Agent,Agent,,nothiing is originated **coordination cases for governors**
 अपने,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
 चार,,,,,,,,,,,,,,
