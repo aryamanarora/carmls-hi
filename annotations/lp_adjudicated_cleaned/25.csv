@@ -7,7 +7,7 @@
 लोग,,,,,,,,,,,,,,
 तेज,,,,,,,,,,,,,,
 गाड़ियों,,,,,,,,,,,,,,
-में,में,Instrument,Locus,,में,Instrument,Locus,,,में,Means/Locus,Locus,,"Instrument facilitates the action, 
+में,में,Instrument,Locus,,में,Instrument,Locus,,,में,??,Locus,,"Instrument facilitates the action, 
 has adjunct quality but 'in the car'?"
 भागते,,,,,,,,,,,,,,
 फिरते,,,,,,,,,,,,,,
@@ -20,7 +20,7 @@ has adjunct quality but 'in the car'?"
 **revisit** noun governor with obl subject?"
 किस,,,,,,,,,,,,,,
 चीज,,,,,,,,,,,,,,
-की,की,Theme,Theme,,का,Theme,Theme,,,की,Theme,Theme,,
+की,का,Theme,Theme,,का,Theme,Theme,,,का,Theme,Theme,,
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -31,7 +31,7 @@ has adjunct quality but 'in the car'?"
 रहते,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
 कोल्हू,,,,,,,,,,,,,,
-के,के,Characteristic,Characteristic,,का,Characteristic,Characteristic,,*Q*,के,Identity,Identity,,"idiomatic to Hindi 'a plodding ox'
+के,का,Characteristic,Characteristic,,का,Characteristic,Characteristic,,*Q*,का,Identity,Identity,,"idiomatic to Hindi 'a plodding ox'
 idiom suggests tightly coupled concepts?"
 बैल,,,,,,,,,,,,,,
 की,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,ComparisonRef,ComparisonRef,1:1,
@@ -60,7 +60,7 @@ idiom suggests tightly coupled concepts?"
 वह,,,,,,,,,,,,,,
 सहारा,,,,,,,,,,,,,,
 रेगिस्तान,,,,,,,,,,,,,,
-के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,Gestalt/Locus,Gestalt,,"does 'desert' have a strong place connotation?
+के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,??,Gestalt,,"does 'desert' have a strong place connotation?
 if it is definite, it might be Locus, otherwise Gestalt"
 अंध,,,,,,,,,,,,,,
 कुओं,,,,,,,,,,,,,,
@@ -71,7 +71,7 @@ if it is definite, it might be Locus, otherwise Gestalt"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 यहां,,,,,,,,,,,,,,
-के,के,Locus,Gestalt,,का,Locus,Gestalt,,,के,Locus,Gestalt,,
+के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,Locus,Gestalt,,
 कुएं,,,,,,,,,,,,,,
 तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 सीधे,,,,,,,,,,,,,,
@@ -222,11 +222,11 @@ if it is definite, it might be Locus, otherwise Gestalt"
 रखी,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरे,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+मेरे,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 कानों,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 घिरनी,,,,,,,,,,,,,,
-के,के,Theme,Theme,,का,Theme,Theme,,,के,Theme,Theme,,
+के,का,Theme,Theme,,का,Theme,Theme,,,का,Theme,Theme,,
 फिसलने,,,,,,,,,,,,,,
 का,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q* Sensory content,का,Topic,Topic,,'yeh sangeet girni ke fisalne ke baare me hain'?
 संगीत,,,,,,,,,,,,,,
@@ -249,7 +249,7 @@ if it is definite, it might be Locus, otherwise Gestalt"
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 इसी,,,,,,,,,,,,,,
 पानी,,,,,,,,,,,,,,
-की,की,Stimulus,Theme,,का,Stimulus,Gestalt,,,की,Theme,Theme,,"water does not stimulate thirst, quenches it?
+की,का,Stimulus,Theme,,का,Stimulus,Gestalt,,,का,Theme,Theme,,"water does not stimulate thirst, quenches it?
 translation is exact parallel of original french, 
 using 'de' or 'of', so, ''I have thirst of this water' here'
 suggests that water is an argument to 'thirst' predicate"
@@ -264,9 +264,9 @@ suggests that water is an argument to 'thirst' predicate"
 ।,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरी,की,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Experiencer,Gestalt,,
+मेरी,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Experiencer,Gestalt,,
 समझ,,,,,,,,,,,,,,
-में,में,"Goal ",Locus,,में,Goal,Locus,,,में,"Goal ",Locus,,
+में,में,Goal,Locus,,में,Goal,Locus,,,में,Goal,Locus,,
 आ,,,,,,,,,,,,,,
 गया,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
@@ -278,7 +278,7 @@ suggests that water is an argument to 'thirst' predicate"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 मैंने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
-उसके,के,Whole,Whole,,,,,,,के,Whole,Whole,,
+उसके,का,Whole,Whole,,,,,,,का,Whole,Whole,,
 होठों,,,,,,,,,,,,,,
 तक,तक,Goal,Extent,,तक,Goal,Goal,,,तक,Extent,Goal,,modifies 'uTaana' and gives it a degree
 बाल्टी,,,,,,,,,,,,,,
@@ -321,15 +321,15 @@ suggests that water is an argument to 'thirst' predicate"
 की,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 छांव,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
-हमारी,की,Theme,Gestalt,,,,,,,की,Gestalt,Gestalt,,
+हमारी,का,Theme,Gestalt,,,,,,,का,Gestalt,Gestalt,,
 यात्रा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 घिरनी,,,,,,,,,,,,,,
-के,के,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q* sensory content,के,Gestalt,Gestalt,,not elaborated upon like previous example
+के,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q* sensory content,का,Gestalt,Gestalt,,not elaborated upon like previous example
 संगीत,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 बाजुओं,,,,,,,,,,,,,,
-के,के,Agent,Gestalt,,का,Agent,Gestalt,,*Q* metonymy?,के,Agent,Gestalt,,
+के,का,Agent,Gestalt,,का,Agent,Gestalt,,*Q* metonymy?,का,Agent,Gestalt,,
 श्रम,,,,,,,,,,,,,,
 से,से,Explanation,Source,,से,Originator,Source,,,से,Causer,Source,,
 जन्मा,,,,,,,,,,,,,,
@@ -351,7 +351,7 @@ suggests that water is an argument to 'thirst' predicate"
 मैं,,,,,,,,,,,,,,
 छोटा,,,,,,,,,,,,,,
 था,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 क्रिसमस,,,,,,,,,,,,,,
 में,में,Time,Time,,में,Time,Time,,,में,Time,Time,,
 घर,,,,,,,,,,,,,,
@@ -372,7 +372,7 @@ Whole?"
 संगीत,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 मुस्कराहटों,,,,,,,,,,,,,,
-की,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Gestalt,Gestalt,,
+की,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 मधुरता,,,,,,,,,,,,,,
 मिल,,,,,,,,,,,,,,
 कर,,,,,,,,,,,,,,
@@ -394,7 +394,7 @@ related to happiness"
 """",,,,,,,,,,,,,,
 इस,,,,,,,,,,,,,,
 धरती,,,,,,,,,,,,,,
-के,के,Locus,Gestalt,,का,Locus,Gestalt,,,के,Locus,Gestalt,,definite reference of dharti
+के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,Locus,Gestalt,,definite reference of dharti
 आदमी,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
@@ -418,8 +418,8 @@ related to happiness"
 नहीं,,,,,,,,,,,,,,
 मिलता,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
-जिसकी,की,Theme/Stimulus,Theme,,का,Stimulus,Theme,,,की,Theme,Theme,,
-उन्हें,को,Agent/Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
+जिसकी,का,??,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,
+उन्हें,को,??,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
@@ -442,8 +442,8 @@ related to happiness"
 """",,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
-जिसकी,का,Theme/Stimulus,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
-उन्हें,को,Agent/Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
+जिसकी,का,??,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
+उन्हें,को,??,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
@@ -540,7 +540,7 @@ related to happiness"
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 तुझे,को,Agent,Agent,,को,Agent,Agent,,,को,Agent,Agent,,
-अपना,का,Agent,Gestalt,,का,Experiencer,Gestalt,,*Q* Originator?,का,Gestalt/Originator,Gestalt,,
+अपना,का,Agent,Gestalt,,का,Experiencer,Gestalt,,*Q* Originator?,का,??,Gestalt,,
 वादा,,,,,,,,,,,,,,
 पूरा,,,,,,,,,,,,,,
 करना,,,,,,,,,,,,,,
@@ -579,7 +579,7 @@ related to happiness"
 ...,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 फूल,,,,,,,,,,,,,,
-की,की,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
+की,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 जिम्मेदारी,,,,,,,,,,,,,,
 मेरे,के ऊपर,Gestalt,Locus,1:1,के ऊपर,Gestalt,Locus,1:1,,के ऊपर,Locus,Locus,1:1,relationship of 'responsibility' to 'me' is locative?
 ऊपर,के ऊपर,,,1:2,के ऊपर,,,1:2,,के ऊपर,,,1:2,
@@ -591,7 +591,7 @@ related to happiness"
 जेब,,,,,,,,,,,,,,
 से,से,Source,Source,,से,Source,Source,,,से,Source,Source,,
 रेखाचित्रों,,,,,,,,,,,,,,
-की,की,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
+की,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 कापी,,,,,,,,,,,,,,
 निकाली,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -605,7 +605,7 @@ related to happiness"
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 बाओबाब,,,,,,,,,,,,,,
-के,के,Topic,Topic,,का,Topic,Topic,,,के,Topic,Topic,,Do we remove Topic ~ Identity'
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,Do we remove Topic ~ Identity'
 चित्र,,,,,,,,,,,,,,
 गोभी,,,,,,,,,,,,,,
 जैसे,जैसा,ComparisonRef,ComparisonRef,,जैसा,ComparisonRef,ComparisonRef,,,जैसा,ComparisonRef,ComparisonRef,,
@@ -619,12 +619,12 @@ related to happiness"
 !,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-अपनी,की,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Experiencer,Gestalt,,
+अपनी,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Experiencer,Gestalt,,
 समझ,,,,,,,,,,,,,,
 से,से,`d,`d,,से,`d,`d,,*Q* according_to,से,Means,Source,,from your understanding - an event?
 मैंने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
 बाओबाब,,,,,,,,,,,,,,
-के,के,Topic,Topic,,का,Topic,Topic,,,के,Topic,Topic,,
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 चित्र,,,,,,,,,,,,,,
 बहुत,,,,,,,,,,,,,,
 अच्छे,,,,,,,,,,,,,,
@@ -637,7 +637,7 @@ related to happiness"
 लोमड़ी,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उसके,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+उसके,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 कान,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
@@ -723,7 +723,7 @@ related to happiness"
 कहेगा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
-तेरी,की,Originator,Gestalt,,का,Agent,Gestalt,,,की,Gestalt,Gestalt,,"your plans, but not given that you are executor?"
+तेरी,का,Originator,Gestalt,,का,Agent,Gestalt,,,का,Gestalt,Gestalt,,"your plans, but not given that you are executor?"
 पता,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 क्या-क्या,,,,,,,,,,,,,,
@@ -733,7 +733,7 @@ related to happiness"
 ।,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरी,की,Originator,Gestalt,,का,Originator,Gestalt,,,की,Originator,Gestalt,,
+मेरी,का,Originator,Gestalt,,का,Originator,Gestalt,,,का,Originator,Gestalt,,
 बात,,,,,,,,,,,,,,
 से,से,Source,Source,,से,Source,Source,,*Q*,से,Source,Source,,ablative sense?
 अलग,,,,,,,,,,,,,,
@@ -792,7 +792,7 @@ related to happiness"
 फिर,,,,,,,,,,,,,,
 एक,,,,,,,,,,,,,,
 अजीब,,,,,,,,,,,,,,
-सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 पीड़ा,,,,,,,,,,,,,,
 महसूस,,,,,,,,,,,,,,
 की,,,,,,,,,,,,,,
@@ -807,7 +807,7 @@ related to happiness"
 ",",,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 अच्छा,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 यह,,,,,,,,,,,,,,
 संयोग,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
@@ -818,11 +818,11 @@ related to happiness"
 पहले,पहले,Time,Interval,,,,,,,पहले,Interval,Interval,,should we be marking?
 ",",,,,,,,,,,,Time,Interval,,
 जब,,,,,,,,,,,,,,
-हमारी,की,Agent,Gestalt,,,,,,,की,Agent/Gestalt,Gestalt,,
+हमारी,का,Agent,Gestalt,,,,,,,का,??,Gestalt,,
 मुलाकात,,,,,,,,,,,,,,
 हुई,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 तू,,,,,,,,,,,,,,
 बस्ती,,,,,,,,,,,,,,
 से,से,Locus,Source,,से,Locus,Source,,,से,Locus,Source,,
@@ -859,7 +859,7 @@ related to happiness"
 ,,,,,,,,,,,,,,
 नन्हे,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
-के,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+के,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 मुंह,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 फिर,,,,,,,,,,,,,,
@@ -891,7 +891,7 @@ related to happiness"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 सवालों,,,,,,,,,,,,,,
-के,के,Topic,Topic,,का,Topic,Topic,,,के,Ensemble,Ensemble/Gestalt,,
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Ensemble,??,,
 जवाब,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 देता,,,,,,,,,,,,,,
@@ -903,7 +903,7 @@ related to happiness"
 कोई,,,,,,,,,,,,,,
 शर्मा,,,,,,,,,,,,,,
 जाए,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 उसका,का,`d,`d,,का,Gestalt,Gestalt,,,का,Topic,Topic,,??
 मतलब,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
@@ -977,7 +977,7 @@ related to happiness"
 ,,,,,,,,,,,,,,
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 लोमड़ी,,,,,,,,,,,,,,
-की,की,Stimulus,Theme,,का,Stimulus,Topic,,*Q*,की,Topic,Topic,,should functions also correspond?
+की,का,Stimulus,Theme,,का,Stimulus,Topic,,*Q*,का,Topic,Topic,,should functions also correspond?
 याद,,,,,,,,,,,,,,
 आई,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,

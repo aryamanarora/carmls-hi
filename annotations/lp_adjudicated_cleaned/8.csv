@@ -17,11 +17,11 @@
 ,,,,,,,,,,,,,,
 नन्हे,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
-की,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Org,Gestalt,,
+की,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Org,Gestalt,,
 दुनिया,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 पखुड़ियां,,,,,,,,,,,,,,
-की,की,QuantityItem,Stuff,,का,QuantityItem,Stuff,,*Q*,की,QuantityItem,Stuff,,collective noun
+की,का,QuantityItem,Stuff,,का,QuantityItem,Stuff,,*Q*,का,QuantityItem,Stuff,,collective noun
 एक,,,,,,,,,,,,,,
 ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,
 लड़ी,,,,,,,,,,,,,,
@@ -33,9 +33,9 @@
 थे,,,,,,,,,,,,,,
 जो,,,,,,,,,,,,,,
 थोड़ी,,,,,,,,,,,,,,
-सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 जगह,,,,,,,,,,,,,,
-में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,"in a little corner only "
+में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,in a little corner only 
 बिना,बिना,Manner,Manner,,बिना,Manner,Manner,,,बिना,Manner,Manner,,
 किसी,,,,,,,,,,,,,,
 को,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
@@ -61,7 +61,7 @@
 ,,,,,,,,,,,,,,
 परंतु,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
-का,का,SocialRel/Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,SocialRel,Gestalt,,"There may be a social relation! 
+का,का,??,Gestalt,,का,Experiencer,Gestalt,,,का,SocialRel,Gestalt,,"There may be a social relation! 
 as there is a specific beloved flower"
 प्रिय,,,,,,,,,,,,,,
 फूल,,,,,,,,,,,,,,
@@ -76,7 +76,7 @@ as there is a specific beloved flower"
 जाने,,,,,,,,,,,,,,
 कहां,,,,,,,,,,,,,,
 से,से,Source,Source,,से,Source,Source,,,से,Source,Source,,
-उसकी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Org,Gestalt,,
+उसकी,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Org,Gestalt,,
 धरती,,,,,,,,,,,,,,
 पर,पर,Goal,Locus,,पर,Goal,Locus,,,पर,Locus,Locus,,
 आ,,,,,,,,,,,,,,
@@ -84,7 +84,7 @@ as there is a specific beloved flower"
 था,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उसकी,की,Whole,Whole,,का,Possessor,Possessor,,,की,Whole,Whole,,अंकुर as PartPortion of the flower
+उसकी,का,Whole,Whole,,का,Possessor,Possessor,,,का,Whole,Whole,,अंकुर as PartPortion of the flower
 अंकुर,,,,,,,,,,,,,,
 अन्य,,,,,,,,,,,,,,
 अंकुरों,,,,,,,,,,,,,,
@@ -95,7 +95,7 @@ as there is a specific beloved flower"
 ,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
 ने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
-उसकी,की,Theme,Theme,,का,Theme,Theme,,,की,Theme,Theme,,
+उसकी,का,Theme,Theme,,का,Theme,Theme,,,का,Theme,Theme,,
 बड़ी,,,,,,,,,,,,,,
 संलग्नता,,,,,,,,,,,,,,
 से,से,Manner,Manner,,से,Manner,Manner,,,से,Manner,Manner,,
@@ -113,9 +113,9 @@ as there is a specific beloved flower"
 किसी,,,,,,,,,,,,,,
 दूसरी,,,,,,,,,,,,,,
 किस्म,,,,,,,,,,,,,,
-की,की,Characteristic,Characteristic,,का,Characteristic,Characteristic,,,की,Characteristic,Characteristic,,
+की,का,Characteristic,Characteristic,,का,Characteristic,Characteristic,,,का,Characteristic,Characteristic,,
 बाओबाब,,,,,,,,,,,,,,
-की,की,Identity,Identity,,का,Identity,Identity,,,की,Identity,Identity,,
+की,का,Identity,Identity,,का,Identity,Identity,,,का,Identity,Identity,,
 झाड़ी,,,,,,,,,,,,,,
 न,,,,,,,,,,,,,,
 हो,,,,,,,,,,,,,,
@@ -145,7 +145,7 @@ commença de préparer une fleur
 राजकुमार,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 गदराई,,,,,,,,,,,,,,
-सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 कली,,,,,,,,,,,,,,
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
 देख,,,,,,,,,,,,,,
@@ -163,17 +163,17 @@ commença de préparer une fleur
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 लेकिन,,,,,,,,,,,,,,
-अपने,के,Gestalt,Gestalt,,,,,,,के,Gestalt,Gestalt,,"à l'abri de sa chambre verte
+अपने,का,Gestalt,Gestalt,,,,,,,का,Gestalt,Gestalt,,"à l'abri de sa chambre verte
 
 analogy here is chambre vert = हरे
 कोष्ट. Possessive relationship"
 हरे,,,,,,,,,,,,,,
 कोष्ट,,,,,,,,,,,,,,
-की,की,Identity,Identity,,का,Identity,Identity,,,की,Identity,Identity,,shade of the कोष्ट?
+की,का,Identity,Identity,,का,Identity,Identity,,,का,Identity,Identity,,shade of the कोष्ट?
 छांव,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 पखुड़ियों,,,,,,,,,,,,,,
-के,के,Possessor,Possessor,,का,Gestalt,Gestalt,,"*Q* seems to be a metaphorical usage ""clothes for the petals""? not sure what to label it",के,Possessor,Possessor,,"Elle choisissait avec soin ses couleurs
+के,का,Possessor,Possessor,,का,Gestalt,Gestalt,,"*Q* seems to be a metaphorical usage ""clothes for the petals""? not sure what to label it",का,Possessor,Possessor,,"Elle choisissait avec soin ses couleurs
 metaphorically, might be alienable"
 परिधान,,,,,,,,,,,,,,
 चुनती,,,,,,,,,,,,,,
@@ -191,7 +191,7 @@ metaphorically, might be alienable"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
-अपने,के,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,के,Gestalt,Gestalt,,
+अपने,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 सौंदर्य,,,,,,,,,,,,,,
 को,को,Theme,Theme,,को,Theme,Theme,,,को,Theme,Theme,,
 भरपूर,,,,,,,,,,,,,,
@@ -229,7 +229,7 @@ metaphorically, might be alienable"
 एक,,,,,,,,,,,,,,
 दिन,,,,,,,,,,,,,,
 उषा,,,,,,,,,,,,,,
-की,की,Gestalt,Gestalt,,का,Source,Gestalt,,*Q*,की,Gestalt,Gestalt,,"the first rays of dawn.
+की,का,Gestalt,Gestalt,,का,Source,Gestalt,,*Q*,का,Gestalt,Gestalt,,"the first rays of dawn.
 perhaps not source because the rays and the sun are not separable?"
 पहली,,,,,,,,,,,,,,
 किरण,,,,,,,,,,,,,,
@@ -279,9 +279,9 @@ perhaps not source because the rays and the sun are not separable?"
 ,,,,,,,,,,,,,,
 नन्हें,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
-की,की,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Gestalt,Gestalt,,
+की,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Gestalt,Gestalt,,
 प्रसन्नता,,,,,,,,,,,,,,
-की,की,Gestalt,Gestalt,,का,Theme,Theme,,,की,Gestalt,Gestalt,,"limit of his admiration. 
+की,का,Gestalt,Gestalt,,का,Theme,Theme,,,का,Gestalt,Gestalt,,"limit of his admiration. 
 This is a different scene from the french/english
 feels like a property 
 (can an NP have a thematic role?)"
@@ -301,7 +301,7 @@ feels like a property
 !,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-अपनी,की,Gestalt,Gestalt,,,,,,,की,Gestalt,Gestalt,,his sweet voice
+अपनी,का,Gestalt,Gestalt,,,,,,,का,Gestalt,Gestalt,,his sweet voice
 मधुर,,,,,,,,,,,,,,
 आवाज,,,,,,,,,,,,,,
 में,में,Manner,Manner,,में,Manner,Manner,,en guidelines 167,में,Manner,Manner,,
@@ -391,7 +391,7 @@ feels like a property
 ने,ने,Agent,Agent,,ने,Agent,Agent,,the flower is alive,ने,Agent,Agent,,
 राजकुमार,,,,,,,,,,,,,,
 को,को,Experiencer,Theme,,को,Experiencer,Theme,,,को,Experiencer,Theme,,related to 387 by same scene - interesting
-अपने,के,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,के,Gestalt,Gestalt,,
+अपने,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 मान,,,,,,,,,,,,,,
 भरे,,,,,,,,,,,,,,
 अहंकार,,,,,,,,,,,,,,
@@ -406,10 +406,10 @@ feels like a property
 लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,1:2,
 एक,,,,,,,,,,,,,,
 दिन,,,,,,,,,,,,,,
-अपने,के,Whole,Whole,,का,Possessor,Possessor,,,के,Whole,Whole,,
+अपने,का,Whole,Whole,,का,Possessor,Possessor,,,का,Whole,Whole,,
 चारों,,,,,,,,,,,,,,
 कांटों,,,,,,,,,,,,,,
-की,की,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
+की,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 बात,,,,,,,,,,,,,,
 करते,,,,,,,,,,,,,,
 हुए,,,,,,,,,,,,,,
@@ -427,7 +427,7 @@ feels like a property
 भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,
 आ,,,,,,,,,,,,,,
 जाएं,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 डर,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
@@ -435,7 +435,7 @@ feels like a property
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
-मेरे,के,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,के,Org,Gestalt,,
+मेरे,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Org,Gestalt,,
 ग्रह,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 बाघ,,,,,,,,,,,,,,
@@ -487,7 +487,7 @@ feels like a property
 नहीं,,,,,,,,,,,,,,
 पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,
 हवा,,,,,,,,,,,,,,
-के,के,Stuff,Stuff,,का,Identity,Identity,,*Q*,के,QuantityItem,Stuff,,gusts of wind? 'current of wind' - collective noun?
+के,का,Stuff,Stuff,,का,Identity,Identity,,*Q*,का,QuantityItem,Stuff,,gusts of wind? 'current of wind' - collective noun?
 झोकों,,,,,,,,,,,Stuff,Stuff,,
 से,से,Stimulus,Source,,से,Stimulus,Source,,,से,Stimulus,Causer,,en guidelines 257
 डर,,,,,,,,,,,,,,
@@ -669,7 +669,7 @@ feels like a property
 वह,,,,,,,,,,,,,,
 मन,,,,,,,,,,,,,,
 लगाकर,,,,,,,,,,,,,,
-उसकी,की,Beneficiary,Theme,,का,Beneficiary,Theme,,*Q* receiving the service?,की,Theme,Theme,,
+उसकी,का,Beneficiary,Theme,,का,Beneficiary,Theme,,*Q* receiving the service?,का,Theme,Theme,,
 सेवा,,,,,,,,,,,,,,
 कर,,,,,,,,,,,,,,
 रहा,,,,,,,,,,,,,,
@@ -712,7 +712,7 @@ the doubt is all on the flower"
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 मुझे,को,Experiencer,Agent,,को,Experiencer,Agent,,,को,Agent,Agent,,listening is an active role?
-उसकी,की,Originator,Gestalt,,का,Originator,Gestalt,,,की,Originator,Gestalt,,
+उसकी,का,Originator,Gestalt,,का,Originator,Gestalt,,,का,Originator,Gestalt,,
 बात,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 सुननी,,,,,,,,,,,,,,
@@ -729,14 +729,14 @@ the doubt is all on the flower"
 चाहिए,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उनकी,की,Originator,Gestalt,,का,Originator,Gestalt,,,की,Originator,Gestalt,,
+उनकी,का,Originator,Gestalt,,का,Originator,Gestalt,,,का,Originator,Gestalt,,
 बातें,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 सुननी,,,,,,,,,,,,,,
 चाहिए,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरे,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+मेरे,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 फूल,,,,,,,,,,,,,,
 ने,ने,Agent,Agent,,ने,Causer,Causer,,,ने,Agent,Agent,,
 संसार,,,,,,,,,,,,,,
@@ -761,7 +761,7 @@ the doubt is all on the flower"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 कांटों,,,,,,,,,,,,,,
-की,की,Topic,Topic,,का,Topic,Identity,,,की,Topic,Topic,,
+की,का,Topic,Topic,,का,Topic,Identity,,,का,Topic,Topic,,
 बात,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 जिससे,से,Stimulus,Source,,से,Stimulus,Source,,,से,Stimulus,Causer,,
@@ -805,13 +805,13 @@ the doubt is all on the flower"
 बारे,के बारे में,,,1:2,के बारे में,,,1:2,,के बारे में,,,1:2,
 में,के बारे में,,,1:3,के बारे में,,,1:3,,के बारे में,,,1:3,
 ",",,,,,,,,,,,,,,
-उसके,के,Originator,Gestalt,,का,Originator,Gestalt,,,के,Originator,Gestalt,,
+उसके,का,Originator,Gestalt,,का,Originator,Gestalt,,,का,Originator,Gestalt,,
 शब्द,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-उसके,के,Agent,Gestalt,,का,Agent,Gestalt,,,के,Gestalt,Gestalt,,
+उसके,का,Agent,Gestalt,,का,Agent,Gestalt,,,का,Gestalt,Gestalt,,
 काम,,,,,,,,,,,,,,
-के,के आधर पर,Topic,Topic,1:1,का,Identity,Identity,,,के,Gestalt,Gestalt,1:1,on the basis of his work
+के,के आधर पर,Topic,Topic,1:1,का,Identity,Identity,,,का,Gestalt,Gestalt,1:1,on the basis of his work
 आधर,के आधर पर,,,1:2,,,,,,,,,1:2,
 पर,के आधर पर,,,1:3,पर,Topic,Topic,,,पर,Topic,Topic,1:3,en guidelines (174)
 निर्णय,,,,,,,,,,,,,,
@@ -824,7 +824,7 @@ the doubt is all on the flower"
 मेरा,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Experiencer,Gestalt,,
 सुख,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-मेरी,की,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Experiencer,Gestalt,,
+मेरी,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Experiencer,Gestalt,,
 समझ,,,,,,,,,,,,,,
 बढ़ाई,,,,,,,,,,,,,,
 थी,,,,,,,,,,,,,,
@@ -840,14 +840,14 @@ the doubt is all on the flower"
 था,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उसकी,की,Originator,Gestalt,,का,Originator,Gestalt,,,की,Originator,Gestalt,,
+उसकी,का,Originator,Gestalt,,का,Originator,Gestalt,,,का,Originator,Gestalt,,
 कटी-कटी,,,,,,,,,,,,,,
 बातों,,,,,,,,,,,,,,
 के,के पीछे,Locus,Locus,1:1,के पीछे,Locus,Locus,1:1,*Q* metaphorical,के पीछे,Locus,Locus,1:1,
 पीछे,के पीछे,,,1:2,के पीछे,,,1:2,,के पीछे,,,1:2,
 से,से,Source,Source,,से,Source,Source,,,से,Source,Source,,
 झांकती,,,,,,,,,,,,,,
-उसकी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Gestalt,Gestalt,,
+उसकी,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,
 कोमलता,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
 उसका,का,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,का,Experiencer,Gestalt,,
@@ -866,7 +866,7 @@ the doubt is all on the flower"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 लेकिन,,,,,,,,,,,,,,
-मेरी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Gestalt,Gestalt,,en guidelines page 88 Sec. 6.6
+मेरी,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,en guidelines page 88 Sec. 6.6
 उमर,,,,,,,,,,,,,,
 ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,
 क्या,,,,,,,,,,,,,,

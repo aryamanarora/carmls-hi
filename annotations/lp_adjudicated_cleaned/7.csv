@@ -16,7 +16,7 @@ The sheep's grace is not an explanation of the prince's secret being found out?"
 ",",,,,,,,,,,,,,,
 नन्हे,,,,,,,,,,,,,,
 राजकुमार,,,,,,,,,,,,,,
-के,के,Topic,Topic,,का,Topic,Topic,,,के,Gestalt,Gestalt,,"mystery of /about the little prince?
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Gestalt,Gestalt,,"mystery of /about the little prince?
 Topic scene is set by the next post-position"
 एक,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
@@ -44,7 +44,7 @@ Topic scene is set by the next post-position"
 बिना,बिना,Circumstance,Circumstance,,के बिना,Manner,Manner,1:1,,बिना,Circumstance,Circumstance,1:1,
 किसी,,,,,,,,,,,,,,
 भूमिका,,,,,,,,,,,,,,
-के,,,,,के बिना,,,1:2,*Q* idk?,के,`d,,1:1,"french : Il me demanda avec brusquerie, sans préambule
+के,,,,,के बिना,,,1:2,*Q* idk?,का,`d,`d,1:1,"french : Il me demanda avec brusquerie, sans préambule
 english:  Abruptly, without anything to lead up to it,
 
 Hindi: only 1 example of के झट in Sketch Engine: मेरा मन कर रहा था के झट से पकड़ कर मुँह में डाल लूं
@@ -60,7 +60,7 @@ I think this is MWE with jhat, and not a classic adposition"
 झाड़,,,,,,,,,,,,,,
 खाती,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,'then'
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,'then'
 फूल,,,,,,,,,,,,,,
 भी,भी,Focus,Focus,,,,,,,भी,Focus,Focus,,too' emphasis
 खा,,,,,,,,,,,,,,
@@ -97,7 +97,7 @@ I think this is MWE with jhat, and not a classic adposition"
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 फिर,,,,,,,,,,,,,,
 कांटे,,,,,,,,,,,,,,
 किस,,,,,,,,,,,,,,
@@ -113,9 +113,9 @@ I think this is MWE with jhat, and not a classic adposition"
 था,,,,,,,,,,,,,,
 यह।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरे,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+मेरे,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 जहाज,,,,,,,,,,,,,,
-के,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+के,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 इंजन,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 एक,,,,,,,,,,,,,,
@@ -123,7 +123,7 @@ I think this is MWE with jhat, and not a classic adposition"
 फंस,,,,,,,,,,,,,,
 गया,,,,,,,,,,,,,,
 था,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 मैं,,,,,,,,,,,,,,
 उसे,को,Theme,Theme,,को,Theme,Theme,,,को,Theme,Theme,,
 निकालने,,,,,,,,,,,,,,
@@ -205,7 +205,7 @@ I think this is MWE with jhat, and not a classic adposition"
 ,,,,,,,,,,,,,,
 बस,,,,,,,,,,,,,,
 फूलों,,,,,,,,,,,,,,
-के,के प्रति,??/Source,Direction,1:1,के प्रति,Source,Direction,1:1,*Q* no clue,के प्रति,Locus,Locus,1:1,"c'est de la pure méchanceté de la part des fleurs
+के,के प्रति,??,Direction,1:1,के प्रति,Source,Direction,1:1,*Q* no clue,के प्रति,Locus,Locus,1:1,"c'est de la pure méchanceté de la part des fleurs
 Boldfaced french analogous to this expression
 it is (a symbol of) pure wickedness on the part of the flowers
 
@@ -216,7 +216,7 @@ hindi transliteration may often be 'on his/her side' (ive heard this commonly en
 **revisit**"
 प्रति,के प्रति,,,1:2,के प्रति,,,1:2,,के प्रति,??,Direction,1:2,
 दुष्टता,,,,,,,,,,,,,,
-के,के,Topic,Topic,,का,Topic,Topic,,,के,Topic,Topic,,
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 प्रतीक,,,,,,,,,,,,,,
 होते,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
@@ -239,7 +239,7 @@ hindi transliteration may often be 'on his/her side' (ive heard this commonly en
 कर,,,,,,,,,,,,,,
 उसने,ने,Originator,Agent,,ने,Originator,Agent,,,ने,Originator,Agent,,
 प्रश्नों,,,,,,,,,,,,,,
-की,की,QuantityItem,Stuff,,का,QuantityItem,Stuff,,,की,QuantityItem,Stuff,,"a showering of questions 
+की,का,QuantityItem,Stuff,,का,QuantityItem,Stuff,,,का,QuantityItem,Stuff,,"a showering of questions 
 (scene has properties of a collective noun)
 en guidelines 390"
 एक,,,,,,,,,,,,,,
@@ -251,9 +251,9 @@ en guidelines 390"
 """",,,,,,,,,,,,,,
 लेकिन,,,,,,,,,,,,,,
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
-तेरी,की,Originator,Gestalt,,,,,,,की,Originator,Gestalt,,
+तेरी,का,Originator,Gestalt,,,,,,,का,Originator,Gestalt,,
 बात,,,,,,,,,,,,,,
-पर,पर,"Topic",Theme,,पर,Topic,Topic,,,पर,"Topic",Theme,,
+पर,पर,Topic,Theme,,पर,Topic,Topic,,,पर,Topic,Theme,,
 विश्वास,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 होता,,,,,,,,,,,,,,
@@ -285,7 +285,7 @@ but a comparison with each manner possibility is still made.
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 कांटों,,,,,,,,,,,,,,
-के,के,Theme,Theme,,का,Theme,Theme,,,के,Theme,Theme,,
+के,का,Theme,Theme,,का,Theme,Theme,,,का,Theme,Theme,,
 होने,,,,,,,,,,,,,,
 से,से,Explanation,Source,,से,Explanation,Source,,,से,Explanation,Source,,"Omkar Koul : cause, reason, or origin for function"
 वे,,,,,,,,,,,,,,
@@ -317,7 +317,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 ठीक,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 हुआ,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 मैं,,,,,,,,,,,,,,
 बोल्ट,,,,,,,,,,,,,,
 पर,पर,Goal,Locus,,पर,Goal,Locus,,,पर,Goal,Locus,,"en guidelines 82 
@@ -388,10 +388,10 @@ topic has been assimilated into surakshit as governed by samajhna"
 ?,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उसने,ने,"Experiencer",Agent,,ने,Experiencer,Agent,,,ने,"Experiencer",Agent,,
+उसने,ने,Experiencer,Agent,,ने,Experiencer,Agent,,,ने,Experiencer,Agent,,
 देखा,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
-मेरी,की,Whole,Whole,,का,Whole,Whole,,,की,Whole,Whole,,
+मेरी,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 उंगलियां,,,,,,,,,,,,,,
 काली,,,,,,,,,,,,,,
 हो,,,,,,,,,,,,,,
@@ -401,7 +401,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 मैं,,,,,,,,,,,,,,
 एक,,,,,,,,,,,,,,
 भोंडी,,,,,,,,,,,,,,
-सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 चीज,,,,,,,,,,,,,,
 पर,पर,Direction,Locus,,पर,Direction,Locus,,,पर,Direction,Locus,,
 हथौड़ा,,,,,,,,,,,,,,
@@ -462,7 +462,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 था,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उसके,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+उसके,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 सुनहरे,,,,,,,,,,,,,,
 बाल,,,,,,,,,,,,,,
 हवा,,,,,,,,,,,,,,
@@ -503,7 +503,7 @@ topic has been assimilated into surakshit as governed by samajhna"
 है,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-उन्होंने,ने,Experiencer,Agent,,ने,Experiencer,Agent,,,ने,Agent,Agent,,"verb feels agentive - pyaar karna. "
+उन्होंने,ने,Experiencer,Agent,,ने,Experiencer,Agent,,,ने,Agent,Agent,,verb feels agentive - pyaar karna. 
 कभी,,,,,,,,,,,,,,
 किसी,,,,,,,,,,,,,,
 से,से,Stimulus,Ancillary,,से,Stimulus,Ancillary,,,से,Stimulus,Ancillary,,
@@ -625,7 +625,7 @@ Causer?"
 ,,,,,,,,,,,,,,
 यह,,,,,,,,,,,,,,
 समझने,,,,,,,,,,,,,,
-की,की,Theme,Theme,,का,Theme,Theme,,,की,Purpose,Purpose,,कोशिश करना in order to समझने
+की,का,Theme,Theme,,का,Theme,Theme,,,का,Purpose,Purpose,,कोशिश करना in order to समझने
 कोशिश,,,,,,,,,,,,,,
 करना,,,,,,,,,,,,,,
 महत्वपूर्ण,,,,,,,,,,,,,,
@@ -652,7 +652,7 @@ Causer?"
 फूल,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 भेड़,,,,,,,,,,,,,,
-की,की,Agent,Whole,,का,Agent,Whole,,en guidelines 203,की,Agent,Whole,,
+की,का,Agent,Whole,,का,Agent,Whole,,en guidelines 203,का,Agent,Whole,,
 चली,,,,,,,,,,,,,,
 आ,,,,,,,,,,,,,,
 रही,,,,,,,,,,,,,,
@@ -670,7 +670,7 @@ unless we extend the scene scope to the previous sentence"
 एक,,,,,,,,,,,,,,
 गोल-मटोल,,,,,,,,,,,,,,
 महाशय,,,,,,,,,,,,,,
-के,के,Agent,Gestalt,,का,Agent,Gestalt,,,के,Gestalt,Gestalt,,"don't know if scene is agent here, the noun governor may not typically
+के,का,Agent,Gestalt,,का,Agent,Gestalt,,,का,Gestalt,Gestalt,,"don't know if scene is agent here, the noun governor may not typically
 take an external role?"
 जोड़-घटाने,,,,,,,,,,,,,,
 से,से,ComparisonRef,ComparisonRef,,से,ComparisonRef,ComparisonRef,,,से,ComparisonRef,ComparisonRef,,
@@ -694,7 +694,7 @@ take an external role?"
 हूं,,,,,,,,,,,,,,
 जो,,,,,,,,,,,,,,
 सिर्फ,,,,,,,,,,,,,,
-मेरी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Org,Gestalt,,
+मेरी,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Org,Gestalt,,
 दुनिया,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 होता,,,,,,,,,,,,,,
@@ -712,7 +712,7 @@ take an external role?"
 चर,,,,,,,,,,,,,,
 सकती,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
-तो,तो,`d,`d,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 यह,,,,,,,,,,,,,,
 महत्वपूर्ण,,,,,,,,,,,,,,
 बात,,,,,,,,,,,,,,
@@ -754,7 +754,7 @@ take an external role?"
 बेमिसाल,,,,,,,,,,,,,,
 हो,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 वह,,,,,,,,,,,,,,
 आसमान,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
@@ -763,7 +763,7 @@ take an external role?"
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
 निहारने,,,,,,,,,,,,,,
 मात्रा,,,,,,,,,,,,,,
-से,से,Causer/Stimulus,Causer,,से,Stimulus,Causer,,,से,Causer,Causer,,"the thing being governed is the whole phrase: सितारों को निहारने मात्रा, 
+से,से,??,Causer,,से,Stimulus,Causer,,,से,Causer,Causer,,"the thing being governed is the whole phrase: सितारों को निहारने मात्रा, 
 it may not be a stimulus
 **revisit**"
 प्रसन्न,,,,,,,,,,,,,,
@@ -777,7 +777,7 @@ it may not be a stimulus
 भेड़,,,,,,,,,,,,,,
 चर,,,,,,,,,,,,,,
 जाए,,,,,,,,,,,,,,
-तो,तो,`d,,,,,,,,तो,`d,,,
+तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 सारे,,,,,,,,,,,,,,
 तारे,,,,,,,,,,,,,,
 उसके,के लिए,Experiencer,Beneficiary,1:1,के लिए,Beneficiary,Beneficiary,1:1,*Q*,के लिए,Experiencer,Beneficiary,,cf en guidelines 264.b
@@ -807,7 +807,7 @@ it may not be a stimulus
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 जोर,,,,,,,,,,,,,,
-की,की,Characteristic,Identity,,का,Characteristic,Identity,,,की,Characteristic,Identity,,
+की,का,Characteristic,Identity,,का,Characteristic,Identity,,,का,Characteristic,Identity,,
 सुबकियां,,,,,,,,,,,,,,
 लेने,,,,,,,,,,,,,,
 लगा।,,,,,,,,,,,,,,
@@ -819,7 +819,7 @@ it may not be a stimulus
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 मैंने,ने,Agent,Agent,,ने,Agent,Agent,,,ने,Agent,Agent,,
-अपने,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+अपने,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 औजार,,,,,,,,,,,,,,
 रख,,,,,,,,,,,,,,
 दिए,,,,,,,,,,,,,,
@@ -847,7 +847,7 @@ cf. memories of these)"
 ग्रह,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 ",",,,,,,,,,,,,,,
-मेरी,की,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,की,Org,Gestalt,,"my planet, my workplace, my home"
+मेरी,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Org,Gestalt,,"my planet, my workplace, my home"
 धरती,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 ",",,,,,,,,,,,,,,
@@ -897,7 +897,7 @@ could also be beneficiary"
 ...,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 मैं,,,,,,,,,,,,,,
-तेरी,की,Possessor,Possessor,,का,Possessor,Possessor,,,की,Possessor,Possessor,,
+तेरी,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 भेड़,,,,,,,,,,,,,,
 का,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 मुंह,,,,,,,,,,,,,,
@@ -910,7 +910,7 @@ could also be beneficiary"
 बना,,,,,,,,,,,,,,
 दूंगा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-तेरे,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+तेरे,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 फूल,,,,,,,,,,,,,,
 के,के लिए,Beneficiary,Beneficiary,2:1,के लिए,Beneficiary,Beneficiary,2:1,,के लिए,Beneficiary,Beneficiary,,
 लिए,के लिए,,,2:2,के लिए,,,2:2,,के लिए,,,,

@@ -7,7 +7,7 @@
 किसी,,,,,,,,,,,,,,
 से,से,Recipient,Ancillary,,से,Recipient,Ancillary,,unsure between Agent and Recipient,से,Ancillary,Ancillary,,passes the together with test for scene
 मन,,,,,,,,,,,,,,
-की,का,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
+की,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 बात,,,,,,,,,,,,,,
 किए,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
@@ -21,7 +21,7 @@
 एक,,,,,,,,,,,,,,
 दिन,,,,,,,,,,,,,,
 सहारा,,,,,,,,,,,,,,
-के,का,Identity,Identity,,का,Identity,Identity,,,के,Identity,Identity,,
+के,का,Identity,Identity,,का,Identity,Identity,,,का,Identity,Identity,,
 रेगिस्तान,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 मेरा,का,Possessor,Possessor,,,,,,,का,Possessor,Possessor,,
@@ -51,7 +51,7 @@
 उसे,को,Theme,Theme,,को,Theme,Theme,,,को,Theme,Theme,,
 ठीक,,,,,,,,,,,,,,
 करने,,,,,,,,,,,,,,
-की,का,Topic,Topic,,का,Topic,Identity,,,की,Topic,Topic,,"बात is classified functionally as Topic, 
+की,का,Topic,Topic,,का,Topic,Identity,,,का,Topic,Topic,,"बात is classified functionally as Topic, 
 standardizing with 10, above
 
 revisit? - need more examples / study"
@@ -129,9 +129,9 @@ Broken board as being PartPortion of the ship"
 तड़के,,,,,,,,,,,,,,
 एक,,,,,,,,,,,,,,
 अजीब,,,,,,,,,,,,,,
-सी,सा,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 कच्ची,,,,,,,,,,,,,,
-सी,सा,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 आवाज,,,,,,,,,,,,,,
 ने,ने,Causer,Causer,,ने,Causer,Causer,,,ने,Causer,Agent,,jagaana has conntations of being caused / causing something
 मुझे,को,Theme,Theme,,,,,,,को,Theme,Theme,,
@@ -145,7 +145,7 @@ Broken board as being PartPortion of the ship"
 लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,1:2,
 एक,,,,,,,,,,,,,,
 भेड़,,,,,,,,,,,,,,
-की,का,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,"picture of a sheep, therefore Identity as sheep identifies the picture"
+की,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,"picture of a sheep, therefore Identity as sheep identifies the picture"
 तस्वीर,,,,,,,,,,,,,,
 बना,,,,,,,,,,,,,,
 दीजिए,,,,,,,,,,,,,,
@@ -198,7 +198,7 @@ This suggests expanding the scope of the scene"
 मैंने,ने,Experiencer,Agent,,ने,Experiencer,Agent,,,ने,Experiencer,Agent,,
 याद,,,,,,,,,,,,,,
 करके,,,,,,,,,,,,,,
-उसकी,का,Topic,Topic,,का,Topic,Topic,,,की,Topic,Topic,,
+उसकी,का,Topic,Topic,,का,Topic,Topic,,,का,Topic,Topic,,
 जो,,,,,,,,,,,,,,
 सबसे,से,ComparisonRef,ComparisonRef,,से,ComparisonRef,ComparisonRef,,,से,Whole,Whole,,cf. english guidelines 359.f
 अच्छी,,,,,,,,,,,,,,
@@ -224,7 +224,7 @@ This suggests expanding the scope of the scene"
 जैसी,का जैसा,,,1:2,का जैसा,,,1:2,,की जैसा,,,1:2,
 नहीं,,,,,,,,,,,,,,
 बनी,,,,,,,,,,,,,,
-तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,,,"discourse 'so', 'then'"
+तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,`d,,"discourse 'so', 'then'"
 मेरा,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Gestalt,Gestalt,,what fault of mine?
 क्या,,,,,,,,,,,,,,
 दोष।,,,,,,,,,,,,,,
@@ -261,7 +261,7 @@ This suggests expanding the scope of the scene"
 मैं,,,,,,,,,,,,,,
 इस,,,,,,,,,,,,,,
 छाया,,,,,,,,,,,,,,
-सी,सा,ComparisonRef,ComparisonRef,,,,,,,सी,Extent,Identity,,revisit
+सी,सा,ComparisonRef,ComparisonRef,,,,,,,सा,Extent,Identity,,revisit
 आकृति,,,,,,,,,,,,,,
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
 खुली-खुली,,,,,,,,,,,,,,
@@ -318,7 +318,7 @@ This suggests expanding the scope of the scene"
 जब,,,,,,,,,,,,,,
 बोली,,,,,,,,,,,,,,
 निकली,,,,,,,,,,,,,,
-तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,,,
+तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,`d,,
 मैंने,ने,Originator,Agent,,ने,Originator,Agent,,,ने,Originator,Agent,,
 कहा,,,,,,,,,,,,,,
 पर...,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,coordinating conjunction (but what are you doing here?)
@@ -386,7 +386,7 @@ This suggests expanding the scope of the scene"
 यह,,,,,,,,,,,,,,
 चित्र,,,,,,,,,,,,,,
 बनाने,,,,,,,,,,,,,,
-की,का,Topic,Identity,,का,Topic,Identity,,,की,Topic,Topic,,"baat is functionally Topic in line with 10, above
+की,का,Topic,Identity,,का,Topic,Identity,,,का,Topic,Topic,,"baat is functionally Topic in line with 10, above
 not MWE "
 बात,,,,,,,,,,,,,,
 हास्यास्पद,,,,,,,,,,,,,,
@@ -475,7 +475,7 @@ not MWE "
 ,,,,,,,,,,,,,,
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 अजगर,,,,,,,,,,,,,,
-के,का,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,Stomach of the snake
+के,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,Stomach of the snake
 पेट,,,,,,,,,,,,,,
 में,में,Locus,Locus,,में,Locus,Locus,,,में,Locus,Locus,,
 बंद,,,,,,,,,,,,,,
@@ -495,7 +495,7 @@ not MWE "
 भारी,,,,,,,,,,,,,,
 भरकम।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरे,के,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+मेरे,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 घर,,,,,,,,,,,,,,
 तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 सब,,,,,,,,,,,,,,
@@ -523,7 +523,7 @@ not MWE "
 और,,,,,,,,,,,,,,
 बोला,,,,,,,,,,,,,,
 यह,,,,,,,,,,,,,,
-तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,,,
+तो,तो,NONSNACS,NONSNACS,,,,,,,तो,`d,`d,,
 अभी,,,,,,,,,,,,,,
 से,से,StartTime,StartTime,,से,StartTime,StartTime,,,से,StartTime,StartTime,,
 बीमार,,,,,,,,,,,,,,
@@ -537,14 +537,14 @@ not MWE "
 बनाया,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-मेरे,के,SocialRel,Gestalt,,का,SocialRel,Gestalt,,,के,SocialRel,Gestalt,,
+मेरे,का,SocialRel,Gestalt,,का,SocialRel,Gestalt,,,का,SocialRel,Gestalt,,
 दोस्त,,,,,,,,,,,,,,
-के,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,lips of my friend
+के,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,lips of my friend
 होठों,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 एक,,,,,,,,,,,,,,
 हल्की,,,,,,,,,,,,,,
-सी,सी,Extent,Extent,,,,,,,सी,Extent,Extent,,
+सी,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 सहानभूतिपूर्ण,,,,,,,,,,,,,,
 हंसी,,,,,,,,,,,,,,
 खेल,,,,,,,,,,,,,,
@@ -567,7 +567,7 @@ not MWE "
 भेड़ा,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 !,,,,,,,,,,,,,,
-इसके,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+इसके,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 सींग,,,,,,,,,,,,,,
 हैं,,,,,,,,,,,,,,
@@ -596,9 +596,9 @@ not MWE "
 थोड़े,,,,,,,,,,,,,,
 !,,,,,,,,,,,,,,
 मुझे,को,Agent,Agent,,को,Agent,Agent,,,को,Agent,Agent,,
-अपने,का,Possessor,Possessor,,का,Possessor,Possessor,,,के,Possessor,Possessor,,
+अपने,का,Possessor,Possessor,,का,Possessor,Possessor,,,का,Possessor,Possessor,,
 जहाज,,,,,,,,,,,,,,
-की,का,Whole,Whole,,का,Whole,Whole,,,की,Whole,Whole,,
+की,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 मोटर,,,,,,,,,,,,,,
 ठीक,,,,,,,,,,,,,,
 करनी,,,,,,,,,,,,,,
@@ -625,7 +625,7 @@ not MWE "
 रहा,,,,,,,,,,,,,,
 बक्सा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-तुम्हारी,का,Possessor,Possessor,,का,Recipient,Gestalt,,,की,Possessor,Possessor,,alienable in both real and metaphorical contexts
+तुम्हारी,का,Possessor,Possessor,,का,Recipient,Gestalt,,,का,Possessor,Possessor,,alienable in both real and metaphorical contexts
 भेड़,,,,,,,,,,,,,,
 इसी,,,,,,,,,,,,,,
 के,के अंदर,Locus,Locus,1:1,के अंदर,Locus,Locus,1:1,,के अंदर,Locus,Locus,1:1,
@@ -638,12 +638,12 @@ not MWE "
 थोड़ा,,,,,,,,,,,,,,
 अचरज,,,,,,,,,,,,,,
 हुआ,,,,,,,,,,,,,,
-अपने,के,SocialRel,Gestalt,,का,SocialRel,Gestalt,,,के,SocialRel,Gestalt,,
+अपने,का,SocialRel,Gestalt,,का,SocialRel,Gestalt,,,का,SocialRel,Gestalt,,
 इस,,,,,,,,,,,,,,
 नन्हें,,,,,,,,,,,,,,
 से,सा,Extent,Extent,,,,,,,से,??,??,,same morphology as post position से but this is सा..
 जज,,,,,,,,,,,,,,
-के,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
+के,का,Whole,Whole,,का,Whole,Whole,,,का,Whole,Whole,,
 मुंह,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,पर,Locus,Locus,,,पर,Locus,Locus,,
 एक,,,,,,,,,,,,,,
@@ -653,7 +653,7 @@ not MWE "
 मुझे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 बिल्कुल,,,,,,,,,,,,,,
 ऐसा,,,,,,,,,,,,,,
-ही,ही,Focus,Focus,,,,,,,ही,`d,,,
+ही,ही,Focus,Focus,,,,,,,ही,`d,`d,,
 चाहिए,,,,,,,,,,,,,,
 था,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -661,7 +661,7 @@ not MWE "
 इसके,के लिए,Beneficiary,Beneficiary,1:1,के लिए,Beneficiary,Beneficiary,1:1,,के लिए,Beneficiary,Beneficiary,1:1,
 लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,1:2,
 बहुत,,,,,,,,,,,,,,
-सी,सा,Extent,Extent,,,,,,,सी,??,??,,
+सी,सा,Extent,Extent,,,,,,,सा,??,??,,
 घास,,,,,,,,,,,,,,
 चाहिए,,,,,,,,,,,,,,
 क्या,,,,,,,,,,,,,,
@@ -687,7 +687,7 @@ not MWE "
 तुम्हें,को,Recipient,Recipient,,को,Recipient,Recipient,,,को,Recipient,Recipient,,
 एक,,,,,,,,,,,,,,
 छोटी,,,,,,,,,,,,,,
-सी,सा,Extent,Extent,,,,,,,सी,??,??,,
+सी,सा,Extent,Extent,,,,,,,सा,??,??,,
 भेड़,,,,,,,,,,,,,,
 दी,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
@@ -716,7 +716,7 @@ not MWE "
 और,,,,,,,,,,,,,,
 यह,,,,,,,,,,,,,,
 थी,,,,,,,,,,,,,,
-मेरी,का,Agent,Gestalt,,का,Agent,Gestalt,,,की,??,Gestalt,,"my first career; my first meeting;
+मेरी,का,Agent,Gestalt,,का,Agent,Gestalt,,,का,??,Gestalt,,"my first career; my first meeting;
 **github**"
 पहली,,,,,,,,,,,,,,
 मुलाकात,,,,,,,,,,,,,,
