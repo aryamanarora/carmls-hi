@@ -10,7 +10,9 @@ for i in range(1, 28):
             if line == 0:
                 writer.writerow(row)
                 continue
-
+            
+            row[0] = row[0].strip()
+            
             for x in targets:
                 row[x] = row[x].strip()
                 if row[x] == 'की' or row[x] == 'के':

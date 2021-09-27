@@ -7,7 +7,7 @@
 लोग,,,,,,,,,,,,,,
 तेज,,,,,,,,,,,,,,
 गाड़ियों,,,,,,,,,,,,,,
-में,में,Instrument,Locus,,में,Instrument,Locus,,,में,??,Locus,,"Instrument facilitates the action, 
+में,में,Instrument,Locus,,में,Instrument,Locus,,,में,Means/Locus,Locus,,"Instrument facilitates the action, 
 has adjunct quality but 'in the car'?"
 भागते,,,,,,,,,,,,,,
 फिरते,,,,,,,,,,,,,,
@@ -60,7 +60,7 @@ idiom suggests tightly coupled concepts?"
 वह,,,,,,,,,,,,,,
 सहारा,,,,,,,,,,,,,,
 रेगिस्तान,,,,,,,,,,,,,,
-के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,??,Gestalt,,"does 'desert' have a strong place connotation?
+के,का,Locus,Gestalt,,का,Locus,Gestalt,,,का,Gestalt/Locus,Gestalt,,"does 'desert' have a strong place connotation?
 if it is definite, it might be Locus, otherwise Gestalt"
 अंध,,,,,,,,,,,,,,
 कुओं,,,,,,,,,,,,,,
@@ -418,8 +418,8 @@ related to happiness"
 नहीं,,,,,,,,,,,,,,
 मिलता,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
-जिसकी,का,??,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,
-उन्हें,को,??,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
+जिसकी,का,Theme,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,
+उन्हें,को,Agent,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
@@ -442,8 +442,8 @@ related to happiness"
 """",,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
-जिसकी,का,??,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
-उन्हें,को,??,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
+जिसकी,का,Theme,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
+उन्हें,को,Agent,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,
@@ -540,7 +540,7 @@ related to happiness"
 ,,,,,,,,,,,,,,
 """",,,,,,,,,,,,,,
 तुझे,को,Agent,Agent,,को,Agent,Agent,,,को,Agent,Agent,,
-अपना,का,Agent,Gestalt,,का,Experiencer,Gestalt,,*Q* Originator?,का,??,Gestalt,,
+अपना,का,Agent,Gestalt,,का,Experiencer,Gestalt,,*Q* Originator?,का,Gestalt/Originator,Gestalt,,
 वादा,,,,,,,,,,,,,,
 पूरा,,,,,,,,,,,,,,
 करना,,,,,,,,,,,,,,
@@ -818,7 +818,7 @@ related to happiness"
 पहले,पहले,Time,Interval,,,,,,,पहले,Interval,Interval,,should we be marking?
 ",",,,,,,,,,,,Time,Interval,,
 जब,,,,,,,,,,,,,,
-हमारी,का,Agent,Gestalt,,,,,,,का,??,Gestalt,,
+हमारी,का,Agent,Gestalt,,,,,,,का,Agent/Gestalt,Gestalt,,
 मुलाकात,,,,,,,,,,,,,,
 हुई,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
@@ -891,7 +891,7 @@ related to happiness"
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 सवालों,,,,,,,,,,,,,,
-के,का,Topic,Topic,,का,Topic,Topic,,,का,Ensemble,??,,
+के,का,Topic,Topic,,का,Topic,Topic,,,का,Ensemble,Ensemble/Gestalt,,
 जवाब,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 देता,,,,,,,,,,,,,,

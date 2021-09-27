@@ -205,7 +205,7 @@ I think this is MWE with jhat, and not a classic adposition"
 ,,,,,,,,,,,,,,
 बस,,,,,,,,,,,,,,
 फूलों,,,,,,,,,,,,,,
-के,के प्रति,??/Source,Direction,1:1,के प्रति,Source,Direction,1:1,*Q* no clue,के प्रति,Locus,Locus,1:1,"c'est de la pure méchanceté de la part des fleurs
+के,के प्रति,Originator,Direction,1:1,के प्रति,Source,Direction,1:1,*Q* no clue,के प्रति,Locus,Locus,1:1,"c'est de la pure méchanceté de la part des fleurs
 Boldfaced french analogous to this expression
 it is (a symbol of) pure wickedness on the part of the flowers
 
@@ -763,7 +763,7 @@ take an external role?"
 को,को,Stimulus,Theme,,को,Stimulus,Theme,,,को,Stimulus,Theme,,
 निहारने,,,,,,,,,,,,,,
 मात्रा,,,,,,,,,,,,,,
-से,से,Causer/Stimulus,Causer,,से,Stimulus,Causer,,,से,Causer,Causer,,"the thing being governed is the whole phrase: सितारों को निहारने मात्रा, 
+से,से,Means,Means,,से,Stimulus,Causer,,,से,Causer,Causer,,"the thing being governed is the whole phrase: सितारों को निहारने मात्रा, 
 it may not be a stimulus
 **revisit**"
 प्रसन्न,,,,,,,,,,,,,,

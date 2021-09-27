@@ -29,7 +29,7 @@
 ।,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
 पर,पर,NONSNACS,NONSNACS,,,,,,,पर,NONSNACS,NONSNACS,,coordinating conjunction
-उसे,को,"Experiencer ",Recipient,,को,Experiencer,Recipient,,,को,"Experiencer ",Recipient,,
+उसे,को,Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Experiencer,Recipient,,
 कुछ,,,,,,,,,,,,,,
 दिखाई,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
@@ -371,7 +371,7 @@ suggesting PartPortion"
 यह,,,,,,,,,,,,,,
 इस,,,,,,,,,,,,,,
 धरती,,,,,,,,,,,,,,
-की,की,Topic,Topic/Identity,,का,Topic,Identity,,,की,Topic,Topic,,**revisit**
+की,की,Topic,Topic,,का,Topic,Identity,,,की,Topic,Topic,,**revisit**
 बात,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
@@ -705,7 +705,7 @@ Nothing to characterize"
 """",,,,,,,,,,,,,,
 आज,,,,,,,,,,,,,,
 आदमी,,,,,,,,,,,,,,
-के,के पास,Possessor/Gestalt,Locus/Gestalt,1:1,के पास,Gestalt,Gestalt,1:1,*Q*,के पास,Possessor,Locus,1:1,"**revisit** (time,life)"
+के,के पास,Gestalt,Locus,1:1,के पास,Gestalt,Gestalt,1:1,*Q*,के पास,Possessor,Locus,1:1,"**revisit** (time,life)"
 पास,के पास,,,1:2,के पास,,,1:2,,के पास,,,1:2,
 वक्त,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
@@ -784,7 +784,7 @@ Nothing to characterize"
 आंख,,,,,,,,,,,,,,
 के,के,Whole,Whole,,का,Whole,Whole,,,के,Whole,Whole,,
 कोने,,,,,,,,,,,,,,
-से,से,Instrument/Locus,Instrument/Source,,से,Instrument,Instrument,,*Q* Locus?,से,,,,
+से,से,Source,Source,,से,Instrument,Instrument,,*Q* Locus?,से,,,,
 देखूंगी,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 तू,,,,,,,,,,,,,,
@@ -1037,7 +1037,7 @@ en guidelines 192, 185 + infinitival clause hindi
 ,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
-इसके,के लिए,Beneficiary/`i,Beneficiary/`i,1:1,के लिए,`i,`i,1:1,*Q*,के लिए,Beneficiary,Beneficiary,,**revisit**
+इसके,के लिए,Theme,Theme,1:1,के लिए,`i,`i,1:1,*Q*,के लिए,Beneficiary,Beneficiary,,**revisit**
 लिए,के लिए,,,1:2,के लिए,,,1:2,,के लिए,,,,
 जाने,,,,,,,,,,,,,,
 का,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,,का,Identity,Identity,,**twitter poll for jaane ka / aane ka/** also see #99
@@ -1345,7 +1345,7 @@ en guidelines 192, 185 + infinitival clause hindi
 दम्भ,,,,,,,,,,,,,,
 और,,,,,,,,,,,,,,
 चुप्पी,,,,,,,,,,,,,,
-के,के,Identity/Characteristic/Topic,Identity/Characteristic/Topic,,का,Topic,Topic,,,के,Identity,Identity,,"identifies/ categorises the voice , 
+के,के,Characteristic,Characteristic,,का,Topic,Topic,,,के,Identity,Identity,,"identifies/ categorises the voice , 
 or gives a Topic to the voice?
 **revisit**"
 स्वर,,,,,,,,,,,,,,
@@ -1391,7 +1391,7 @@ or gives a Topic to the voice?
 यह,,,,,,,,,,,,,,
 रहा,,,,,,,,,,,,,,
 ",",,,,,,,,,,,,,,
-मेरा,का,Possessor/Gestalt,Possessor/Gestalt,,का,Gestalt,Gestalt,,*Q* ??? my mystery/secret,का,Possessor,Possessor,,'my simple secret' **revisit**
+मेरा,का,Gestalt,Gestalt,,का,Gestalt,Gestalt,,*Q* ??? my mystery/secret,का,Possessor,Possessor,,'my simple secret' **revisit**
 सीध,,,,,,,,,,,,,,
 सा,सा,Extent,Extent,,,,,,,सा,Extent,Extent,,
 रहस्य,,,,,,,,,,,,,,

@@ -38,7 +38,7 @@
 मुझे,को,Recipient,Recipient,,को,Recipient,Recipient,,,को,Recipient,Recipient,,
 तुझसे,से,Agent,Ancillary,,से,Agent,Ancillary,,,से,Agent,Ancillary,,
 मुलाकात,,,,,,,,,,,,,,
-के,के,Gestalt/QuantityItem,Gestalt/Whole,,का,QuantityItem,Whole,,,के,Gestalt,Gestalt,,"does not exactly answer how much / many of 
+के,के,Time,Whole,,का,QuantityItem,Whole,,,के,Gestalt,Gestalt,,"does not exactly answer how much / many of 
 to be QuantityItem 
 
 **revisit**
@@ -165,7 +165,7 @@ cf en guidelines 334.d (the start time of the party) (third day of our acquainta
 ,,,,,,,,,,,,,,
 दुर्भाग्यवश,,,,,,,,,,,,,,
 दोनों,,,,,,,,,,,,,,
-के,के बीच,Whole/Locus,Whole,1:1,के बीच,Locus,Whole,1:1,two objects? *Q*,के बीच,Whole,Whole,1:1,"No scene here - just the two NP set members as in
+के,के बीच,Gestalt,Whole,1:1,के बीच,Locus,Whole,1:1,two objects? *Q*,के बीच,Whole,Whole,1:1,"No scene here - just the two NP set members as in
 en guidelines . 
 
 The scene is introduced by the next postposition

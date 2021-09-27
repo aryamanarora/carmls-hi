@@ -266,7 +266,7 @@ suggests that water is an argument to 'thirst' predicate"
 ,,,,,,,,,,,,,,
 मेरी,की,Experiencer,Gestalt,,का,Experiencer,Gestalt,,,की,Experiencer,Gestalt,,
 समझ,,,,,,,,,,,,,,
-में,में,"Goal ",Locus,,में,Goal,Locus,,,में,"Goal ",Locus,,
+में,में,Goal,Locus,,में,Goal,Locus,,,में,Goal,Locus,,
 आ,,,,,,,,,,,,,,
 गया,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
@@ -418,8 +418,8 @@ related to happiness"
 नहीं,,,,,,,,,,,,,,
 मिलता,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
-जिसकी,की,Theme/Stimulus,Theme,,का,Stimulus,Theme,,,की,Theme,Theme,,
-उन्हें,को,Agent/Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
+जिसकी,की,Theme,Theme,,का,Stimulus,Theme,,,की,Theme,Theme,,
+उन्हें,को,Agent,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,"**also see 18, above**"
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
@@ -442,8 +442,8 @@ related to happiness"
 """",,,,,,,,,,,,,,
 जब,,,,,,,,,,,,,,
 कि,,,,,,,,,,,,,,
-जिसकी,का,Theme/Stimulus,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
-उन्हें,को,Agent/Experiencer,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
+जिसकी,का,Theme,Theme,,का,Stimulus,Theme,,,का,Theme,Theme,,**revisit xref 18 above**
+उन्हें,को,Agent,Recipient,,को,Experiencer,Recipient,,,को,Agent,Recipient,,
 तलाश,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 वह,,,,,,,,,,,,,,

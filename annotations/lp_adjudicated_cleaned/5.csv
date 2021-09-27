@@ -33,7 +33,7 @@
 राजकुमार,,,,,,,,,,,,,,
 से,से,Ancillary,Ancillary,,से,Agent,Ancillary,,,से,Ancillary,Ancillary,,passes together with test
 मुलाकात,,,,,,,,,,,,,,
-के,का,??,??,,का,QuantityItem,Whole,,,का,Time,Time,,"on the third day of meeting the prince'
+के,का,Time,Whole,,का,QuantityItem,Whole,,,का,Time,Time,,"on the third day of meeting the prince'
 assumes ordinal dates (third day) are absolute times
 **revisit** - not time as not absolute?"
 तीसरे,,,,,,,,,,,,,,
@@ -445,7 +445,7 @@ There is no reference absolute or interval time associated with a reference even
 थे,,,,,,,,,,,,,,
 ...,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-जैसे,जैसे,??,??,,जैसे,PartPortion,PartPortion,,,जैसे,ComparisonRef,ComparisonRef,,
+जैसे,जैसे,PartPortion,PartPortion,,जैसे,PartPortion,PartPortion,,,जैसे,ComparisonRef,ComparisonRef,,
 बाओबाब,,,,,,,,,,,,,,
 के,का,Identity,Identity,,,,,,,का,Identity,Identity,,
 बीज,,,,,,,,,,,,,,
@@ -520,7 +520,7 @@ and en guidelines 496.g"
 यह,,,,,,,,,,,,,,
 तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 नियम-अनुशासन,,,,,,,,,,,,,,
-की,का,Topic,??,,का,Topic,Identity,,,का,Topic,Topic,,function as topic by earlier examples
+की,का,Topic,Topic,,का,Topic,Identity,,,का,Topic,Topic,,function as topic by earlier examples
 बात,,,,,,,,,,,,,,
 है,,,,,,,,,,,,,,
 ।,,,,,,,,,,,,,,
@@ -574,7 +574,7 @@ and en guidelines 496.g"
 ,,,,,,,,,,,,,,
 काम,,,,,,,,,,,,,,
 उलझन,,,,,,,,,,,,,,
-वाला,वाला,??,??,,,,,,,वाला,??,??,,
+वाला,वाला,Characteristic,Characteristic,,,,,,,वाला,??,??,,
 सही,,,,,,,,,,,,,,
 पर,पर,Locus,Locus,,,,,,,पर,Locus,Locus,,
 होता,,,,,,,,,,,,,,
@@ -622,7 +622,7 @@ and en guidelines 496.g"
 तो,तो,`d,`d,,,,,,,तो,`d,`d,,
 इस,,,,,,,,,,,,,,
 चित्र,,,,,,,,,,,,,,
-से,से,??,??,,से,Source,Source,,,से,Instrument,Instrument,,
+से,से,Source,Source,,से,Source,Source,,,से,Instrument,Instrument,,
 उन्हें,को,Recipient,Recipient,,को,Recipient,Recipient,,,को,Recipient,Recipient,,
 सहायता,,,,,,,,,,,,,,
 मिलेगी,,,,,,,,,,,,,,

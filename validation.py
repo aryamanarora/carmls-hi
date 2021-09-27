@@ -1,9 +1,9 @@
 import csv
 
 targets = [1, 5, 10]
-supersenses = [2, 3, 6, 7, 11, 12]
+supersenses = [2, 3] #, 6, 7, 11, 12
 scene_roles = [2, 6, 11]
-snacs = ('??', '`d', '`i', 'Agent', 'Ancillary', 'Beneficiary', 'Causer', 'Characteristic', 'Circumstance',
+snacs = ('`d', '`i', 'Agent', 'Ancillary', 'Beneficiary', 'Causer', 'Characteristic', 'Circumstance',
          'ComparisonRef', 'Cost', 'Direction', 'Duration', 'EndTime', 'Experiencer', 'Explanation',
          'Extent', 'Focus', 'Frequency', 'Gestalt', 'Goal', 'Identity', 'Instrument', 'Interval', 'Locus',
          'Manner', 'Means', 'NONSNACS', 'Org', 'OrgMember', 'Originator', 'PartPortion', 'Path', 'Possession',
@@ -13,7 +13,7 @@ snacs = ('??', '`d', '`i', 'Agent', 'Ancillary', 'Beneficiary', 'Causer', 'Chara
 
 def main():
     for i in range(1, 28):
-        with open(f'annotations/lp_adjudicated_cleaned/{i}.csv', 'r') as fin:
+        with open(f'annotations/lp_adjudicated/{i}.csv', 'r') as fin:
             reader = csv.reader(fin)
             for line, row in enumerate(reader):
                 if line == 0: continue
@@ -33,16 +33,19 @@ def main():
                         if row[x]:
                             assert row[x + 1], 'Target with scene role should have function annotation.'
                         if row[x + 1]:
-                            assert row[x], 'Target with function should have scene role annotation.'
+                            pass
+                            # assert row[x], 'Target with function should have scene role annotation.'
 
                     if row[2]:
+                        pass
                         assert row[1], 'Labelled target should have lemmatised adposition given.'
                     
                 except Exception as e:
-                    print(i, line)
+                    print(i, line + 1)
                     print(row)
                     print(e)
-                    input()
+                    print()
+                    # input()
                     continue
 
 if __name__ == '__main__':
