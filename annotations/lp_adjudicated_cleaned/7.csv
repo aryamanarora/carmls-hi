@@ -6,12 +6,12 @@
 की,की तरह,ComparisonRef,ComparisonRef,1:1,की तरह,ComparisonRef,ComparisonRef,1:1,,की तरह,Circumstance,ComparisonRef,1:1,"'as usual', sets context"
 तरह,की तरह,,,1:2,की तरह,,,1:2,,की तरह,,,1:2,
 भेड़,,,,,,,,,,,,,,
-की,की कृपा से,Causer,Causer,1:1,की कृपा से,Explanation,Explanation,2:1,,की कृपा से,Causer,Causer,1:1,"Causer or Explanation.
+की,की कृपा से,Causer,Causer,2:1,की कृपा से,Explanation,Explanation,2:1,,की कृपा से,Causer,Causer,1:1,"Causer or Explanation.
 The sheep is a core participant?
 'by the sheep's grace'. Causer? en guidelines section 6.2
 The sheep's grace is not an explanation of the prince's secret being found out?"
-कृपा,की कृपा से,,,1:2,की कृपा से,,,2:2,,की कृपा से,,,1:2,
-से,की कृपा से,,,1:3,की कृपा से,,,2:3,,की कृपा से,,,1:3,
+कृपा,की कृपा से,,,2:2,की कृपा से,,,2:2,,की कृपा से,,,1:2,
+से,की कृपा से,,,2:3,की कृपा से,,,2:3,,की कृपा से,,,1:3,
 ही,ही,Focus,Focus,,,,,,,ही,Focus,Focus,,emphasis
 ",",,,,,,,,,,,,,,
 नन्हे,,,,,,,,,,,,,,

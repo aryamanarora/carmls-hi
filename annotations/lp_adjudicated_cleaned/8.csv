@@ -200,8 +200,8 @@ metaphorically, might be alienable"
 पहले,के पहले,,,1:2,के पहले,,,1:2,,के पहले,,,1:2,
 साधारण,,,,,,,,,,,,,,
 फूलों,,,,,,,,,,,,,,
-की,की तरह,Manner,ComparisonRef,1:1,की तरह,Manner,ComparisonRef,2:1,,की तरह,Manner,ComparisonRef,1:1,
-तरह,की तरह,,,1:2,की तरह,,,2:2,,की तरह,,,1:2,
+की,की तरह,Manner,ComparisonRef,2:1,की तरह,Manner,ComparisonRef,2:1,,की तरह,Manner,ComparisonRef,1:1,
+तरह,की तरह,,,2:2,की तरह,,,2:2,,की तरह,,,1:2,
 प्रकट,,,,,,,,,,,,,,
 नहीं,,,,,,,,,,,,,,
 होने,,,,,,,,,,,,,,
@@ -499,8 +499,8 @@ feels like a property
 पास,के पास,,,1:2,के पास,,,1:2,,के पास,,,1:2,
 आड़,,,,,,,,,,,,,,
 करने,,,,,,,,,,,,,,
-के,के लिए,Purpose,Purpose,1:1,के लिए,Purpose,Purpose,2:1,,के लिए,Purpose,Purpose,1:1,
-लिए,के लिए,,,1:2,के लिए,,,2:2,,के लिए,,,1:2,
+के,के लिए,Purpose,Purpose,2:1,के लिए,Purpose,Purpose,2:1,,के लिए,Purpose,Purpose,1:1,
+लिए,के लिए,,,2:2,के लिए,,,2:2,,के लिए,,,1:2,
 पर्दा,,,,,,,,,,,,,,
 तो,तो,Focus,Focus,,,,,,,तो,Focus,Focus,,
 नहीं,,,,,,,,,,,,,,
@@ -811,9 +811,9 @@ the doubt is all on the flower"
 ",",,,,,,,,,,,,,,
 उसके,का,Agent,Gestalt,,का,Agent,Gestalt,,,का,Gestalt,Gestalt,,
 काम,,,,,,,,,,,,,,
-के,के आधर पर,Topic,Topic,1:1,का,Identity,Identity,,,का,Gestalt,Gestalt,1:1,on the basis of his work
-आधर,के आधर पर,,,1:2,,,,,,,,,1:2,
-पर,के आधर पर,,,1:3,पर,Topic,Topic,,,पर,Topic,Topic,1:3,en guidelines (174)
+के,के आधर पर,Topic,Topic,2:1,का,Identity,Identity,,,का,Gestalt,Gestalt,1:1,on the basis of his work
+आधर,के आधर पर,,,2:2,,,,,,,,,1:2,
+पर,के आधर पर,,,2:3,पर,Topic,Topic,,,पर,Topic,Topic,1:3,en guidelines (174)
 निर्णय,,,,,,,,,,,,,,
 लेना,,,,,,,,,,,,,,
 चाहिए,,,,,,,,,,,,,,

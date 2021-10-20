@@ -9,7 +9,7 @@ nlp = stanza.Pipeline(lang='hi', processors='tokenize,pos,lemma,depparse', token
 res = ''
 for i in range(1, 28):
     print(i)
-    with open(f'annotations/lp_adjudicated_cleaned/{i}.csv', 'r') as fin:
+    with open(f'../annotations/lp_adjudicated_cleaned/{i}.csv', 'r') as fin:
         reader = csv.reader(fin)
 
         # get all sentences from this file,
@@ -29,22 +29,26 @@ for i in range(1, 28):
 
         # to conllulex
         for sent_id, sent in enumerate(doc.sentences):
-            print(sent.text, [x[0] for x in sents[sent_id]])
-            res += f'\n# id = lp_hi_{i}_{sent_id}'
+            # print(sent.text, [x[0] for x in sents[sent_id]])
+            res += f'\n# sent_id = lp_hi_{i}_{sent_id}'
             res += f'\n# text = {sent.text}'
             for word_id, word in enumerate(sent.words):
+                # generate row for each word, first normal CONLLU stuff
                 output = [word.id, word.text, word.lemma, word.upos, word.xpos, word.feats, word.head, word.deprel]
                 output.extend([''] * 2)
-                output.append(sents[sent_id][word_id][4])
-                output.extend([''] * 2)
+
+                # now LEX features
+                output.extend([sents[sent_id][word_id][4], 'P' if sents[sent_id][word_id][2] else '', sents[sent_id][word_id][1]])
                 output.append('p.' + sents[sent_id][word_id][2])
                 output.append('p.' + sents[sent_id][word_id][3])
-                output.extend([''] * 3)
+                output.extend([''] * 4)
                 output = ['_' if x in ['', 'p.'] else x for x in output]
+
+                # add to output
                 res += '\n' + '\t'.join(map(str, output))
             res += '\n'
 
-with open('hindi.conllulex', 'w') as fout:
+with open('../hindi.conllulex', 'w') as fout:
     fout.write(res)
 
 

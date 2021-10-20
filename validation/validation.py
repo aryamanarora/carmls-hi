@@ -13,11 +13,13 @@ snacs = ('`d', '`i', 'Agent', 'Ancillary', 'Beneficiary', 'Causer', 'Characteris
 
 def main():
     for i in range(1, 28):
-        with open(f'annotations/lp_adjudicated/{i}.csv', 'r') as fin:
+        with open(f'../annotations/lp_adjudicated/{i}.csv', 'r') as fin:
             reader = csv.reader(fin)
+            mwes = set()
             for line, row in enumerate(reader):
                 if line == 0: continue
-
+                if row[0] == '':
+                    mwes = set()
                 try:
                     for x in targets:
                         assert row[x].strip() == row[x], f'Target {row[x]} should not have trailing/leading whitespace.'
@@ -37,8 +39,11 @@ def main():
                             # assert row[x], 'Target with function should have scene role annotation.'
 
                     if row[2]:
-                        pass
                         assert row[1], 'Labelled target should have lemmatised adposition given.'
+
+                    if row[4]:
+                        assert row[4] not in mwes, 'MWE IDs should be unique'
+                        mwes.add(row[4])
                     
                 except Exception as e:
                     print(i, line + 1)

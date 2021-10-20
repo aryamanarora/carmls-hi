@@ -2,7 +2,7 @@ import csv
 from validation import targets, supersenses, scene_roles, snacs
 
 for i in range(1, 28):
-    with open(f'annotations/lp_adjudicated/{i}.csv', 'r') as fin, open(f'annotations/lp_adjudicated_cleaned/{i}.csv', 'w') as fout:
+    with open(f'../annotations/lp_adjudicated/{i}.csv', 'r') as fin, open(f'../annotations/lp_adjudicated_cleaned/{i}.csv', 'w') as fout:
         rows = []
         reader = csv.reader(fin)
         writer = csv.writer(fout)
