@@ -37,8 +37,13 @@ for i in range(1, 28):
                 output = [word.id, word.text, word.lemma, word.upos, word.xpos, word.feats, word.head, word.deprel]
                 output.extend([''] * 2)
 
+                non_initial = False
+                if sents[sent_id][word_id][4]:
+                    if sents[sent_id][word_id][4].split(':')[1] != '1':
+                        non_initial = True
+
                 # now LEX features
-                output.extend([sents[sent_id][word_id][4], 'P' if sents[sent_id][word_id][2] else '', sents[sent_id][word_id][1]])
+                output.extend([sents[sent_id][word_id][4], 'P' if sents[sent_id][word_id][2] else '', sents[sent_id][word_id][1] if not non_initial else ''])
                 output.append('p.' + sents[sent_id][word_id][2])
                 output.append('p.' + sents[sent_id][word_id][3])
                 output.extend([''] * 4)
