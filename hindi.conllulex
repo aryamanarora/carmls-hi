@@ -5001,7 +5001,7 @@
 2	भी	भी	PART	RP	None	1	dep	_	_	_	P	भी	p.Focus	p.Focus	_	_	_	_
 3	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	4	det	_	_	_	_	_	_	_	_	_	_	_
 4	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obl	_	_	_	_	_	_	_	_	_	_	_
-5	तेरी	तेरा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+5	तेरी	तू	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 6	तरह	तरह	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_	1:2	_	_	_	_	_	_	_	_
 7	कहता	कह	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 8	रहता	रह	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	aux	_	_	_	_	_	_	_	_	_	_	_
