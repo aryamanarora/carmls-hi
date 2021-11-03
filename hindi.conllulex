@@ -3511,7 +3511,7 @@
 16	रहस्य	रहस्य	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_	_	_	_	_	_	_	_	_	_
 17	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_	_	_	_	_	_	_	_	_	_
 18	बीज	बीज	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_	_	_	_	_	_	_	_	_	_
-19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	18	case	_	_	3:1	P	के माध्यम सें	p.Instrument	p.Instrument	_	_	_	_
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	18	case	_	_	3:1	P	के माध्यम से	p.Instrument	p.Instrument	_	_	_	_
 20	माध्यम	माध्यम	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	obl	_	_	3:2	_	_	_	_	_	_	_	_
 21	से	से	ADP	PSP	AdpType=Post	20	case	_	_	3:3	_	_	_	_	_	_	_	_
 22	प्रस्फुटित	प्रस्फुटित	ADJ	JJ	None	24	compound	_	_	_	_	_	_	_	_	_	_	_
