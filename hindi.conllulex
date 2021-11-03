@@ -1970,8 +1970,9 @@
 19	उसे	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	20	obj	_	_	_	P	को	p.Theme	p.Theme	_	_	_	_
 20	बांधने	बांध	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	16	advcl	_	_	_	_	_	_	_	_	_	_	_
 21	के	का	ADP	PSP	AdpType=Post	20	mark	_	_	1:1	P	के लिए	p.Purpose	p.Purpose	_	_	_	_
-22	लिए।	लिए।	ADP	PSP	AdpType=Post	20	mark	_	_	1:2	_	_	_	_	_	_	_	_
-23	"	"	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
+22	लिए	लिए	ADP	PSP	AdpType=Post	20	mark	_	_	1:2	_	_	_	_	_	_	_	_
+23	।	।	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
+24	"	"	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_3_31
 # text = बांधने की बात सुनकर वह हतप्रभ सा हो गया ,
