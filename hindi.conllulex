@@ -4183,8 +4183,9 @@
 4	इंतजार	इंतजार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_	_	_	_	_	_	_	_	_	_
 5	किस	कौन	DET	WQ	Number=Sing|PronType=Int	6	det	_	_	_	_	_	_	_	_	_	_	_
 6	बात	बात	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_	_	_	_	_	_	_	_	_	_
-7	का?	का?	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	P	का	p.Purpose	p.Purpose	_	_	_	_
-8	"	"	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
+7	का	का	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	P	का	p.Purpose	p.Purpose	_	_	_	_
+8	?	?	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
+9	"	"	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_6_9
 # text = " कि सूर्यास्त हो । "
