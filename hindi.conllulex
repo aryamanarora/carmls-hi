@@ -146,7 +146,7 @@
 2	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 3	छः	छः	NUM	QC	NumType=Card	4	nummod	_	_	_	_	_	_	_	_	_	_	_
 4	साल	साल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	_	_	_	_	_	_	_	_	_	_
-5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	4	case	_	_	_	P	का	p.Characteristic	p.QuantityValue	_	_	_	_
+5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	4	case	_	_	_	P	का	p.Characteristic	p.Characteristic	_	_	_	_
 6	रहा	रह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 7	होऊँगा	हो	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_	_	_	_	_	_	_	_	_	_
 8	।	।	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -936,8 +936,8 @@
 3	पड़ा	पड़ा	PRON	PRP	Case=Nom|PronType=Prs	13	obl	_	_	_	_	_	_	_	_	_	_	_
 4	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_	_	_	_	_	_	_	_	_	_
 5	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	det	_	_	_	_	_	_	_	_	_	_	_
-6	छाया	छा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_	_	_	_	_	_	_	_	_	_
-7	सी	सा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_	_	P	सा	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+6	छाया	छाया	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_	_	_	_	_	_	_	_	_	_
+7	सी	सा	PART	RP	Case=Acc|Gender=Fem|Number=Sing	6	advmod	_	_	_	P	सा	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 8	आकृति	आकृति	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obj	_	_	_	_	_	_	_	_	_	_	_
 9	को	को	ADP	PSP	AdpType=Post	8	case	_	_	_	P	को	p.Stimulus	p.Theme	_	_	_	_
 10	खुली-खुली	खुली-खुली	ADJ	JJ	Case=Acc|Gender=Fem	11	amod	_	_	_	_	_	_	_	_	_	_	_
@@ -1003,7 +1003,8 @@
 5	तो	तो	PRON	PRP	PronType=Prs	7	obl	_	_	_	P	तो	p.NONSNACS	p.NONSNACS	_	_	_	_
 6	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	P	ने	p.Originator	p.Agent	_	_	_	_
 7	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-8	पर...	पर.	PUNCT	SYM	None	7	punct	_	_	_	P	पर	p.NONSNACS	p.NONSNACS	_	_	_	_
+8	पर	पर	CCONJ	CC	None	7	cc	_	_	_	_	_	_	_	_	_	_	_
+9	...	...	PUNCT	SYM	None	7	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_2_23
 # text = पर तू यहां क्या कर रहा है ?
