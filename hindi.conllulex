@@ -937,7 +937,7 @@
 4	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_	_	_	_	_	_	_	_	_	_
 5	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	det	_	_	_	_	_	_	_	_	_	_	_
 6	छाया	छा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_	_	_	_	_	_	_	_	_	_
-7	सी	सा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_	_	P	सा	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+7	सी	सा	PART	RP	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_	_	P	सा	p.Extent	p.Extent	_	_	_	_
 8	आकृति	आकृति	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obj	_	_	_	_	_	_	_	_	_	_	_
 9	को	को	ADP	PSP	AdpType=Post	8	case	_	_	_	P	को	p.Stimulus	p.Theme	_	_	_	_
 10	खुली-खुली	खुली-खुली	ADJ	JJ	Case=Acc|Gender=Fem	11	amod	_	_	_	_	_	_	_	_	_	_	_
@@ -1003,7 +1003,7 @@
 5	तो	तो	PRON	PRP	PronType=Prs	7	obl	_	_	_	P	तो	p.NONSNACS	p.NONSNACS	_	_	_	_
 6	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	P	ने	p.Originator	p.Agent	_	_	_	_
 7	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-8	पर...	पर	ADP	PP	None	7	punct	_	_	_	P	पर	p.NONSNACS	p.NONSNACS	_	_	_	_
+8	पर...	पर	ADP	PSP	None	7	punct	_	_	_	P	पर	p.NONSNACS	p.NONSNACS	_	_	_	_
 
 # sent_id = lp_hi_2_23
 # text = पर तू यहां क्या कर रहा है ?
@@ -3396,7 +3396,7 @@
 4	चाहता	चाह	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 5	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_	_	_	_	_	_	_	_	_	_
 6	कि	कि	SCONJ	CC	None	11	mark	_	_	_	_	_	_	_	_	_	_	_
-7	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
+7	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 8	भेड़	भेड़	NUM	QC	NumType=Card	10	nummod	_	_	_	_	_	_	_	_	_	_	_
 9	छोटे	छोटा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_	_	_	_	_	_	_	_	_	_
 10	बाओबाब	बाओबाब	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	obj	_	_	_	_	_	_	_	_	_	_	_
@@ -4182,7 +4182,7 @@
 4	इंतजार	इंतजार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_	_	_	_	_	_	_	_	_	_
 5	किस	कौन	DET	WQ	Number=Sing|PronType=Int	6	det	_	_	_	_	_	_	_	_	_	_	_
 6	बात	बात	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_	_	_	_	_	_	_	_	_	_
-7	का	का	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	P	का	p.Purpose	p.Purpose	_	_	_	_
+7	का	का	ADP	PSP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	P	का	p.Purpose	p.Purpose	_	_	_	_
 8	?	?	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
 9	"	"	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -4290,7 +4290,7 @@
 # sent_id = lp_hi_6_17
 # text = लेकिन तेरी छोटी सी धरती पर तुझे बस अपनी कुर्सी थोड़ी इधर-उधर खिसकाने की जरूरत होती होगी और तू जितनी बार चाहे सूरज का डूबना देख सकता होगा । "
 1	लेकिन	लेकिन	CCONJ	CC	None	16	cc	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
+2	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 3	छोटी	छोटा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_	_	_	_	_	_	_	_	_	_
 4	सी	सा	PART	RP	Case=Acc|Gender=Fem|Number=Sing	3	dep	_	_	_	P	सा	p.Extent	p.Extent	_	_	_	_
 5	धरती	धरती	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obl	_	_	_	_	_	_	_	_	_	_	_
@@ -4668,7 +4668,7 @@
 1	"	"	PUNCT	SYM	None	9	punct	_	_	_	_	_	_	_	_	_	_	_
 2	लेकिन	लेकिन	CCONJ	CC	None	9	cc	_	_	_	_	_	_	_	_	_	_	_
 3	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
-4	तेरी	तेरा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
+4	तेरी	तेरा	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 5	बात	बात	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obl	_	_	_	_	_	_	_	_	_	_	_
 6	पर	पर	ADP	PSP	AdpType=Post	5	case	_	_	_	P	पर	p.Topic	p.Theme	_	_	_	_
 7	विश्वास	विश्वास	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -5000,8 +5000,8 @@
 2	भी	भी	PART	RP	None	1	dep	_	_	_	P	भी	p.Focus	p.Focus	_	_	_	_
 3	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	4	det	_	_	_	_	_	_	_	_	_	_	_
 4	दिन	दिन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obl	_	_	_	_	_	_	_	_	_	_	_
-5	तेरी	तेरा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
-6	तरह	तरह	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_	1:2	_	_	_	_	_	_	_	_
+5	तेरी	तेरा	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+6	तरह	तरह	ADP	PSP	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_	1:2	_	_	_	_	_	_	_	_
 7	कहता	कह	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 8	रहता	रह	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	aux	_	_	_	_	_	_	_	_	_	_	_
 9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -5268,7 +5268,7 @@
 10	उसके	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_	1:1	P	के लिए	p.Experiencer	p.Beneficiary	_	_	_	_
 11	लिए	लिए	ADP	PSP	AdpType=Post	10	case	_	_	1:2	_	_	_	_	_	_	_	_
 12	बुझ	बुझ	VERB	VM	Number=Plur	0	root	_	_	_	_	_	_	_	_	_	_	_
-13	से	से	AUX	VAUX	Number=Plur	12	aux	_	_	_	P	से	p.Extent	p.Extent	_	_	_	_
+13	से	से	ADP	PSP	Number=Plur	12	aux	_	_	_	P	से	p.Extent	p.Extent	_	_	_	_
 14	जाएंगे	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_	_	_	_	_	_	_	_	_	_
 15	।	।	PUNCT	SYM	None	12	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -5400,7 +5400,7 @@
 # sent_id = lp_hi_7_71
 # text = मैं तेरी भेड़ का मुंह बंद करने के लिए एक ‘जाबा’ बना दूंगा , तेरे फूल के लिए कवच बना दूंगा ।
 1	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
+2	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 3	भेड़	भेड़	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_	_	_	_	_	_	_	_	_	_
 4	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	3	case	_	_	_	P	का	p.Whole	p.Whole	_	_	_	_
 5	मुंह	मुँह	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obj	_	_	_	_	_	_	_	_	_	_	_
@@ -8123,11 +8123,11 @@
 # sent_id = lp_hi_10_81
 # text = " तेरा सूर्यास्त , मिलेगा तुझे ।
 1	"	"	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
-2	तेरा	तेरा	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
+2	तेरा	तेरा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 3	सूर्यास्त	सूर्यास्त	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	,	COMMA	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
 5	मिलेगा	मिल	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	advcl	_	_	_	_	_	_	_	_	_	_	_
-6	तुझे	तुझ	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_	_	P	को	p.Recipient	p.Recipient	_	_	_	_
+6	तुझे	तुझ	PRON	PRP	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_	_	P	को	p.Recipient	p.Recipient	_	_	_	_
 7	।	।	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_10_82
@@ -9756,7 +9756,7 @@
 8	हूं	है	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	_	_	_	_	_	_	_	_
 9	और	और	CCONJ	CC	None	19	cc	_	_	_	_	_	_	_	_	_	_	_
 10	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	11	det	_	_	_	_	_	_	_	_	_	_	_
-11	बीच	बीच	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obl	_	_	_	P	बीच	p.Time	p.Time	_	_	_	_
+11	बीच	बीच	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	19	obl	_	_	_	P	बीच	p.Time	p.Time	_	_	_	_
 12	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod	_	_	_	P	का	p.Agent	p.Gestalt	_	_	_	_
 13	काम	काम	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	_	_	_	_	_	_	_	_	_	_
 14	में	में	ADP	PSP	AdpType=Post	13	case	_	_	_	P	में	p.Goal	p.Locus	_	_	_	_
@@ -10291,8 +10291,8 @@
 7	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 8	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_	_	_	_	_	_	_	_	_
 9	क्योंकि	क्योंकि	SCONJ	CC	None	15	mark	_	_	_	_	_	_	_	_	_	_	_
-10	सबसे	सबसे	ADJ	JJ	Case=Nom	11	amod	_	_	1:1	P	से पहले	p.Time	p.Time	_	_	_	_
-11	पहले	पहले	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	obl	_	_	1:2	_	_	_	_	_	_	_	_
+10	सबसे	सबसे	ADJ	JJ	Case=Nom	11	amod	_	_	_	_	_	_	_	_	_	_	_
+11	पहले	पहले	ADV	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	obl	_	_	_	P	पहले	p.Time	p.Time	_	_	_	_
 12	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	_
 13	ही	ही	PART	RP	None	12	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 14	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	15	obj	_	_	_	_	_	_	_	_	_	_	_
@@ -11372,9 +11372,9 @@
 2	परायण	परायण	ADJ	JJ	None	8	xcomp	_	_	_	_	_	_	_	_	_	_	_
 3	और	और	CCONJ	CC	None	4	cc	_	_	_	_	_	_	_	_	_	_	_
 4	आलसी	आलसी	ADJ	JJ	Case=Nom	2	conj	_	_	_	_	_	_	_	_	_	_	_
-5	एक	एक	NUM	QC	NumType=Card	8	obl	_	_	1:1	P	एक साथ	p.Ancillary	p.Ancillary	_	_	_	_
+5	एक	एक	NUM	QC	NumType=Card	8	obl	_	_	1:1	P	_	_	_	_	_	_	_
 6	ही	ही	PART	RP	None	5	dep	_	_	_	_	_	_	_	_	_	_	_
-7	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	_	1:2	_	_	_	_	_	_	_	_
+7	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	_	_	P	एक साथ	p.Ancillary	p.Ancillary	_	_	_	_
 8	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	_	_	_	_	_	_	_	_	_	_
 9	जा	जा	AUX	VAUX	None	8	aux	_	_	_	_	_	_	_	_	_	_	_
 10	सकता	सक	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	8	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -12107,7 +12107,7 @@
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
 2	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 3	किस	कौन	PRON	WQ	Case=Acc|PronType=Int	4	obl	_	_	_	_	_	_	_	_	_	_	_
-4	लिए	लिए	ADP	PP	_	0	root	_	_	_	P	लिए	p.Explanation	p.Explanation	_	_	_	_
+4	लिए	लिए	ADP	PSP	_	0	root	_	_	_	P	लिए	p.Explanation	p.Explanation	_	_	_	_
 5	?	?	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 6	"	"	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -15261,7 +15261,7 @@
 # sent_id = lp_hi_21_54
 # text = लेकिन तेरी आहट में मुझे संगीत सुनाई पड़ेगा और मैं मांद से बाहर आ जाऊँगी ।
 1	लेकिन	लेकिन	CCONJ	CC	None	7	cc	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
+2	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 3	आहट	आहट	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obl	_	_	_	_	_	_	_	_	_	_	_
 4	में	में	ADP	PSP	AdpType=Post	3	case	_	_	_	P	में	p.Circumstance	p.Circumstance	_	_	_	_
 5	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	7	obj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
@@ -15338,7 +15338,7 @@
 # sent_id = lp_hi_21_61
 # text = लेकिन तेरी आंखें सुनहरी हैं ।
 1	लेकिन	लेकिन	CCONJ	CC	None	4	cc	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरा	ADJ	JJ	Case=Nom|Gender=Fem	3	amod	_	_	_	P	का	p.Whole	p.Whole	_	_	_	_
+2	तेरी	तेरा	PRON	PRP	Case=Nom|Gender=Fem	3	amod	_	_	_	P	का	p.Whole	p.Whole	_	_	_	_
 3	आंखें	आंख	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	सुनहरी	सुनहरा	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	_	_	_	_	_	_	_	_	_	_
 5	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_	_	_	_	_	_	_	_	_
@@ -15362,7 +15362,7 @@
 2	गेहूं	गेहूँ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obj	_	_	_	_	_	_	_	_	_	_	_
 3	देखकर	देख	VERB	VM	VerbForm=Conv	7	advcl	_	_	_	_	_	_	_	_	_	_	_
 4	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
-5	तेरी	तेरा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	_	P	का	p.Topic	p.Theme	_	_	_	_
+5	तेरी	तेरा	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_	_	P	का	p.Topic	p.Theme	_	_	_	_
 6	याद	याद	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	compound	_	_	_	_	_	_	_	_	_	_	_
 7	आएगी	आ	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 8	,	COMMA	PUNCT	SYM	None	18	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -15627,7 +15627,7 @@
 3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	_	P	से	p.StartTime	p.StartTime	_	_	_	_
 4	ही	ही	PART	RP	None	2	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 5	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
-6	अच्छा	अच्छा	ADJ	JJ	Gender=Masc|Number=Sing	7	xcomp	_	_	_	_	_	_	_	_	_	_	_
+6	अच्छा	अच्छा	ADJ	JJ	Gender=Masc|Number=Sing	7	xcomp	_	lp_hi_14-76_	_	_	_	_	_	_	_	_	_
 7	लगने	लग	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 8	लगेगा	लग	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_	_	_	_	_	_	_	_	_	_
 9	।	।	PUNCT	SYM	None	7	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -15869,7 +15869,7 @@
 # sent_id = lp_hi_21_99
 # text = " तेरी ही तो गलती है ।
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
+2	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 3	ही	ही	PART	RP	None	2	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 4	तो	तो	PART	RP	None	2	dep	_	_	_	P	तो	p.Focus	p.Focus	_	_	_	_
 5	गलती	गलती	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -16299,7 +16299,7 @@
 # sent_id = lp_hi_21_125
 # text = " तुम्हारा गुलाब आज तुम्हारे लिए इतना महत्वपूर्ण इसीलिए है कि तूने उस पर इतना समय लगाया है । "
 1	"	"	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
-2	तुम्हारा	तुम्हारा	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
+2	तुम्हारा	तुम्हारा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 3	गुलाब	गुलाब	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	आज	आज	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_	_	_	_	_	_	_	_	_	_
 5	तुम्हारे	तुम	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	_	1:1	P	के लिए	p.Experiencer	p.Beneficiary	_	_	_	_
@@ -16892,7 +16892,7 @@
 # sent_id = lp_hi_24_2
 # text = " तेरी कहानी दिलचस्प है पर मेरा जहाज अभी तक ठीक नहीं हुआ और मेरे पास पीने को अब कुछ नहीं बचा है ।
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
-2	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
+2	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 3	कहानी	कहानी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	दिलचस्प	दिलचस्प	ADJ	JJ	None	0	root	_	_	_	_	_	_	_	_	_	_	_
 5	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_	_	_	_	_	_	_	_	_
@@ -18615,7 +18615,7 @@
 4	कहेगा	कह	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 5	,	COMMA	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 6	"	"	PUNCT	SYM	None	7	punct	_	_	_	_	_	_	_	_	_	_	_
-7	तेरी	तेरी	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
+7	तेरी	तेरी	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 8	पता	पता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_	_	_	_	_	_	_	_	_	_
 9	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	nmod	_	_	_	_	_	_	_	_	_	_	_
 10	क्या-क्या	क्या-क्या	ADJ	JJ	Case=Nom	11	amod	_	_	_	_	_	_	_	_	_	_	_
@@ -19155,7 +19155,7 @@
 8	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 9	,	COMMA	PUNCT	SYM	None	8	punct	_	_	_	_	_	_	_	_	_	_	_
 10	"	"	PUNCT	SYM	None	12	punct	_	_	_	_	_	_	_	_	_	_	_
-11	तेरा	तेरा	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	P	का	p.Whole	p.Whole	_	_	_	_
+11	तेरा	तेरा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	P	का	p.Whole	p.Whole	_	_	_	_
 12	जहर	जहर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_	_	_	_	_	_	_	_	_	_
 13	बहुत	बहुत	ADV	INTF	AdvType=Deg	14	advmod	_	_	_	_	_	_	_	_	_	_	_
 14	तेज	तेज	ADJ	JJ	None	8	obj	_	_	_	_	_	_	_	_	_	_	_
@@ -19432,7 +19432,7 @@
 8	खुश	खुश	ADJ	JJ	None	3	obj	_	_	_	_	_	_	_	_	_	_	_
 9	हूं	है	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_	_	_	_	_	_	_	_	_	_
 10	कि	कि	SCONJ	CC	None	14	mark	_	_	_	_	_	_	_	_	_	_	_
-11	तेरा	तेरा	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
+11	तेरा	तेरा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 12	जहाज	जहाज	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_	_	_	_	_	_	_	_	_	_
 13	ठीक	ठीक	ADJ	JJ	None	14	xcomp	_	_	_	_	_	_	_	_	_	_	_
 14	हो	हो	VERB	VM	Number=Sing|Voice=Act	8	acl	_	_	_	_	_	_	_	_	_	_	_
@@ -19454,7 +19454,7 @@
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
 2	कैसे	कैसे	PRON	WQ	PronType=Int	4	obl	_	_	_	_	_	_	_	_	_	_	_
 3	मालूम	मालूम	ADJ	JJ	None	4	compound	_	_	_	_	_	_	_	_	_	_	_
-4	तुझे	तुझ	VERB	VM	Mood=Sub|VerbForm=Fin|Voice=Act	0	root	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
+4	तुझे	तुझ	PRON	PRP	Mood=Sub|VerbForm=Fin|Voice=Act	0	root	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
 5	?	?	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 6	"	"	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -19596,7 +19596,7 @@
 12	"	"	PUNCT	SYM	None	15	punct	_	_	_	_	_	_	_	_	_	_	_
 13	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	obl	_	_	1:1	P	के पास	p.Possessor	p.Locus	_	_	_	_
 14	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	13	case	_	_	1:2	_	_	_	_	_	_	_	_
-15	तेरी	तेर	VERB	VM	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	20	acl:relcl	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
+15	तेरी	तेर	PRON	PRP	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	20	acl:relcl	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 16	दी	दे	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	15	aux	_	_	_	_	_	_	_	_	_	_	_
 17	हुई	हो	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	15	aux:pass	_	_	_	_	_	_	_	_	_	_	_
 18	भेड़	भेड़	AUX	VAUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -19956,8 +19956,9 @@
 # text = " था तो! "
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
 2	था	था	AUX	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_	_	_	_	_	_	_	_	_	_
-3	तो!	तो!	SCONJ	CC	None	0	root	_	_	_	P	तो!	p.Focus	p.Focus	_	_	_	_
-4	"	"	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
+3	तो	तो	SCONJ	CC	None	0	root	_	_	_	P	तो	p.Focus	p.Focus	_	_	_	_
+4	!	!	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
+5	"	"	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_26_65
 # text = " रातों को सितारों की ओर देखना ।
@@ -20062,7 +20063,7 @@
 4	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	_	_	_	_	_	_	_	_	_
 5	मेरा	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	_
 6	उपहार	उपहार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obj	_	_	_	_	_	_	_	_	_	_	_
-7	जैसे	जैसा	VERB	VM	Number=Plur|VerbForm=Fin|Voice=Act	2	acl	_	_	_	P	जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+7	जैसे	जैसा	ADJ	JJ	Number=Plur|VerbForm=Fin|Voice=Act	2	acl	_	_	_	P	जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 8	कि	कि	SCONJ	CC	None	9	mark	_	_	_	_	_	_	_	_	_	_	_
 9	पानी	पानी	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_	_	_	_	_	_	_	_	_	_
 10	...	...	PUNCT	SYM	None	9	punct	_	_	_	_	_	_	_	_	_	_	_
