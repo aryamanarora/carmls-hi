@@ -890,14 +890,15 @@
 # sent_id = lp_hi_2_16
 # text = तस्वीर उसकी जैसी नहीं बनी तो मेरा क्या दोष।
 1	तस्वीर	तस्वीर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
-2	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_	1:1	P	का जैसा	p.Manner	p.ComparisonRef	_	_	_	_
-3	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	1:2	_	_	_	_	_	_	_	_
-4	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	_	_	_	_	_	_	_	_	_	_
-5	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
-6	तो	तो	PRON	PRP	PronType=Prs	8	nmod	_	_	_	P	तो	p.NONSNACS	p.NONSNACS	_	_	_	_
-7	मेरा	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
-8	क्या	क्या	PRON	WQ	PronType=Int	0	root	_	_	_	_	_	_	_	_	_	_	_
-9	दोष।	दोष।	PUNCT	SYM	None	5	punct	_	_	_	_	_	_	_	_	_	_	_
+2	उस	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_	_	_	_	_	_	_	_	_	_
+3	की	का	ADP	PSP	_	2	obl	_	_	1:1	P	की जैसी	p.Manner	p.ComparisonRef	_	_	_	_
+4	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	1:2	_	_	_	_	_	_	_	_
+5	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	_	_	_	_	_	_	_	_	_	_
+6	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
+7	तो	तो	PRON	PRP	PronType=Prs	8	nmod	_	_	_	P	तो	p.NONSNACS	p.NONSNACS	_	_	_	_
+8	मेरा	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
+9	क्या	क्या	PRON	WQ	PronType=Int	0	root	_	_	_	_	_	_	_	_	_	_	_
+10	दोष।	दोष।	PUNCT	SYM	None	5	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_2_17
 # text = बचपन में ही बुजुर्गों ने हतोत्साहित जो कर दिया था ।
@@ -1969,8 +1970,9 @@
 19	उसे	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	20	obj	_	_	_	P	को	p.Theme	p.Theme	_	_	_	_
 20	बांधने	बांध	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	16	advcl	_	_	_	_	_	_	_	_	_	_	_
 21	के	का	ADP	PSP	AdpType=Post	20	mark	_	_	1:1	P	के लिए	p.Purpose	p.Purpose	_	_	_	_
-22	लिए।	लिए।	ADP	PSP	AdpType=Post	20	mark	_	_	1:2	_	_	_	_	_	_	_	_
-23	"	"	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
+22	लिए	लिए	ADP	PSP	AdpType=Post	20	mark	_	_	1:2	_	_	_	_	_	_	_	_
+23	।	।	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
+24	"	"	PUNCT	SYM	None	16	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_3_31
 # text = बांधने की बात सुनकर वह हतप्रभ सा हो गया ,
@@ -3510,7 +3512,7 @@
 16	रहस्य	रहस्य	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_	_	_	_	_	_	_	_	_	_
 17	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_	_	_	_	_	_	_	_	_	_
 18	बीज	बीज	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_	_	_	_	_	_	_	_	_	_
-19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	18	case	_	_	3:1	P	के माध्यम सें	p.Instrument	p.Instrument	_	_	_	_
+19	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	18	case	_	_	3:1	P	के माध्यम से	p.Instrument	p.Instrument	_	_	_	_
 20	माध्यम	माध्यम	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	obl	_	_	3:2	_	_	_	_	_	_	_	_
 21	से	से	ADP	PSP	AdpType=Post	20	case	_	_	3:3	_	_	_	_	_	_	_	_
 22	प्रस्फुटित	प्रस्फुटित	ADJ	JJ	None	24	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -5644,15 +5646,16 @@
 9	कर	कर	AUX	VAUX	None	8	aux	_	_	_	_	_	_	_	_	_	_	_
 10	सोचता	सोच	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 11	कि	कि	SCONJ	CC	None	19	mark	_	_	_	_	_	_	_	_	_	_	_
-12	इसमें	यह	PRON	PRP	Case=Acc,Ine|Number=Sing|Person=3|PronType=Prs	19	obl	_	_	1:1	P	में से	p.Source	p.Source	_	_	_	_
-13	से	से	ADP	PSP	AdpType=Post	12	case	_	_	1:2	_	_	_	_	_	_	_	_
-14	निश्चय	निश्चय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_	_	_	_	_	_	_	_	_	_
-15	ही	ही	PART	RP	None	14	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
-16	एक	एक	NUM	QC	NumType=Card	17	nummod	_	_	_	_	_	_	_	_	_	_	_
-17	चमत्कार	चमत्कार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	xcomp	_	_	_	_	_	_	_	_	_	_	_
-18	प्रकट	प्रकट	ADJ	JJ	None	19	compound	_	_	_	_	_	_	_	_	_	_	_
-19	होगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	obj	_	_	_	_	_	_	_	_	_	_	_
-20	।	।	PUNCT	SYM	None	10	punct	_	_	_	_	_	_	_	_	_	_	_
+12	इस	यह	PRON	PRP	Case=Acc,Ine|Number=Sing|Person=3|PronType=Prs	19	obl	_	_	_	PRON	_	_	_	_	_	_	_
+13	में	में	ADP	NST	_	12	case	_	_	1:1	P	में से	p.Source	p.Source	_	_	_	_
+14	से	से	ADP	PSP	AdpType=Post	12	case	_	_	1:2	_	_	_	_	_	_	_	_
+15	निश्चय	निश्चय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_	_	_	_	_	_	_	_	_	_
+16	ही	ही	PART	RP	None	14	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
+17	एक	एक	NUM	QC	NumType=Card	17	nummod	_	_	_	_	_	_	_	_	_	_	_
+18	चमत्कार	चमत्कार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	xcomp	_	_	_	_	_	_	_	_	_	_	_
+19	प्रकट	प्रकट	ADJ	JJ	None	19	compound	_	_	_	_	_	_	_	_	_	_	_
+20	होगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	obj	_	_	_	_	_	_	_	_	_	_	_
+21	।	।	PUNCT	SYM	None	10	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_8_8
 # text = लेकिन अपने हरे कोष्ट की छांव में पखुड़ियों के परिधान चुनती , सजती उस कली का सौंदर्य निखरता ही जा रहा था ।
@@ -5683,7 +5686,7 @@
 # sent_id = lp_hi_8_9
 # text = वह अपने सौंदर्य को भरपूर जगमगाहट के पहले साधारण फूलों की तरह प्रकट नहीं होने देना चाहती थी ।
 1	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_	_	_	_	_	_	_	_	_
-2	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	3	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
+2	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prslp_hi_14-59	3	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 3	सौंदर्य	सौंदर्य	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_	_	_	_	_	_	_	_	_	_
 4	को	को	ADP	PSP	AdpType=Post	3	case	_	_	_	P	को	p.Theme	p.Theme	_	_	_	_
 5	भरपूर	भरपूर	ADJ	JJ	Case=Acc	6	amod	_	_	_	_	_	_	_	_	_	_	_
@@ -6237,26 +6240,27 @@
 # text = इस प्रकार बावजूद इसके कि वह मन लगाकर उसकी सेवा कर रहा था उसने फूल पर संदेह करना शुरू कर दिया ।
 1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	_	_	_	_	_	_	_	_	_	_
 2	प्रकार	प्रकार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	obl	_	_	_	_	_	_	_	_	_	_	_
-3	बावजूद	बावजूद	ADP	PSP	AdpType=Post	2	case	_	_	1:1	P	के बावजूद	p.`d	p.`d	_	_	_	_
-4	इसके	यह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obl	_	_	1:2	_	_	_	_	_	_	_	_
-5	कि	कि	SCONJ	CC	None	11	mark	_	_	_	_	_	_	_	_	_	_	_
-6	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_	_	_	_	_	_	_	_	_	_
-7	मन	मन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	_	_	_	_	_	_	_	_	_	_
-8	लगाकर	लगा	VERB	VM	VerbForm=Conv	11	advcl	_	_	_	_	_	_	_	_	_	_	_
-9	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod	_	_	_	P	का	p.Beneficiary	p.Theme	_	_	_	_
-10	सेवा	सेवा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	compound	_	_	_	_	_	_	_	_	_	_	_
-11	कर	कर	VERB	VM	Gender=Masc|Number=Sing|Voice=Act	14	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
-12	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	aux	_	_	_	_	_	_	_	_	_	_	_
-13	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	aux:pass	_	_	_	_	_	_	_	_	_	_	_
-14	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	_
-15	फूल	फूल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_	_	_	_	_	_	_	_	_	_
-16	पर	पर	ADP	PSP	AdpType=Post	15	case	_	_	_	P	पर	p.Stimulus	p.Theme	_	_	_	_
-17	संदेह	संदेह	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	compound	_	_	_	_	_	_	_	_	_	_	_
-18	करना	कर	VERB	VM	Case=Nom|VerbForm=Inf	20	obj	_	_	_	_	_	_	_	_	_	_	_
-19	शुरू	शुरू	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	compound	_	_	_	_	_	_	_	_	_	_	_
-20	कर	कर	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-21	दिया	दे	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	20	aux	_	_	_	_	_	_	_	_	_	_	_
-22	।	।	PUNCT	SYM	None	20	punct	_	_	_	_	_	_	_	_	_	_	_
+3	बावजूद	बावजूद	ADP	PSP	AdpType=Post	2	case	_	_	1:1	P	बावजूद के	p.`d	p.`d	_	_	_	_
+4	इस	यह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obl	_	_	_	PRON	_	_	_	_	_	_	_
+5	के	के	ADP	NST	_	4	obl	_	_	1:2	_	_	_	_	_	_	_	_
+6	कि	कि	SCONJ	CC	None	11	mark	_	_	_	_	_	_	_	_	_	_	_
+7	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_	_	_	_	_	_	_	_	_	_
+8	मन	मन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	_	_	_	_	_	_	_	_	_	_
+9	लगाकर	लगा	VERB	VM	VerbForm=Conv	11	advcl	_	_	_	_	_	_	_	_	_	_	_
+10	उसकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod	_	_	_	P	का	p.Beneficiary	p.Theme	_	_	_	_
+11	सेवा	सेवा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	compound	_	_	_	_	_	_	_	_	_	_	_
+12	कर	कर	VERB	VM	Gender=Masc|Number=Sing|Voice=Act	14	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
+13	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	11	aux	_	_	_	_	_	_	_	_	_	_	_
+14	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	aux:pass	_	_	_	_	_	_	_	_	_	_	_
+15	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	_
+16	फूल	फूल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_	_	_	_	_	_	_	_	_	_
+17	पर	पर	ADP	PSP	AdpType=Post	15	case	_	_	_	P	पर	p.Stimulus	p.Theme	_	_	_	_
+18	संदेह	संदेह	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	compound	_	_	_	_	_	_	_	_	_	_	_
+19	करना	कर	VERB	VM	Case=Nom|VerbForm=Inf	20	obj	_	_	_	_	_	_	_	_	_	_	_
+20	शुरू	शुरू	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	compound	_	_	_	_	_	_	_	_	_	_	_
+21	कर	कर	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
+22	दिया	दे	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	20	aux	_	_	_	_	_	_	_	_	_	_	_
+23	।	।	PUNCT	SYM	None	20	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_8_53
 # text = ऐसी ही कई बातों को बहुत महत्व दे देने के कारण वह दुखी था ।
@@ -7099,7 +7103,7 @@
 18	330	330	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	conj	_	_	_	_	_	_	_	_	_	_	_
 19	नामक	नामक	ADJ	JJ	Case=Acc	20	amod	_	_	_	_	_	_	_	_	_	_	_
 20	ग्रहों	ग्रह	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	23	obl	_	_	_	_	_	_	_	_	_	_	_
-21	के	का	ADP	PSP	AdpType=Post	20	case	_	_	1:1	P	के क़रीब	p.Locus	p.Locus	_	_	_	_
+21	के	का	ADP	PSP	AdpType=Post	20	case	_	_	1:1	P	के करीब	p.Locus	p.Locus	_	_	_	_
 22	करीब	करीब	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	20	case	_	_	1:2	_	_	_	_	_	_	_	_
 23	पाया	पा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 24	।	।	PUNCT	SYM	None	23	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -7222,8 +7226,8 @@
 # text = उनके लिए अपने अलावा सब लोग प्रजा होते हैं ।
 1	उनके	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	8	obl	_	_	1:1	P	के लिए	p.Experiencer	p.Beneficiary	_	_	_	_
 2	लिए	लिए	ADP	PSP	AdpType=Post	1	case	_	_	1:2	_	_	_	_	_	_	_	_
-3	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	8	obl	_	_	2:1	P	के अलावा	p.PartPortion	p.PartPortion	_	_	_	_
-4	अलावा	अलावा	ADP	PSP	AdpType=Post	3	case	_	_	2:2	_	_	_	_	_	_	_	_
+3	अपने	अपना	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	8	obl	_	_	_	PRON	_	_	_	_	_	_	_
+4	अलावा	अलावा	ADP	PSP	AdpType=Post	3	case	_	_	_	P	अलावा	p.PartPortion	p.PartPortion	_	_	_	_
 5	सब	सब	DET	QF	PronType=Ind	6	det	_	_	_	_	_	_	_	_	_	_	_
 6	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_	_	_	_	_	_	_	_	_	_
 7	प्रजा	प्रजा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -8028,8 +8032,8 @@
 8	अपेक्षा	अपेक्षा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	compound	_	_	_	_	_	_	_	_	_	_	_
 9	रखनी	रख	VERB	VM	Gender=Fem|VerbForm=Inf|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 10	चाहिए	चाहिए	AUX	VAUX	None	9	aux	_	_	_	_	_	_	_	_	_	_	_
-11	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_	1:1	P	का	p.NONSNACS	p.NONSNACS	_	_	_	_
-12	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_	1:2	_	_	_	_	_	_	_	_
+11	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_	_	P	का	p.NONSNACS	p.NONSNACS	_	_	_	_
+12	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_	_	_	_	_	_	_	_	_	_
 13	लायक	लायक	ADJ	JJ	None	14	xcomp	_	_	_	_	_	_	_	_	_	_	_
 14	हो	हो	VERB	VM	Voice=Act	6	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
 15	।	।	PUNCT	SYM	None	9	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -8516,9 +8520,9 @@
 1	"	"	PUNCT	SYM	None	8	punct	_	_	_	_	_	_	_	_	_	_	_
 2	अगर	अगर	SCONJ	CC	None	8	mark	_	_	_	_	_	_	_	_	_	_	_
 3	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_	_	P	को	p.Agent	p.Agent	_	_	_	_
-4	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	8	obl	_	_	1:1	P	के साथ	p.Beneficiary	p.Ancillary	_	_	_	_
+4	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	8	obl	_	_	_	PRON	_	_	_	_	_	_	_
 5	ही	ही	PART	RP	None	4	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
-6	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	1:2	_	_	_	_	_	_	_	_
+6	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	_	P	साथ	p.Beneficiary	p.Ancillary	_	_	_	_
 7	न्याय	न्याय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_	_	_	_	_	_	_	_	_	_
 8	करना	कर	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	14	advcl	_	_	_	_	_	_	_	_	_	_	_
 9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_	_	_	_	_	_	_	_	_	_
@@ -10380,18 +10384,19 @@
 4	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	_
 5	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_	_	_	_	_	_	_	_	_
 6	क्योंकि	क्योंकि	SCONJ	CC	None	17	mark	_	_	_	_	_	_	_	_	_	_	_
-7	मुझसे	मैं	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	17	obl	_	_	1:1	P	से पहले	p.Time	p.Time	_	_	_	_
-8	पहले	पहले	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	7	case	_	_	1:2	_	_	_	_	_	_	_	_
-9	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_	_	_	_	_	_	_	_	_
-10	ने	ने	ADP	PSP	AdpType=Post	9	case	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	_
-11	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	17	obj	_	_	_	P	को	p.Possession	p.Theme	_	_	_	_
-12	अपनाने	अपना	VERB	VM	Case=Acc|VerbForm=Inf	17	obl	_	_	_	_	_	_	_	_	_	_	_
-13	के	का	ADP	PSP	AdpType=Post	12	mark	_	_	2:1	P	के बारे में	p.Topic	p.Topic	_	_	_	_
-14	बारे	बारे	ADP	PSP	AdpType=Post	12	mark	_	_	2:2	_	_	_	_	_	_	_	_
-15	में	में	ADP	PSP	AdpType=Post	12	mark	_	_	2:3	_	_	_	_	_	_	_	_
-16	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	17	advmod	_	_	_	_	_	_	_	_	_	_	_
-17	सोचा	सोच	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	advcl	_	_	_	_	_	_	_	_	_	_	_
-18	।	।	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
+7	मुझ	मैं	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	17	obl	_	_	_	PRON	_	_	_	_	_	_	_
+8	से	से	ADP	NST	_	7	case	_	_	1:1	P	से पहले	p.Time	p.Time	_	_	_	_
+9	पहले	पहले	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	7	case	_	_	1:2	_	_	_	_	_	_	_	_
+10	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_	_	_	_	_	_	_	_	_
+11	ने	ने	ADP	PSP	AdpType=Post	9	case	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	_
+12	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	17	obj	_	_	_	P	को	p.Possession	p.Theme	_	_	_	_
+13	अपनाने	अपना	VERB	VM	Case=Acc|VerbForm=Inf	17	obl	_	_	_	_	_	_	_	_	_	_	_
+14	के	का	ADP	PSP	AdpType=Post	12	mark	_	_	2:1	P	के बारे में	p.Topic	p.Topic	_	_	_	_
+15	बारे	बारे	ADP	PSP	AdpType=Post	12	mark	_	_	2:2	_	_	_	_	_	_	_	_
+16	में	में	ADP	PSP	AdpType=Post	12	mark	_	_	2:3	_	_	_	_	_	_	_	_
+17	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	17	advmod	_	_	_	_	_	_	_	_	_	_	_
+18	सोचा	सोच	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	advcl	_	_	_	_	_	_	_	_	_	_	_
+19	।	।	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_13_91
 # text = यह तो ठीक है पर तू करेगा क्या इनका ?
@@ -10596,8 +10601,8 @@
 # text = गम्भीर बातों के विषय में उसके विचार वयस्कों से बहुत भिन्न थे ।
 1	गम्भीर	गम्भीर	ADJ	JJ	Case=Acc	2	amod	_	_	_	_	_	_	_	_	_	_	_
 2	बातों	बात	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	4	nmod	_	_	_	_	_	_	_	_	_	_	_
-3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	_	1:1	P	का	p.Topic	p.Identity	_	_	_	_
-4	विषय	विषय	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_	1:2	_	_	_	_	_	_	_	_
+3	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	2	case	_	_	_	P	का	p.Topic	p.Identity	_	_	_	_
+4	विषय	विषय	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_	_	_	_	_	_	_	_	_	_
 5	में	में	ADP	PSP	AdpType=Post	4	case	_	_	_	P	में	p.Topic	p.Topic	_	_	_	_
 6	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	_	_	P	का	p.Experiencer	p.Gestalt	_	_	_	_
 7	विचार	विचार	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_	_	_	_	_	_	_	_	_	_
@@ -11372,9 +11377,9 @@
 2	परायण	परायण	ADJ	JJ	None	8	xcomp	_	_	_	_	_	_	_	_	_	_	_
 3	और	और	CCONJ	CC	None	4	cc	_	_	_	_	_	_	_	_	_	_	_
 4	आलसी	आलसी	ADJ	JJ	Case=Nom	2	conj	_	_	_	_	_	_	_	_	_	_	_
-5	एक	एक	NUM	QC	NumType=Card	8	obl	_	_	1:1	P	_	_	_	_	_	_	_
+5	एक	एक	NUM	QC	NumType=Card	8	obl	_	_	_	P	_	_	_	_	_	_	_
 6	ही	ही	PART	RP	None	5	dep	_	_	_	_	_	_	_	_	_	_	_
-7	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	_	_	P	एक साथ	p.Ancillary	p.Ancillary	_	_	_	_
+7	साथ	साथ	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	_	_	P	साथ	p.Ancillary	p.Ancillary	_	_	_	_
 8	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	_	_	_	_	_	_	_	_	_	_
 9	जा	जा	AUX	VAUX	None	8	aux	_	_	_	_	_	_	_	_	_	_	_
 10	सकता	सक	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	8	aux:pass	_	_	_	_	_	_	_	_	_	_	_
@@ -13262,17 +13267,18 @@
 
 # sent_id = lp_hi_17_7
 # text = उनके ख्याल से वे बहुत बड़े भू-भाग पर काबिज हैं ।
-1	उनके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	2	nmod	_	_	1:1	P	के ख़याल से	p.`d	p.`d	_	_	_	_
-2	ख्याल	ख्याल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_	1:2	_	_	_	_	_	_	_	_
-3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:3	_	_	_	_	_	_	_	_
-4	वे	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	_	_	_	_	_	_	_	_	_	_
-5	बहुत	बहुत	ADV	INTF	AdvType=Deg	6	advmod	_	_	_	_	_	_	_	_	_	_	_
-6	बड़े	बुआ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_	_	_	_	_	_	_	_	_	_
-7	भू-भाग	भू-भाग	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_	_	_	_	_	_	_	_	_	_
-8	पर	पर	ADP	PSP	AdpType=Post	7	case	_	_	_	P	पर	p.Theme	p.Theme	_	_	_	_
-9	काबिज	काबिज	ADJ	JJ	None	0	root	_	_	_	_	_	_	_	_	_	_	_
-10	हैं	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	_	_	_	_	_	_	_	_	_
-11	।	।	PUNCT	SYM	None	9	punct	_	_	_	_	_	_	_	_	_	_	_
+1	उन	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	2	nmod	_	_	_	_	_	_	_	_	_	_	_
+2	के	के	ADP	PRP	_	1	case	_	_	1:1	P	के ख्याल से	p.`d	p.`d	_	_	_	_
+3	ख्याल	ख्याल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_	1:2	_	_	_	_	_	_	_	_
+4	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:3	_	_	_	_	_	_	_	_
+5	वे	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	_	_	_	_	_	_	_	_	_	_
+6	बहुत	बहुत	ADV	INTF	AdvType=Deg	6	advmod	_	_	_	_	_	_	_	_	_	_	_
+7	बड़े	बुआ	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_	_	_	_	_	_	_	_	_	_
+8	भू-भाग	भू-भाग	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_	_	_	_	_	_	_	_	_	_
+9	पर	पर	ADP	PSP	AdpType=Post	7	case	_	_	_	P	पर	p.Theme	p.Theme	_	_	_	_
+10	काबिज	काबिज	ADJ	JJ	None	0	root	_	_	_	_	_	_	_	_	_	_	_
+11	हैं	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	_	_	_	_	_	_	_	_	_
+12	।	।	PUNCT	SYM	None	9	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_17_8
 # text = वे अपने को बाओबाब की तरह ही महत्वपूर्ण समझते हैं ।
@@ -13542,8 +13548,8 @@
 1	मेरा	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 2	ग्रह	ग्रह	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 3	ठीक	ठीक	PART	RP	None	4	dep	_	_	_	_	_	_	_	_	_	_	_
-4	हमारे	हम	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	1:1	P	के ऊपर	p.Locus	p.Locus	_	_	_	_
-5	ऊपर	ऊपर	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	1:2	_	_	_	_	_	_	_	_
+4	हमारे	हम	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	_	PRON	_	_	_	_	_	_	_
+5	ऊपर	ऊपर	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	_	P	ऊपर	p.Locus	p.Locus	_	_	_	_
 6	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_	_	_	_	_	_	_	_	_
 7	।	।	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -13991,14 +13997,14 @@
 # text = " आदमी लोग ?
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
 2	आदमी	आदमी	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_	_	_	_	_	_	_	_	_	_
-3	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	_	_	_	_	_	_	_	_	_	_
+3	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Perlp_hi_8-10son=3	0	root	_	_	_	_	_	_	_	_	_	_	_
 4	?	?	PUNCT	SYM	None	3	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_18_6
 # text = मेरे ख्याल से कुल छह-सात आदमी होंगे धरती पर ।
-1	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_	1:1	P	के ख़याल से	p.`d	p.`d	_	_	_	_
-2	ख्याल	ख्याल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	_	1:2	_	_	_	_	_	_	_	_
-3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:3	_	_	_	_	_	_	_	_
+1	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_	_	PRON	_	_	_	_	_	_	_
+2	ख्याल	ख्याल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obl	_	_	1:1	P	ख्याल से	_	_	_	_	_	_
+3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:2	_	_	_	_	_	_	_	_
 4	कुल	कुल	DET	QF	PronType=Ind	6	det	_	_	_	_	_	_	_	_	_	_	_
 5	छह-सात	छह-सात	ADJ	JJ	Case=Nom	6	amod	_	_	_	_	_	_	_	_	_	_	_
 6	आदमी	आदमी	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_	_	_	_	_	_	_	_	_	_
@@ -14472,14 +14478,15 @@
 5	ही	ही	PART	RP	None	4	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 6	बगीचे	बगीचा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obl	_	_	_	_	_	_	_	_	_	_	_
 7	में	में	ADP	PSP	AdpType=Post	6	case	_	_	_	P	में	p.Locus	p.Locus	_	_	_	_
-8	उसके	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_	1:1	P	के जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
-9	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	8	case	_	_	1:2	_	_	_	_	_	_	_	_
-10	हजारों	हजार	NUM	QC	NumType=Card|Number=Plur	11	nummod	_	_	_	_	_	_	_	_	_	_	_
-11	फूल	फूल	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_	_	_	_	_	_	_	_	_	_
-12	खिल	खिल	VERB	VM	Gender=Masc|Number=Plur|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-13	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	12	aux	_	_	_	_	_	_	_	_	_	_	_
-14	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	_	_	_	_	_	_	_	_	_	_	_
-15	।	।	PUNCT	SYM	None	12	punct	_	_	_	_	_	_	_	_	_	_	_
+8	उस	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_	_	PRON	_	_	_	_	_	_	_
+9	के	के	ADP	NST	_	8	case	_	_	1:1	P	के जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+10	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	8	case	_	_	1:2	_	_	_	_	_	_	_	_
+11	हजारों	हजार	NUM	QC	NumType=Card|Number=Plur	11	nummod	_	_	_	_	_	_	_	_	_	_	_
+12	फूल	फूल	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_	_	_	_	_	_	_	_	_	_
+13	खिल	खिल	VERB	VM	Gender=Masc|Number=Plur|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
+14	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	12	aux	_	_	_	_	_	_	_	_	_	_	_
+15	थे	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	aux:pass	_	_	_	_	_	_	_	_	_	_	_
+16	।	।	PUNCT	SYM	None	12	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_20_12
 # text = उसने सोचा कि अगर वो इन्हें देख ले तो परेशान हो जाएगा ।
@@ -15044,9 +15051,9 @@
 
 # sent_id = lp_hi_21_35
 # text = मेरे ख्याल से उसने मुझे अपना लिया है । "
-1	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_	1:1	P	के ख़याल से	p.`d	p.`d	_	_	_	_
-2	ख्याल	ख्याल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	_	1:2	_	_	_	_	_	_	_	_
-3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:3	_	_	_	_	_	_	_	_
+1	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_	_	PRON	मैं	_	_	_	_	_	_
+2	ख्याल	ख्याल	ADP	PSP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	_	1:1	P	ख्याल से	p.`d	p.`d	_	_	_	_
+3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	1:2	_	_	_	_	_	_	_	_
 4	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	_	P	ने	p.Agent	p.Agent	_	_	_	_
 5	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	6	obj	_	_	_	P	को	p.Theme	p.Theme	_	_	_	_
 6	अपना	अपना	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -18395,8 +18402,8 @@
 7	चाहिए	चाहिए	AUX	VAUX	None	6	aux	_	_	_	_	_	_	_	_	_	_	_
 8	,	COMMA	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
 9	"	"	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
-10	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	obl	_	_	1:1	P	के पास	p.Goal	p.Locus	_	_	_	_
-11	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	10	case	_	_	1:2	_	_	_	_	_	_	_	_
+10	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	obl	_	_	_	PRON	_	_	_	_	_	_	_
+11	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	10	case	_	_	_	P	पास	p.Goal	p.Locus	_	_	_	_
 12	आकर	आ	VERB	VM	VerbForm=Conv	13	advcl	_	_	_	_	_	_	_	_	_	_	_
 13	बैठता	बैठ	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	16	advcl	_	_	_	_	_	_	_	_	_	_	_
 14	हुआ	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	aux	_	_	_	_	_	_	_	_	_	_	_
@@ -18439,8 +18446,8 @@
 1	फूल	फूल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_	_	_	_	_	_	_	_	_	_
 2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	1	case	_	_	_	P	का	p.Topic	p.Topic	_	_	_	_
 3	जिम्मेदारी	जिम्मेदारी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
-4	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	1:1	P	के ऊपर	p.Gestalt	p.Locus	_	_	_	_
-5	ऊपर	ऊपर	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	1:2	_	_	_	_	_	_	_	_
+4	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	_	PRON	_	_	_	_	_	_	_
+5	ऊपर	ऊपर	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	4	case	_	_	_	P	ऊपर	p.Gestalt	p.Locus	_	_	_	_
 6	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	_	_	_	_	_	_	_	_	_
 7	।	।	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 8	"	"	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -20189,22 +20196,23 @@
 10	चूंकि	चूंकि	SCONJ	CC	None	18	mark	_	_	_	_	_	_	_	_	_	_	_
 11	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_	_	_	_	_	_	_	_	_	_
 12	भी	भी	PART	RP	None	11	dep	_	_	_	P	भी	p.Focus	p.Focus	_	_	_	_
-13	उनमें	वह	PRON	PRP	Case=Acc,Ine|Number=Plur|Person=3|PronType=Prs	18	obl	_	_	2:1	P	में से	p.Whole	p.Source	_	_	_	_
-14	से	से	ADP	PSP	AdpType=Post	13	case	_	_	2:2	_	_	_	_	_	_	_	_
-15	एक	एक	NUM	QC	NumType=Card	16	nummod	_	_	_	_	_	_	_	_	_	_	_
-16	सितारे	सितारा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_	_	_	_	_	_	_	_	_	_
-17	पर	पर	ADP	PSP	AdpType=Post	16	case	_	_	_	P	पर	p.Locus	p.Locus	_	_	_	_
-18	होऊँगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
-19	,	COMMA	PUNCT	SYM	None	18	punct	_	_	_	_	_	_	_	_	_	_	_
-20	तुझे	तुझ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
-21	लगेगा	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-22	कि	कि	SCONJ	CC	None	25	mark	_	_	_	_	_	_	_	_	_	_	_
-23	सारे	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	24	det	_	_	_	_	_	_	_	_	_	_	_
-24	सितारे	सितारा	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	25	nsubj	_	_	_	_	_	_	_	_	_	_	_
-25	हंस	हंस	VERB	VM	Gender=Masc|Number=Plur|Voice=Act	21	obj	_	_	_	_	_	_	_	_	_	_	_
-26	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	25	aux	_	_	_	_	_	_	_	_	_	_	_
-27	हों	है	AUX	VAUX	Number=Plur	25	aux:pass	_	_	_	_	_	_	_	_	_	_	_
-28	।	।	PUNCT	SYM	None	21	punct	_	_	_	_	_	_	_	_	_	_	_
+13	उन	वह	PRON	PRP	Case=Acc,Ine|Number=Plur|Person=3|PronType=Prs	18	obl	_	_	_	PRON	_	_	_	_	_	_	_
+14	में	में	ADP	NST	_	13	obl	_	_	2:1	P	में से	p.Whole	p.Source	_	_	_	_
+15	से	से	ADP	PSP	AdpType=Post	13	case	_	_	2:2	_	_	_	_	_	_	_	_
+16	एक	एक	NUM	QC	NumType=Card	16	nummod	_	_	_	_	_	_	_	_	_	_	_
+17	सितारे	सितारा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_	_	_	_	_	_	_	_	_	_
+18	पर	पर	ADP	PSP	AdpType=Post	16	case	_	_	_	P	पर	p.Locus	p.Locus	_	_	_	_
+19	होऊँगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
+20	,	COMMA	PUNCT	SYM	None	18	punct	_	_	_	_	_	_	_	_	_	_	_
+21	तुझे	तुझ	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	_
+22	लगेगा	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
+23	कि	कि	SCONJ	CC	None	25	mark	_	_	_	_	_	_	_	_	_	_	_
+24	सारे	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	24	det	_	_	_	_	_	_	_	_	_	_	_
+25	सितारे	सितारा	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	25	nsubj	_	_	_	_	_	_	_	_	_	_	_
+26	हंस	हंस	VERB	VM	Gender=Masc|Number=Plur|Voice=Act	21	obj	_	_	_	_	_	_	_	_	_	_	_
+27	रहे	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	25	aux	_	_	_	_	_	_	_	_	_	_	_
+28	हों	है	AUX	VAUX	Number=Plur	25	aux:pass	_	_	_	_	_	_	_	_	_	_	_
+29	।	।	PUNCT	SYM	None	21	punct	_	_	_	_	_	_	_	_	_	_	_
 
 # sent_id = lp_hi_26_83
 # text = इस तरह सितारों को हंसना भी आएगा । " और फिर वह हंसने लगा ।
@@ -20526,8 +20534,8 @@
 # text = " मैं तेरे पास नहीं जाऊँगा । "
 1	"	"	PUNCT	SYM	None	2	punct	_	_	_	_	_	_	_	_	_	_	_
 2	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_	_	_	_	_	_	_	_	_	_
-3	तेरे	तै	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	obl	_	_	1:1	P	के पास	p.Goal	p.Locus	_	_	_	_
-4	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	3	case	_	_	1:2	_	_	_	_	_	_	_	_
+3	तेरे	तै	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	obl	_	_	_	PRON	_	_	_	_	_	_	_
+4	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	3	case	_	_	_	P	पास	p.Goal	p.Locus	_	_	_	_
 5	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	_	_	_	_	_	_	_	_
 6	जाऊँगा	जा	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
 7	।	।	PUNCT	SYM	None	6	punct	_	_	_	_	_	_	_	_	_	_	_
@@ -21323,7 +21331,7 @@
 11	लिए	लिए	ADP	PSP	AdpType=Post	10	case	_	_	2:2	_	_	_	_	_	_	_	_
 12	भी	भी	PART	RP	None	10	dep	_	_	_	P	भी	p.Focus	p.Focus	_	_	_	_
 13	जो	जो	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_	_	_	_	_	_	_	_	_	_
-14	मेरी	मैं	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod	_	_	3:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+14	मेरी	मैं	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod	_	_	3:1	P	मेरी तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 15	ही	ही	PART	RP	None	14	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 16	तरह	तरह	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	obl	_	_	3:2	_	_	_	_	_	_	_	_
 17	नन्हे	नन्हा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_	_	_	_	_	_	_	_	_	_
