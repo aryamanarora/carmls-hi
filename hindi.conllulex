@@ -891,14 +891,16 @@
 # text = तस्वीर उसकी जैसी नहीं बनी तो मेरा क्या दोष।
 1	तस्वीर	तस्वीर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	_	_	_	_	_	_	_	_
 2	उस	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obl	_	_	_	_	_	_	_	_	_	_	_
-3	की	का	ADP	PSP	_	2	obl	_	_	1:1	P	की जैसी	p.Manner	p.ComparisonRef	_	_	_	_
-4	जैसी	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	1:2	_	_	_	_	_	_	_	_
+3	की	की	ADP	PSP	_	2	obl	_	_	1:1	P	की जैसी	p.Manner	p.ComparisonRef	_	_	_	_
+4	जैसी	जैसी	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	_	1:2	_	_	_	_	_	_	_	_
 5	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	_	_	_	_	_	_	_	_	_	_
 6	बनी	बन	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	_	_	_	_	_	_	_	_	_	_
 7	तो	तो	PRON	PRP	PronType=Prs	8	nmod	_	_	_	P	तो	p.NONSNACS	p.NONSNACS	_	_	_	_
 8	मेरा	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	_
 9	क्या	क्या	PRON	WQ	PronType=Int	0	root	_	_	_	_	_	_	_	_	_	_	_
-10	दोष।	दोष।	PUNCT	SYM	None	5	punct	_	_	_	_	_	_	_	_	_	_	_
+10	दोष	दोष	NOUN	NN	None	9	obj	_	_	_	_	_	_	_	_	_	_	_
+11	।	।।	PUNCT	SYM	None	5	punct	_	_	_	_	_	_	_	_	_	_	_
+
 
 # sent_id = lp_hi_2_17
 # text = बचपन में ही बुजुर्गों ने हतोत्साहित जो कर दिया था ।
@@ -5691,11 +5693,11 @@
 4	को	को	ADP	PSP	AdpType=Post	3	case	_	_	_	P	को	p.Theme	p.Theme	_	_	_	_
 5	भरपूर	भरपूर	ADJ	JJ	Case=Acc	6	amod	_	_	_	_	_	_	_	_	_	_	_
 6	जगमगाहट	जगमगाहट	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_	_	_	_	_	_	_	_	_	_
-7	के	का	ADP	PSP	AdpType=Post	6	case	_	_	1:1	P	के पहले	p.Time	p.Time	_	_	_	_
-8	पहले	पहला	ADJ	QO	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	10	amod	_	_	1:2	_	_	_	_	_	_	_	_
+7	के	के	ADP	PSP	AdpType=Post	6	case	_	_	1:1	P	के पहले	p.Time	p.Time	_	_	_	_
+8	पहले	पहले	ADJ	QO	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	10	amod	_	_	1:2	_	_	_	_	_	_	_	_
 9	साधारण	साधारण	ADJ	JJ	Case=Acc	8	amod	_	_	_	_	_	_	_	_	_	_	_
 10	फूलों	फूल	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	15	obl	_	_	_	_	_	_	_	_	_	_	_
-11	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	10	case	_	_	2:1	P	की तरह	p.Manner	p.ComparisonRef	_	_	_	_
+11	की	की	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	10	case	_	_	2:1	P	की तरह	p.Manner	p.ComparisonRef	_	_	_	_
 12	तरह	तरह	ADP	PSP	Case=Acc|Gender=Fem	10	case	_	_	2:2	_	_	_	_	_	_	_	_
 13	प्रकट	प्रकट	ADJ	JJ	None	15	compound	_	_	_	_	_	_	_	_	_	_	_
 14	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	15	advmod	_	_	_	_	_	_	_	_	_	_	_
@@ -6980,7 +6982,7 @@
 2	तो	तो	PART	RP	None	1	dep	_	_	_	P	तो	p.`d	p.`d	_	_	_	_
 3	कौन	कौन	PRON	WQ	PronType=Int	4	nsubj	_	_	_	_	_	_	_	_	_	_	_
 4	आएगा	आ	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
-5	मेरे	मैं	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	obl	_	_	1:1	P	के पास	p.Goal	p.Locus	_	_	_	_
+5	मेरे	मेरे	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	obl	_	_	1:1	P	मेरे पास	p.Goal	p.Locus	_	_	_	_
 6	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	_	1:2	_	_	_	_	_	_	_	_
 7	।	।	PUNCT	SYM	None	4	punct	_	_	_	_	_	_	_	_	_	_	_
 
@@ -6996,7 +6998,7 @@
 
 # sent_id = lp_hi_9_43
 # text = जहां तक बड़े जानवरों का सवाल है , मुझे कोई डर नहीं ... मेरे कांटे जो हैं । "
-1	जहां	जहाँ	PRON	PRP	Case=Acc|PronType=Prs	3	obl	_	_	1:1	P	जहां तक	p.`d	p.`d	_	_	_	_
+1	जहां	जहां	PRON	PRP	Case=Acc|PronType=Prs	3	obl	_	_	1:1	P	जहां तक	p.`d	p.`d	_	_	_	_
 2	तक	तक	ADP	PSP	AdpType=Post	1	case	_	_	1:2	_	_	_	_	_	_	_	_
 3	बड़े	बु	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_	_	_	_	_	_	_	_	_	_
 4	जानवरों	जानवर	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	6	nmod	_	_	_	_	_	_	_	_	_	_	_
@@ -8477,7 +8479,7 @@
 
 # sent_id = lp_hi_10_116
 # text = अपने प्रति न्याय करना दूसरे को न्याय देने से अधिक कठिन होता है ।
-1	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	4	obl	_	_	1:1	P	के प्रति	p.Beneficiary	p.Direction	_	_	_	_
+1	अपने	अपने	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	4	obl	_	_	1:1	P	अपने प्रति	p.Beneficiary	p.Direction	_	_	_	_
 2	प्रति	प्रति	ADP	PSP	AdpType=Post	1	case	_	_	1:2	_	_	_	_	_	_	_	_
 3	न्याय	न्याय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_	_	_	_	_	_	_	_	_	_
 4	करना	कर	VERB	VM	Case=Nom|VerbForm=Inf	12	nsubj	_	_	_	_	_	_	_	_	_	_	_
@@ -14480,7 +14482,7 @@
 7	में	में	ADP	PSP	AdpType=Post	6	case	_	_	_	P	में	p.Locus	p.Locus	_	_	_	_
 8	उस	वह	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_	_	PRON	_	_	_	_	_	_	_
 9	के	के	ADP	NST	_	8	case	_	_	1:1	P	के जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
-10	जैसे	जैसा	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	8	case	_	_	1:2	_	_	_	_	_	_	_	_
+10	जैसे	जैसे	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	8	case	_	_	1:2	_	_	_	_	_	_	_	_
 11	हजारों	हजार	NUM	QC	NumType=Card|Number=Plur	11	nummod	_	_	_	_	_	_	_	_	_	_	_
 12	फूल	फूल	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_	_	_	_	_	_	_	_	_	_
 13	खिल	खिल	VERB	VM	Gender=Masc|Number=Plur|Voice=Act	0	root	_	_	_	_	_	_	_	_	_	_	_
@@ -21331,7 +21333,7 @@
 11	लिए	लिए	ADP	PSP	AdpType=Post	10	case	_	_	2:2	_	_	_	_	_	_	_	_
 12	भी	भी	PART	RP	None	10	dep	_	_	_	P	भी	p.Focus	p.Focus	_	_	_	_
 13	जो	जो	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_	_	_	_	_	_	_	_	_	_
-14	मेरी	मैं	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod	_	_	3:1	P	मेरी तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
+14	मेरी	मेरी	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod	_	_	3:1	P	मेरी तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 15	ही	ही	PART	RP	None	14	dep	_	_	_	P	ही	p.Focus	p.Focus	_	_	_	_
 16	तरह	तरह	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	obl	_	_	3:2	_	_	_	_	_	_	_	_
 17	नन्हे	नन्हा	ADJ	JJ	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_	_	_	_	_	_	_	_	_	_
