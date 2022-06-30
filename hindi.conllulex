@@ -492,14 +492,16 @@
 1	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Sing	2	det	_	_	_	DET	सारा	_	_	_	_	_	_
 2	दुनिया	दुनिया	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	obl	_	_	_	N	दुनिया	_	_	_	_	_	_
 3	में	में	ADP	PSP	AdpType=Post	2	case	_	_	_	P	में	p.Path	p.Locus	_	_	_	_
-4	उड़ता	उु	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	उु	_	_	_	_	_	_
-5	फिरा।	फिरा।	PUNCT	SYM	None=	4	punct	_	_	_	PUNCT	फिरा।	_	_	_	_	_	_
+4	उड़ता	उड़	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	उड़	_	_	_	_	_	_
+5	फिरा	फिरा	AUX	VAUX	_	4	aux	_	_	_	AUX	फिरा	_	_	_	_	_	_
+6	।	।	PUNCT	SYM	None=	4	punct	_	_	_	PUNCT	।	_	_	_	_	_	_
+
 
 # sent_id = lp_hi_1-32
 # text = भूगोल पढ़ना काफी काम आया ।
 # mwe = भूगोल पढ़ना काफी काम आया ।
 1	भूगोल	भूगोल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	_	_	N	भूगोल	_	_	_	_	_	_
-2	पढ़ना	पढ़ना	ADP	PSP	AdpType=Post	1	case	_	_	_	P	पढ़ना	_	_	_	_	_	_
+2	पढ़ना	पढ़ना	VERB	VM	_	1	case	_	_	_	V	पढ़ना	_	_	_	_	_	_
 3	काफी	काफी	DET	QF	PronType=Ind	4	det	_	_	_	DET	काफी	_	_	_	_	_	_
 4	काम	काम	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	N	काम	_	_	_	_	_	_
 5	आया	आ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	आ	_	_	_	_	_	_
@@ -3569,7 +3571,7 @@
 11	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_	_	PRON	वह	_	_	_	_	_	_
 12	बाओबाब	बाओबाब	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	_	_	N	बाओबाब	_	_	_	_	_	_
 13	के	का	ADP	PSP	AdpType=Post	12	case	_	_	_	P	का	p.Identity	p.Identity	_	_	_	_
-14	पेड़	पेड़	ADP	PSP	AdpType=Post	12	case	_	_	_	P	पेड़	_	_	_	_	_	_
+14	पेड़	पेड़	NOUN	NN	_	12	case	_	_	_	N	पेड़	_	_	_	_	_	_
 15	भी	भी	PART	RP	None=	12	dep	_	_	_	PART	भी	p.Focus	p.Focus	_	_	_	_
 16	खाती	खा	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	6	obj	_	_	_	V	खा	_	_	_	_	_	_
 17	होगी	हो	AUX	VAUX	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_	_	AUX	हो	_	_	_	_	_	_
@@ -15895,7 +15897,7 @@
 3	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	_	PRON	वह	_	_	_	_	_	_
 4	तरह-तरह	तरह-तरह	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obl	_	_	_	N	तरह-तरह	_	_	_	_	_	_
 5	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc	3	case	_	_	_	P	का	p.Characteristic	p.Characteristic	_	_	_	_
-6	बहाने	बहाना	ADP	PSP	Case=Acc|Gender=Masc	3	case	_	_	_	P	बहाना	_	_	_	_	_	_
+6	बहाने	बहाना	NOUN	NN	Case=Acc|Gender=Masc	3	case	_	_	_	N	बहाना	_	_	_	_	_	_
 7	बनाएगा	बना	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	V	बना	_	_	_	_	_	_
 8	जैसे	जैसे	SCONJ	CC	None=	6	mark	_	_	_	P	जैसे	p.ComparisonRef	p.ComparisonRef	_	_	_	_
 9	मर	मर	VERB	VM	Gender=Masc|Voice=Act	6	advcl	_	_	_	V	मर	_	_	_	_	_	_
