@@ -95,7 +95,7 @@
 4	पर्याप्त	पर्याप्त	ADJ	JJ	None=	6	xcomp	_	_	_	ADJ	पर्याप्त	_	_	_	_	_	_
 5	न	न	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	PART	न	_	_	_	_	_	_
 6	लगें	लग	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	advcl	_	_	_	V	लग	_	_	_	_	_	_
-7	तो	तो	SCONJ	CC	None=	6	mark	_	_	_	P	तो	_	_	_	_	_	_
+7	तो	तो	SCONJ	CC	None=	6	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 8	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	_
 9	पुस्तक	पुस्तक	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obj	_	_	_	N	पुस्तक	_	_	_	_	_	_
 10	अपने	अपने	PRON	PRP	Case=Acc|Gender=Masc|PronType=Prs	11	nmod	_	_	_	PRON	अपने	p.SocialRel	p.Gestalt	_	_	_	_
@@ -530,7 +530,7 @@
 3	जहाज	जहाज	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_	_	N	जहाज	_	_	_	_	_	_
 4	भटक	भटक	VERB	VM	Number=Sing|Person=3|Voice=Act	11	advcl	_	_	_	V	भटक	_	_	_	_	_	_
 5	जाए	जा	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	4	aux	_	_	_	AUX	जा	_	_	_	_	_	_
-6	तो	तो	SCONJ	CC	None=	11	mark	_	_	_	P	तो	_	_	_	_	_	_
+6	तो	तो	SCONJ	CC	None=	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 7	भूगोल	भूगोल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	_	_	N	भूगोल	_	_	_	_	_	_
 8	पढ़ना	पुन	VERB	VM	Case=Nom|VerbForm=Inf	11	nsubj	_	_	_	V	पुन	_	_	_	_	_	_
 9	बहुत	बहुत	DET	QF	PronType=Ind	10	det	_	_	_	DET	बहुत	_	_	_	_	_	_
@@ -1922,7 +1922,7 @@
 3	पूछा	पूछ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	पूछ	_	_	_	_	_	_
 4	,	COMMA	PUNCT	SYM	None=	2	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	_
 5	"	"	PUNCT	SYM	None=	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	_
-6	तो	तो	SCONJ	CC	None=	11	mark	_	_	_	P	तो	_	_	_	_	_	_
+6	तो	तो	SCONJ	CC	None=	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 7	तू	तू	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_	_	PRON	तू	_	_	_	_	_	_
 8	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_	_	PRON	कोई	_	_	_	_	_	_
 9	दूसरे	दूसरा	ADJ	QO	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	9	amod	_	_	_	ADJ	दूसरा	_	_	_	_	_	_
@@ -2140,7 +2140,7 @@
 4	भला	भला	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	_	_	N	भला	_	_	_	_	_	_
 5	लड़का	लुक	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	16	advcl	_	_	_	V	लुक	_	_	_	_	_	_
 6	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_	_	AUX	है	_	_	_	_	_	_
-7	तो	तो	SCONJ	CC	None=	16	mark	_	_	_	P	तो	_	_	_	_	_	_
+7	तो	तो	SCONJ	CC	None=	16	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 8	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	_
 9	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_	_	PRON	तुझे	p.Recipient	p.Recipient	_	_	_	_
 10	एक	एक	NUM	QC	NumType=Card	11	nummod	_	_	_	NUM	एक	_	_	_	_	_	_
@@ -2202,7 +2202,7 @@
 6	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	6	obj	_	_	_	PRON	उसे	p.Theme	p.Theme	_	_	_	_
 7	बांधा	बांध	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	advcl	_	_	_	V	बांध	_	_	_	_	_	_
 8	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	_
-9	तो	तो	SCONJ	CC	None=	12	mark	_	_	_	P	तो	_	_	_	_	_	_
+9	तो	तो	SCONJ	CC	None=	12	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 10	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_	_	PRON	वह	_	_	_	_	_	_
 11	जहां	जहाँ	PRON	PRP	Case=Nom|PronType=Prs	12	obl	_	_	_	PRON	जहाँ	_	_	_	_	_	_
 12	मन	मन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	N	मन	_	_	_	_	_	_
@@ -4694,7 +4694,7 @@
 8	बस	बस	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	obj	_	_	_	N	बस	_	_	_	_	_	_
 9	अपनी	अपनी	PRON	PRP	Case=Acc|Gender=Fem|PronType=Prs	10	nmod	_	_	_	PRON	अपनी	p.Possessor	p.Possessor	_	_	_	_
 10	कुर्सी	कुर्सी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	obl	_	_	_	N	कुर्सी	_	_	_	_	_	_
-11	थोड़ी	थो	ADP	PSP	AdpType=Post	10	case	_	_	_	P	थो	_	_	_	_	_	_
+11	थोड़ी	थोड़ी	ADJ	JJ	_	10	case	_	_	_	ADJ	थोड़ी	_	_	_	_	_	_
 12	इधर-उधर	इधर-उधर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	_	_	N	इधर-उधर	_	_	_	_	_	_
 13	खिसकाने	खिसका	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	15	nmod	_	_	_	V	खिसका	_	_	_	_	_	_
 14	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	13	mark	_	_	_	P	का	p.Theme	p.Theme	_	_	_	_
@@ -9197,7 +9197,7 @@
 6	कर	कर	AUX	VAUX	None=	4	aux	_	_	_	AUX	कर	_	_	_	_	_	_
 7	देखा	देख	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	देख	_	_	_	_	_	_
 8	भी	भी	PART	RP	None=	6	dep	_	_	_	PART	भी	p.Focus	p.Focus	_	_	_	_
-9	तो	तो	SCONJ	CC	None=	6	mark	_	_	_	P	तो	_	_	_	_	_	_
+9	तो	तो	SCONJ	CC	None=	6	mark	_	_	_	SCONJ	तो	_	_	_	_	_	_
 10	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	_
 11	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_	_	AUX	है	_	_	_	_	_	_
 12	।	।	PUNCT	SYM	None=	6	punct	_	_	_	PUNCT	।	_	_	_	_	_	_
