@@ -2385,7 +2385,7 @@
 8	खोज	खोज	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	compound	_	_	_	N	खोज	_	_	_	_	_	O-N
 9	करता	कर	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	19	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
 10	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-11	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+11	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 12	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 13	उस	उस	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 14	की	की	ADP	PRP	_	12	case	_	_	_	P	की	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
@@ -2624,7 +2624,7 @@
 9	में	में	ADP	PSP	AdpType=Post	5	case	_	_	1:3	_	_	_	_	_	_	_	I_
 10	बातें	बात	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	10	compound	_	_	_	N	बात	_	_	_	_	_	O-N
 11	करें	कर	VERB	VM	Mood=Sub|Number=Sing|Person=3|Polite=Form|VerbForm=Fin|Voice=Act	18	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
-12	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	वे	वह	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 14	कभी	कभी	PRON	PRP	PronType=Prs	18	obl	_	_	_	PRON	कभी	_	_	_	_	_	O-PRON
 15	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_	_	PRON	कोई	_	_	_	_	_	O-PRON
@@ -2779,7 +2779,7 @@
 # sent_id = lp_hi_4-28
 # text = तो वे ऐसे घर की कल्पना भी नहीं कर पायेंगे ।
 # mwe = तो वे ऐसे घर की कल्पना भी नहीं कर पायेंगे ।
-1	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	वे	वह	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 3	ऐसे	ऐसा	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_	_	DET	ऐसा	_	_	_	_	_	O-DET
 4	घर	घर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_	_	N	घर	_	_	_	_	_	O-N
@@ -2894,7 +2894,7 @@
 # text = , तो ये लोग कंधा उचका कर तुम्हें बच्चा समझ लेंगे ।
 # mwe = , तो ये लोग कंधा उचका कर तुम्हें बच्चा समझ लेंगे ।
 1	,	COMMA	PUNCT	SYM	None=_	10	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
-2	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+2	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 3	ये	यह	DET	DEM	Case=Nom|Number=Plur|Person=3|PronType=Dem	4	det	_	_	_	DET	यह	_	_	_	_	_	O-DET
 4	लोग	लोग	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	nsubj	_	_	_	N	लोग	_	_	_	_	_	O-N
 5	कंधा	कंधा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	obj	_	_	_	N	कंधा	_	_	_	_	_	O-N
@@ -2927,7 +2927,7 @@
 16	बी-612	बी-612	NUM	QC	NumType=Card	4	obj	_	_	_	NUM	बी-612	_	_	_	_	_	O-NUM
 17	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 18	,	COMMA	PUNCT	SYM	None=_	15	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
-19	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+19	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 20	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 21	मान	मान	VERB	VM	Number=Sing|Person=3|Polite=Form|Voice=Act	0	root	_	_	_	V	मान	_	_	_	_	_	O-V
 22	जायेंगे	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin	20	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
@@ -3184,14 +3184,14 @@
 8	।	।	PUNCT	SYM	None=_	5	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_4-51
-# text = इस उम्र में चित्रकारी फिर_से शुरू करना कठिन होता है ।
-# mwe = इस उम्र में चित्रकारी फिर_से शुरू करना कठिन होता है ।
+# text = इस उम्र में चित्रकारी फिर से शुरू करना कठिन होता है ।
+# mwe = इस उम्र में चित्रकारी फिर से शुरू करना कठिन होता है ।
 1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	2	det	_	_	_	DET	यह	_	_	_	_	_	O-DET
 2	उम्र	उम्र	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	obl	_	_	_	N	उम्र	_	_	_	_	_	O-N
 3	में	में	ADP	PSP	AdpType=Post	2	case	_	_	_	P	में	p.Time	p.Time	_	_	_	O-P-p.Time
 4	चित्रकारी	चित्रकारी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obj	_	_	_	N	चित्रकारी	_	_	_	_	_	O-N
-5	फिर	फिर	ADV	RB	None=_	8	advmod	_	_	1:1	P	फिर से	p.`d	p.`d	_	_	_	B-P-p.`d
-6	से	से	PART	RP	None=_	5	dep	_	_	1:2	_	_	_	_	_	_	_	I_
+5	फिर	फिर	ADV	RB	None=_	8	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
+6	से	से	PART	RP	None=_	5	dep	_	_	_	PART	से	_	_	_	_	_	O-PART
 7	शुरू	शुरू	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_	_	N	शुरू	_	_	_	_	_	O-N
 8	करना	कर	VERB	VM	Case=Nom|VerbForm=Inf	10	nsubj	_	_	_	V	कर	_	_	_	_	_	O-V
 9	कठिन	कठिन	ADJ	JJ	None=_	10	compound	_	_	_	ADJ	कठिन	_	_	_	_	_	O-ADJ
@@ -3258,12 +3258,12 @@
 4	चित्र	चित्र	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	_	_	N	चित्र	_	_	_	_	_	O-N
 5	बनाता	बना	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	10	advcl	_	_	_	V	बना	_	_	_	_	_	O-V
 6	हूं	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	एक	एक	NUM	QC	NumType=Card	10	nsubj	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
 9	ठीक	ठीक	ADJ	JJ	None=_	10	xcomp	_	_	_	ADJ	ठीक	_	_	_	_	_	O-ADJ
 10	बनता	बन	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	14	advcl	_	_	_	V	बन	_	_	_	_	_	O-V
 11	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-12	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	दूसरा	दूसरा	ADJ	QO	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing	14	compound	_	_	_	ADJ	दूसरा	_	_	_	_	_	O-ADJ
 14	बिगड़	बिगड़	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	V	बिगड़	_	_	_	_	_	O-V
 15	जाता	जा	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	14	aux:pass	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
@@ -3883,7 +3883,7 @@
 5	गुलाब	गुलाब	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	conj	_	_	_	N	गुलाब	_	_	_	_	_	O-N
 6	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	3	case	_	_	_	P	का	p.Identity	p.Identity	_	_	_	O-P-p.Identity
 7	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-8	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+8	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 9	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	13	obj	_	_	_	PRON	उसे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 10	पनपने	पनप	VERB	VM	Case=Acc|VerbForm=Inf	13	advcl	_	_	_	V	पनप	_	_	_	_	_	O-V
 11	के	का	ADP	PSP	AdpType=Post	10	mark	_	_	1:1	P	के लिए	p.Purpose	p.Purpose	_	_	_	B-P-p.Purpose
@@ -3905,7 +3905,7 @@
 6	पौधे	पौधा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obl	_	_	_	N	पौधा	_	_	_	_	_	O-N
 7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	6	case	_	_	_	P	का	p.Identity	p.Identity	_	_	_	O-P-p.Identity
 8	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	16	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-9	तो	तो	SCONJ	CC	None=_	16	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	16	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	जैसे	जैसे	ADV	RB	None=_	13	advmod	_	_	1:1	P	जैसे ही	p.Time	p.Time	_	_	_	B-P-p.Time
 11	ही	ही	PART	RP	None=_	10	dep	_	_	1:2	_	_	_	_	_	_	_	I_
 12	पता	पता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	_	_	N	पता	_	_	_	_	_	O-N
@@ -3975,7 +3975,7 @@
 13	,	COMMA	PUNCT	SYM	None=_	8	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 14	पता	पता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	_	_	N	पता	_	_	_	_	_	O-N
 15	चले	चल	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	advcl	_	_	_	V	चल	_	_	_	_	_	O-V
-16	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+16	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 17	फिर	फिर	ADV	RB	None=_	20	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
 18	उस	उस	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 19	से	से	ADP	PRP	_	16	case	_	_	_	P	से	p.Theme	p.Source	_	_	_	O-P-p.Theme|p.Source
@@ -4157,7 +4157,7 @@
 5	कभी	कभी	PRON	PRP	PronType=Prs	6	obl	_	_	_	PRON	कभी	_	_	_	_	_	O-PRON
 6	यात्रा	यात्रा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	compound	_	_	_	N	यात्रा	_	_	_	_	_	O-N
 7	की	कर	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
-8	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+8	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 9	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	9	det	_	_	_	DET	यह	_	_	_	_	_	O-DET
 10	चित्र	चित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	_	_	N	चित्र	_	_	_	_	_	O-N
 11	से	से	ADP	PSP	AdpType=Post	9	case	_	_	_	P	से	p.Source	p.Source	_	_	_	O-P-p.Source
@@ -4659,7 +4659,7 @@
 6	फ्रांस	फ्रांस	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	obl	_	_	_	N	फ्रांस	_	_	_	_	_	O-N
 7	पहुंच	पहुंच	VERB	VM	Number=Sing|Person=3|Voice=Act	15	advcl	_	_	_	V	पहुंच	_	_	_	_	_	O-V
 8	जाए	जा	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
-9	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	दोपहर	दोपहर	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obl	_	_	_	N	दोपहर	_	_	_	_	_	O-N
 11	के	का	ADP	PSP	AdpType=Post	10	case	_	_	1:1	P	के बाद	p.Time	p.Time	_	_	_	B-P-p.Time
 12	फौरन	फौरन	PART	RP	None=_	10	dep	_	_	_	PART	फौरन	_	_	_	_	_	o-PART
@@ -4864,7 +4864,7 @@
 4	झाड़	झाड़	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	obj	_	_	_	N	झाड़	_	_	_	_	_	O-N
 5	खाती	खा	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	10	advcl	_	_	_	V	खा	_	_	_	_	_	O-V
 6	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	फूल	फूल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	obj	_	_	_	N	फूल	_	_	_	_	_	O-N
 9	भी	भी	PART	RP	None=_	8	dep	_	_	_	PART	भी	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
 10	खा	खा	VERB	VM	Gender=Fem|Number=Sing|Person=3|Voice=Act	0	root	_	_	_	V	खा	_	_	_	_	_	O-V
@@ -5175,7 +5175,7 @@
 9	ठीक	ठीक	ADJ	JJ	None=_	11	compound	_	_	_	ADJ	ठीक	_	_	_	_	_	O-ADJ
 10	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
 11	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-12	तो	तो	SCONJ	CC	None=_	17	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	17	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 14	बोल्ट	बोल्ट	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	_	_	N	बोल्ट	_	_	_	_	_	O-N
 15	पर	पर	ADP	PSP	AdpType=Post	14	case	_	_	_	P	पर	p.Goal	p.Locus	_	_	_	O-P-p.Goal|p.Locus
@@ -5667,7 +5667,7 @@
 30	चर	चर	VERB	VM	Gender=Fem|Number=Sing|Person=3|Voice=Act	18	conj	_	_	_	V	चर	_	_	_	_	_	O-V
 31	सकती	सक	AUX	VAUX	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	30	aux	_	_	_	AUX	सक	_	_	_	_	_	O-AUX
 32	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-33	तो	तो	SCONJ	CC	None=_	36	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+33	तो	तो	SCONJ	CC	None=_	36	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 34	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_	_	PRON	यह	_	_	_	_	_	O-PRON
 35	महत्वपूर्ण	महत्वपूर्ण	ADJ	JJ	Case=Nom	36	amod	_	_	_	ADJ	महत्वपूर्ण	_	_	_	_	_	O-ADJ
 36	बात	बात	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	conj	_	_	_	N	बात	_	_	_	_	_	O-N
@@ -5718,7 +5718,7 @@
 20	बेमिसाल	बेमिसाल	ADJ	JJ	None=_	21	xcomp	_	_	_	ADJ	बेमिसाल	_	_	_	_	_	O-ADJ
 21	हो	हो	VERB	VM	Voice=Act	8	conj	_	_	_	V	हो	_	_	_	_	_	O-V
 22	,	COMMA	PUNCT	SYM	None=_	21	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
-23	तो	तो	SCONJ	CC	None=_	34	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+23	तो	तो	SCONJ	CC	None=_	34	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 24	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 25	आसमान	आसमान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obl	_	_	_	N	आसमान	_	_	_	_	_	O-N
 26	में	में	ADP	PSP	AdpType=Post	25	case	_	_	_	P	में	p.Locus	p.Locus	_	_	_	O-P-p.Locus
@@ -5742,7 +5742,7 @@
 4	भेड़	भेड़	ADJ	JJ	Case=Nom	5	amod	_	_	_	ADJ	भेड़	_	_	_	_	_	O-ADJ
 5	चर	चर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_	_	N	चर	_	_	_	_	_	O-N
 6	जाए	जा	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	advcl	_	_	_	V	जा	_	_	_	_	_	O-V
-7	तो	तो	SCONJ	CC	None=_	12	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	12	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	सारे	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	9	det	_	_	_	DET	सारा	_	_	_	_	_	O-DET
 9	तारे	तारा	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_	_	N	तारा	_	_	_	_	_	O-N
 10	उस	उस	PRON	PRP	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
@@ -6499,7 +6499,7 @@
 6	भी	भी	PART	RP	None=_	5	dep	_	_	_	PART	भी	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
 7	आ	आ	VERB	VM	Number=Plur|Person=3|Voice=Act	11	advcl	_	_	_	V	आ	_	_	_	_	_	O-V
 8	जाएं	जा	AUX	VAUX	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin	7	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
-9	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_	_	PRON	मुझे	p.Experiencer	p.Recipient	_	_	_	O-PRON-p.Experiencer|p.Recipient
 11	डर	डर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_	_	N	डर	_	_	_	_	_	O-N
 12	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
@@ -7215,7 +7215,7 @@
 4	करते	कर	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	11	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
 5	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	_	_	AUX	रह	_	_	_	_	_	O-AUX
 6	जाए	जा	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	4	aux:pass	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	बिना	बिना	PART	RP	None=_	9	dep	_	_	_	PART	बिना	p.Manner	p.Manner	_	_	_	O-PART-p.Manner
 9	भड़के	भुका	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_	_	N	भुका	_	_	_	_	_	O-N
 10	धीरे-धीरे	धीरे-धीरा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	_	_	N	धीरे-धीरा	_	_	_	_	_	O-N
@@ -7613,7 +7613,7 @@
 5	को	को	ADP	PSP	AdpType=Post	4	case	_	_	_	P	को	p.Topic	p.Theme	_	_	_	O-P-p.Topic|p.Theme
 6	जानना	जान	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	10	advcl	_	_	_	V	जान	_	_	_	_	_	O-V
 7	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-8	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+8	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 9	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	_	PRON	यह	_	_	_	_	_	O-PRON
 10	जरूरी	जरूरी	ADJ	JJ	None=_	0	root	_	_	_	ADJ	जरूरी	_	_	_	_	_	O-ADJ
 11	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
@@ -7719,7 +7719,7 @@
 4	कर	कर	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	_	_	V	कर	_	_	_	_	_	O-V
 5	लिया	ले	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
 6	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	4	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	4	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	जाओ	जा	VERB	VM	Mood=Imp|Number=Sing|Polite=Infm|VerbForm=Fin|Voice=Act	4	advcl	_	_	_	V	जा	_	_	_	_	_	O-V
 9	अब	अब	PRON	PRP	Case=Nom|PronType=Prs	8	obl	_	_	_	PRON	अब	_	_	_	_	_	O-PRON
 10	।	।	PUNCT	SYM	None=_	8	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -8128,7 +8128,7 @@
 # sent_id = lp_hi_10-27
 # text = तो ले जम्हाई !
 # mwe = तो ले जम्हाई !
-1	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	ले	ले	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	V	ले	_	_	_	_	_	O-V
 3	जम्हाई	जम्हाई	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	2	aux	_	_	_	AUX	जम्हाई	_	_	_	_	_	O-AUX
 4	!	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -8309,7 +8309,7 @@
 16	मेरी	मेरी	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod	_	_	_	PRON	मेरी	p.Originator	p.Gestalt	_	_	_	O-PRON-p.Originator|p.Gestalt
 17	आज्ञा	आज्ञा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	obj	_	_	_	N	आज्ञा	_	_	_	_	_	O-N
 18	माने	मान	VERB	VM	Mood=Sub|Number=Sing|Person=3|Polite=Form|VerbForm=Fin|Voice=Act	22	advcl	_	_	_	V	मान	_	_	_	_	_	O-V
-19	तो	तो	SCONJ	CC	None=_	22	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+19	तो	तो	SCONJ	CC	None=_	22	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 20	इस	इस	PRON	PRP	Case=Acc,Ine|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_	_	PRON	इस	_	_	_	_	_	O-PRON
 21	में	में	ADP	PRP	_	19	case	_	_	_	P	में	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 22	मेरा	मेरा	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod	_	_	_	PRON	मेरा	p.Gestalt	p.Gestalt	_	_	_	O-PRON-p.Gestalt
@@ -8590,7 +8590,7 @@
 4	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_	_	DET	इतना	_	_	_	_	_	O-DET
 5	शक्तिशाली	शक्तिशाली	ADJ	JJ	None=_	6	xcomp	_	_	_	ADJ	शक्तिशाली	_	_	_	_	_	O-ADJ
 6	होता	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	34	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-7	तो	तो	SCONJ	CC	None=_	34	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	34	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	उस	उस	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 9	ने	ने	ADP	PRP	_	7	case	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	O-P-p.Experiencer|p.Agent
 10	केवल	केवल	PART	RP	None=_	10	dep	_	_	_	PART	केवल	_	_	_	_	_	O-PART
@@ -8725,7 +8725,7 @@
 41	पालन	पालन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	compound	_	_	_	N	पालन	_	_	_	_	_	O-N
 42	न	न	PART	NEG	Polarity=Neg|PronType=Neg	43	advmod	_	_	_	PART	न	_	_	_	_	_	O-PART
 43	करे	कर	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	47	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
-44	तो	तो	SCONJ	CC	None=_	47	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+44	तो	तो	SCONJ	CC	None=_	47	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 45	गलती	गलती	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	47	nsubj	_	_	_	N	गलती	_	_	_	_	_	O-N
 46	उस	उस	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	47	obl	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 47	की	की	ADP	PRP	_	45	case	_	_	_	P	की	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
@@ -8818,7 +8818,7 @@
 9	के	का	ADP	PSP	AdpType=Post	7	mark	_	_	1:1	P	के लिए	p.`i	p.`i	_	_	_	B-P-p.`i
 10	लिए	लिए	ADP	PSP	AdpType=Post	7	mark	_	_	1:2	_	_	_	_	_	_	_	I_
 11	कहे	कह	VERB	VM	Mood=Sub|Number=Sing|Person=3|Polite=Form|VerbForm=Fin|Voice=Act	15	advcl	_	_	_	V	कह	_	_	_	_	_	O-V
-12	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	वह	वह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	14	det	_	_	_	DET	वह	_	_	_	_	_	O-DET
 14	क्रांति	क्रांति	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	compound	_	_	_	N	क्रांति	_	_	_	_	_	O-N
 15	करदेगी	कर	VERB	VM	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	V	कर	_	_	_	_	_	O-V
@@ -9301,7 +9301,7 @@
 4	न्याय	न्याय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	_	_	N	न्याय	_	_	_	_	_	O-N
 5	कर	कर	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	V	कर	_	_	_	_	_	O-V
 6	सका	सक	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	_	_	AUX	सक	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	तू	तू	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_	_	PRON	तू	_	_	_	_	_	O-PRON
 9	सही	सही	ADJ	JJ	Case=Acc	10	amod	_	_	_	ADJ	सही	_	_	_	_	_	O-ADJ
 10	अर्थों	अर्थ	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	18	obl	_	_	_	N	अर्थ	_	_	_	_	_	O-N
@@ -9328,7 +9328,7 @@
 7	न्याय	न्याय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_	_	N	न्याय	_	_	_	_	_	O-N
 8	करना	कर	VERB	VM	Gender=Masc|Number=Sing|Person=3|VerbForm=Inf|Voice=Act	14	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
 9	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-10	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+10	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 11	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 12	कहीं	कहीं	PRON	PRP	Case=Nom|PronType=Prs	14	obl	_	_	_	PRON	कहीं	_	_	_	_	_	O-PRON
 13	भी	भी	PART	RP	None=_	12	dep	_	_	_	PART	भी	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
@@ -9544,7 +9544,7 @@
 11	सुख	सुख	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	N	सुख	_	_	_	_	_	O-N
 12	लेना	ले	VERB	VM	Gender=Masc|VerbForm=Inf|Voice=Act	20	advcl	_	_	_	V	ले	_	_	_	_	_	O-V
 13	हो	हो	AUX	VAUX	None=_	12	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
-14	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+14	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 15	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_	_	PRON	मुझे	p.Recipient	p.Recipient	_	_	_	O-PRON-p.Recipient
 16	एक	एक	NUM	QC	NumType=Card	17	nummod	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
 17	तर्क	तर्क	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	obj	_	_	_	N	तर्क	_	_	_	_	_	O-N
@@ -9556,7 +9556,7 @@
 # sent_id = lp_hi_10-135
 # text = जैसे आप मुझे आज्ञा दे सकते हैं कि मैं एक मिनट के_अंदर यहां से चला जाऊं और मुझे लगता है कि इस आज्ञा के_लिए परिस्थितियां अनुकूल हैं । "
 # mwe = जैसे आप मुझे आज्ञा दे सकते हैं कि मैं एक मिनट के_अंदर यहां से चला जाऊं और मुझे लगता है कि इस आज्ञा के_लिए परिस्थितियां अनुकूल हैं । "
-1	जैसे	जैसे	ADV	RB	None=_	5	obl	_	_	_	P	जैसे	p.`d	p.`d	_	_	_	O-P-p.`d
+1	जैसे	जैसे	ADV	RB	None=_	5	obl	_	_	_	ADV	जैसे	_	_	_	_	_	O-ADV
 2	आप	आप	PRON	PRP	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_	_	PRON	आप	_	_	_	_	_	O-PRON
 3	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_	_	PRON	मुझे	p.Recipient	p.Recipient	_	_	_	O-PRON-p.Recipient
 4	आज्ञा	आज्ञा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	_	_	N	आज्ञा	_	_	_	_	_	O-N
@@ -9802,7 +9802,7 @@
 9	,	COMMA	PUNCT	SYM	None=_	8	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 10	प्रशंसा	प्रशंसा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	compound	_	_	_	N	प्रशंसा	_	_	_	_	_	O-N
 11	करें	कर	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	22	advcl	_	_	_	V	कर	_	_	_	_	_	O-V
-12	तो	तो	SCONJ	CC	None=_	22	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	22	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	इसे	इसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	16	obj	_	_	_	PRON	इसे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 14	सिर	सिर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	_	_	N	सिर	_	_	_	_	_	O-N
 15	से	से	ADP	PSP	AdpType=Post	14	case	_	_	_	P	से	p.Source	p.Source	_	_	_	O-P-p.Source
@@ -10530,7 +10530,7 @@
 # sent_id = lp_hi_13-14
 # text = तो कुछ मिलाकर पचास करोड़
 # mwe = तो कुछ मिलाकर पचास करोड़
-1	तो	तो	SCONJ	CC	None=_	5	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	5	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	कुछ	कुछ	PRON	PRP	Case=Nom|PronType=Prs	3	obj	_	_	_	PRON	कुछ	_	_	_	_	_	O-PRON
 3	मिलाकर	मिला	VERB	VM	VerbForm=Conv	5	advcl	_	_	_	V	मिला	_	_	_	_	_	O-V
 4	पचास	पचास	NUM	QC	NumType=Card	5	nummod	_	_	_	NUM	पचास	_	_	_	_	_	O-NUM
@@ -10823,7 +10823,7 @@
 # sent_id = lp_hi_13-42
 # text = तो मैं कहां था इक्यावन करोड़ ...
 # mwe = तो मैं कहां था इक्यावन करोड़ ...
-1	तो	तो	SCONJ	CC	None=_	3	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	3	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 3	कहां	कहाँ	PRON	WQ	PronType=Int	0	root	_	_	_	PRON	कहाँ	_	_	_	_	_	O-PRON
 4	था	था	AUX	VM	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_	_	AUX	था	_	_	_	_	_	O-AUX
@@ -11195,7 +11195,7 @@
 5	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	4	case	_	_	_	P	का	p.Topic	p.Topic	_	_	_	O-P-p.Topic
 6	पता	पता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_	_	N	पता	_	_	_	_	_	O-N
 7	चले	चल	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	advcl	_	_	_	V	चल	_	_	_	_	_	O-V
-8	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+8	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 9	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 10	उन्हें	उन्हें	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	11	obj	_	_	_	PRON	उन्हें	p.Possession	p.Theme	_	_	_	O-PRON-p.Possession|p.Theme
 11	खरीद	खरीद	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	_	_	V	खरीद	_	_	_	_	_	O-V
@@ -11247,7 +11247,7 @@
 # sent_id = lp_hi_13-82
 # text = तो किस के हैं यह सितारे ?
 # mwe = तो किस के हैं यह सितारे ?
-1	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	किस	किस	PRON	WQ	Case=Acc,Gen|Number=Sing|Person=3|Poss=Yes|PronType=Int	0	root	_	_	_	PRON	किस	_	_	_	_	_	O-PRON
 3	के	के	ADP	PRP	_	1	case	_	_	_	P	के	p.Possessor	p.Possessor	_	_	_	O-P-p.Possessor
 4	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
@@ -11286,7 +11286,7 @@
 3	के	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Plur	2	case	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	O-P-p.Possessor
 4	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	2	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
 5	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-6	तो	तो	SCONJ	CC	None=_	7	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+6	तो	तो	SCONJ	CC	None=_	7	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 7	मेरे	मेरे	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_	_	PRON	मेरे	p.Possessor	p.Possessor	_	_	_	O-PRON-p.Possessor
 8	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 9	क्योंकि	क्योंकि	SCONJ	CC	None=_	15	mark	_	_	_	SCONJ	क्योंकि	_	_	_	_	_	O-SCONJ
@@ -11330,7 +11330,7 @@
 9	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	8	case	_	_	_	P	का	p.Possessor	p.Possessor	_	_	_	O-P-p.Possessor
 10	न	न	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	_	_	PART	न	_	_	_	_	_	O-PART
 11	हो	हो	VERB	VM	Voice=Act	17	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-12	तो	तो	SCONJ	CC	None=_	17	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	17	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 14	तेरा	तेरा	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	obl	_	_	_	PRON	तेरा	p.Possessor	p.Possessor	_	_	_	O-PRON-p.Possessor
 15	ही	ही	PART	RP	None=_	14	dep	_	_	_	PART	ही	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
@@ -11347,7 +11347,7 @@
 4	लावारिस	लावारिस	ADJ	JJ	Case=Nom	5	amod	_	_	_	ADJ	लावारिस	_	_	_	_	_	O-ADJ
 5	टापू	टापू	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_	_	N	टापू	_	_	_	_	_	O-N
 6	मिले	मिल	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	advcl	_	_	_	V	मिल	_	_	_	_	_	O-V
-7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	तेरा	तेरा	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	_	PRON	तेरा	p.Possessor	p.Possessor	_	_	_	O-PRON-p.Possessor
 9	ही	ही	PART	RP	None=_	8	dep	_	_	_	PART	ही	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
 10	होगा	हो	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	V	हो	_	_	_	_	_	O-V
@@ -11370,7 +11370,7 @@
 12	पेटेन्ट	पेटेन्ट	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	_	_	N	पेटेन्ट	_	_	_	_	_	O-N
 13	करा	कर	VERB	VM	Number=Sing|VerbForm=Part|Voice=Act	8	conj	_	_	_	V	कर	_	_	_	_	_	O-V
 14	ले	ले	AUX	VAUX	None=_	13	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
-15	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+15	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 16	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 17	तेरा	तेरा	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	obl	_	_	_	PRON	तेरा	p.Possessor	p.Possessor	_	_	_	O-PRON-p.Possessor
 18	ही	ही	PART	RP	None=_	17	dep	_	_	_	PART	ही	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
@@ -11474,7 +11474,7 @@
 4	एक	एक	NUM	QC	NumType=Card	5	nummod	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
 5	मफलर	मफलर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_	_	N	मफलर	_	_	_	_	_	O-N
 6	हो	हो	VERB	VM	Voice=Act	14	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 9	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	14	obj	_	_	_	PRON	उसे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 10	गले	गला	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_	_	N	गला	_	_	_	_	_	O-N
@@ -11508,7 +11508,7 @@
 4	एक	एक	NUM	QC	NumType=Card	5	nummod	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
 5	फूल	फूल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_	_	N	फूल	_	_	_	_	_	O-N
 6	हो	हो	VERB	VM	Voice=Act	10	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
-7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 9	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	10	obj	_	_	_	PRON	उसे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 10	तोड़	तोड़	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	_	_	V	तोड़	_	_	_	_	_	O-V
@@ -11950,7 +11950,7 @@
 9	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	10	obj	_	_	_	PRON	उसे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 10	बुझाता	बुझा	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	18	advcl	_	_	_	V	बुझा	_	_	_	_	_	O-V
 11	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-12	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	18	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	मानों	मान	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	18	nsubj	_	_	_	N	मान	_	_	_	_	_	O-N
 14	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 15	तारा	तारा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	xcomp	_	_	_	N	तारा	_	_	_	_	_	O-N
@@ -12268,13 +12268,13 @@
 # sent_id = lp_hi_14-39
 # text = तो ?
 # mwe = तो ?
-1	तो	तो	SCONJ	CC	None=_	0	root	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	0	root	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	?	?	PUNCT	SYM	None=_	1	punct	_	_	_	PUNCT	?	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_14-40
 # text = तो अब तो यह हर मिनट में एक चक्कर लगा लेता है । मुझे एक सेकंड का भी आराम नहीं मिलता ।
 # mwe = तो अब तो यह हर मिनट में एक चक्कर लगा लेता है । मुझे एक सेकंड का भी आराम नहीं मिलता ।
-1	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+1	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 2	अब	अब	PRON	PRP	Case=Nom|PronType=Prs	10	obl	_	_	_	PRON	अब	_	_	_	_	_	O-PRON
 3	तो	तो	PART	RP	None=_	2	dep	_	_	_	PART	तो	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
 4	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_	_	PRON	यह	_	_	_	_	_	O-PRON
@@ -13279,7 +13279,7 @@
 6	बयान	बयान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_	_	N	बयान	_	_	_	_	_	O-N
 7	दिलचस्प	दिलचस्प	ADJ	JJ	None=_	8	xcomp	_	_	_	ADJ	दिलचस्प	_	_	_	_	_	O-ADJ
 8	लगे	लग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polite=Form|VerbForm=Part|Voice=Act	12	advcl	_	_	_	V	लग	_	_	_	_	_	O-V
-9	तो	तो	SCONJ	CC	None=_	12	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	12	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_	_	PRON	वह	_	_	_	_	_	O-PRON
 11	पता	पता	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_	_	N	पता	_	_	_	_	_	O-N
 12	लगाता	लगा	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	V	लगा	_	_	_	_	_	O-V
@@ -13423,7 +13423,7 @@
 10	चरित्रा	चरित्रा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_	_	N	चरित्रा	_	_	_	_	_	O-N
 11	अच्छा	अच्छा	ADJ	JJ	Gender=Masc|Number=Sing	20	obl	_	_	_	ADJ	अच्छा	_	_	_	_	_	O-ADJ
 12	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-13	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+13	तो	तो	SCONJ	CC	None=_	20	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 14	उस	उस	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 15	के	के	ADP	PRP	_	13	case	_	_	_	P	के	p.Originator	p.Gestalt	_	_	_	O-P-p.Originator|p.Gestalt
 16	आविष्कार	आविष्कार	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	_	_	N	आविष्कार	_	_	_	_	_	O-N
@@ -13497,7 +13497,7 @@
 9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	P	से	p.Theme	p.Ancillary	_	_	_	O-P-p.Theme|p.Ancillary
 10	संबंधित	संबंधित	ADJ	JJ	None=_	14	obl	_	_	_	ADJ	संबंधित	_	_	_	_	_	O-ADJ
 11	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-12	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+12	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 13	उस	उस	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 14	से	से	ADP	PRP	_	12	case	_	_	_	P	से	p.Recipient	p.Ancillary	_	_	_	O-P-p.Recipient|p.Ancillary
 15	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	root	_	_	_	V	कह	_	_	_	_	_	O-V
@@ -14490,7 +14490,7 @@
 19	होते	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	35	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
 20	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 21	,	COMMA	PUNCT	SYM	None=_	19	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
-22	तो	तो	SCONJ	CC	None=_	35	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+22	तो	तो	SCONJ	CC	None=_	35	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 23	बीस	बीस	NUM	QC	NumType=Card	24	nummod	_	_	_	NUM	बीस	_	_	_	_	_	O-NUM
 24	मील	मील	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	25	obl	_	_	_	N	मील	_	_	_	_	_	O-N
 25	लंबी	लंबा	ADJ	JJ	Case=Nom|Gender=Fem|Number=Sing	35	obj	_	_	_	ADJ	लंबा	_	_	_	_	_	O-ADJ
@@ -14744,7 +14744,7 @@
 1	"	"	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 2	ठीक	ठीक	ADJ	JJ	None=_	11	obl	_	_	_	ADJ	ठीक	_	_	_	_	_	O-ADJ
 3	,	COMMA	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
-4	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+4	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 5	क्या	क्या	PRON	WQ	PronType=Int	11	obl	_	_	_	PRON	क्या	_	_	_	_	_	O-PRON
 6	फिर	फिर	ADV	RB	None=_	11	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
 7	पृथ्वी	पृथ्वी	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obl	_	_	_	N	पृथ्वी	_	_	_	_	_	O-N
@@ -15191,7 +15191,7 @@
 5	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	4	case	_	_	_	P	का	p.Stimulus	p.Theme	_	_	_	O-P-p.Stimulus|p.Theme
 6	याद	याद	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	compound	_	_	_	N	याद	_	_	_	_	_	O-N
 7	आए	आ	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	advcl	_	_	_	V	आ	_	_	_	_	_	O-V
-8	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+8	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 9	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 10	...	...	PUNCT	SYM	None=_	9	punct	_	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 11	"	"	PUNCT	SYM	None=_	9	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
@@ -15883,7 +15883,7 @@
 7	इन्हें	इन्हें	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	7	obj	_	_	_	PRON	इन्हें	p.Stimulus	p.Theme	_	_	_	O-PRON-p.Stimulus|p.Theme
 8	देख	देख	VERB	VM	None=_	11	advcl	_	_	_	V	देख	_	_	_	_	_	O-V
 9	ले	ले	AUX	VAUX	None=_	7	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
-10	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+10	तो	तो	SCONJ	CC	None=_	11	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 11	परेशान	परेशान	ADJ	JJ	None=_	11	compound	_	_	_	ADJ	परेशान	_	_	_	_	_	O-ADJ
 12	हो	हो	VERB	VM	Number=Sing|Person=3|Voice=Act	2	obj	_	_	_	V	हो	_	_	_	_	_	O-V
 13	जाएगा	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
@@ -16431,7 +16431,7 @@
 4	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_	_	PRON	मुझे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 5	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	14	obl	_	_	_	PRON	अपना	_	_	_	_	_	O-PRON
 6	ले	ले	AUX	VAUX	None=_	5	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	हम	हम	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_	_	PRON	हम	_	_	_	_	_	O-PRON
 9	दोनों	दो	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	14	iobj	_	_	_	N	दो	_	_	_	_	_	O-N
 10	को	को	ADP	PSP	AdpType=Post	9	case	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	O-P-p.Experiencer|p.Recipient
@@ -16677,7 +16677,7 @@
 4	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_	_	PRON	मुझे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 5	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	obl	_	_	_	PRON	अपना	_	_	_	_	_	O-PRON
 6	ले	ले	AUX	VAUX	None=_	5	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	10	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	मेरा	मेरा	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod	_	_	_	PRON	मेरा	p.Theme	p.Gestalt	_	_	_	O-PRON-p.Theme|p.Gestalt
 9	जीवन	जीवन	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_	_	N	जीवन	_	_	_	_	_	O-N
 10	खिल	खिल	VERB	VM	Number=Sing|Person=3|Voice=Act	0	root	_	_	_	V	खिल	_	_	_	_	_	O-V
@@ -16980,7 +16980,7 @@
 2	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_	_	PRON	तुझे	p.Experiencer	p.Recipient	_	_	_	O-PRON-p.Experiencer|p.Recipient
 3	दोस्त	दोस्त	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	obj	_	_	_	N	दोस्त	_	_	_	_	_	O-N
 4	चाहिए	चाहिए	VERB	VM	Voice=Act	7	advcl	_	_	_	V	चाहिए	_	_	_	_	_	O-V
-5	तो	तो	SCONJ	CC	None=_	7	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+5	तो	तो	SCONJ	CC	None=_	7	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 6	मुझे	मुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	PRON	मुझे	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 7	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	0	root	_	_	_	PRON	अपना	_	_	_	_	_	O-PRON
 8	ले	ले	AUX	VAUX	None=_	7	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
@@ -17318,7 +17318,7 @@
 6	तब	तब	PRON	PRP	Case=Nom|PronType=Prs	7	obl	_	_	_	PRON	तब	_	_	_	_	_	O-PRON
 7	नाचते	नाच	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	15	advcl	_	_	_	V	नाच	_	_	_	_	_	O-V
 8	होते	हो	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	7	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
-9	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	15	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 11	तो	तो	PART	RP	None=_	10	dep	_	_	_	PART	तो	p.Focus	p.Focus	_	_	_	O-PART-p.Focus
 12	कभी	कभी	PRON	PRP	PronType=Prs	15	obl	_	_	_	PRON	कभी	_	_	_	_	_	O-PRON
@@ -17470,8 +17470,8 @@
 3	।	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_21-108
-# text = गेहूं के खेतों के रंग में , " फिर बोली , " जाकर गुलाबों को फिर_से देख और तुझे समझ में आ जाएगा कि तेरा गुलाब अद्वितीय है ।
-# mwe = गेहूं के खेतों के रंग में , " फिर बोली , " जाकर गुलाबों को फिर_से देख और तुझे समझ में आ जाएगा कि तेरा गुलाब अद्वितीय है ।
+# text = गेहूं के खेतों के रंग में , " फिर बोली , " जाकर गुलाबों को फिर से देख और तुझे समझ में आ जाएगा कि तेरा गुलाब अद्वितीय है ।
+# mwe = गेहूं के खेतों के रंग में , " फिर बोली , " जाकर गुलाबों को फिर से देख और तुझे समझ में आ जाएगा कि तेरा गुलाब अद्वितीय है ।
 1	गेहूं	गेहूँ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_	_	N	गेहूँ	_	_	_	_	_	O-N
 2	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	1	case	_	_	_	P	का	p.Characteristic	p.Stuff	_	_	_	O-P-p.Characteristic|p.Stuff
 3	खेतों	खेत	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	5	nmod	_	_	_	N	खेत	_	_	_	_	_	O-N
@@ -17487,8 +17487,8 @@
 13	जाकर	जा	VERB	VM	VerbForm=Conv	18	advcl	_	_	_	V	जा	_	_	_	_	_	O-V
 14	गुलाबों	गुलाब	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	18	obj	_	_	_	N	गुलाब	_	_	_	_	_	O-N
 15	को	को	ADP	PSP	AdpType=Post	14	case	_	_	_	P	को	p.Stimulus	p.Theme	_	_	_	O-P-p.Stimulus|p.Theme
-16	फिर	फिर	ADV	RB	None=_	18	advmod	_	_	1:1	P	फिर से	p.`d	p.`d	_	_	_	B-P-p.`d
-17	से	से	PART	RP	None=_	16	dep	_	_	1:2	_	_	_	_	_	_	_	I_
+16	फिर	फिर	ADV	RB	None=_	18	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
+17	से	से	PART	RP	None=_	16	dep	_	_	_	PART	से	_	_	_	_	_	O-PART
 18	देख	देख	VERB	VM	Voice=Act	0	root	_	_	_	V	देख	_	_	_	_	_	O-V
 19	और	और	CCONJ	CC	None=_	23	cc	_	_	_	CCONJ	और	_	_	_	_	_	O-CCONJ
 20	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_	_	PRON	तुझे	p.Experiencer	p.Recipient	_	_	_	O-PRON-p.Experiencer|p.Recipient
@@ -18278,7 +18278,7 @@
 6	गुड़िया	गुड़िया	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	obj	_	_	_	N	गुड़िया	_	_	_	_	_	O-N
 7	ले	ले	VERB	VM	None=_	9	advcl	_	_	_	V	ले	_	_	_	_	_	O-V
 8	ले	ले	AUX	VAUX	None=_	6	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
-9	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+9	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 10	रोने	रो	VERB	VM	Gender=Masc|Number=Plur|Person=3|VerbForm=Inf|Voice=Act	0	root	_	_	_	V	रो	_	_	_	_	_	O-V
 11	लगते	लग	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	9	aux	_	_	_	AUX	लग	_	_	_	_	_	O-AUX
 12	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
@@ -18439,7 +18439,7 @@
 4	मिनट	मिनट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	obl	_	_	_	N	मिनट	_	_	_	_	_	O-N
 5	बिताने	बिता	VERB	VM	Gender=Masc|VerbForm=Inf|Voice=Act	14	advcl	_	_	_	V	बिता	_	_	_	_	_	O-V
 6	हों	है	AUX	VAUX	None=_	5	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	14	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 9	धीरे-धीरे	धीरे-धीरे	ADV	RB	None=_	14	advmod	_	_	_	ADV	धीरे-धीरे	_	_	_	_	_	O-ADV
 10	एक	एक	NUM	QC	NumType=Card	11	nummod	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
@@ -18595,7 +18595,7 @@
 4	"	"	PUNCT	SYM	None=_	5	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 5	मर	मर	VERB	VM	Number=Sing|Person=3|Polite=Form|Voice=Act	2	obj	_	_	_	V	मर	_	_	_	_	_	O-V
 6	जायेंगे	जा	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin	5	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
-7	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+7	तो	तो	SCONJ	CC	None=_	9	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 8	क्या	क्या	PRON	WQ	PronType=Int	9	obl	_	_	_	PRON	क्या	_	_	_	_	_	O-PRON
 9	हुआ	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
 10	!	।	PUNCT	SYM	None=_	13	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -19024,7 +19024,7 @@
 7	चारों	चार	NUM	QC	NumType=Card|Number=Plur	8	nummod	_	_	_	NUM	चार	_	_	_	_	_	O-NUM
 8	ओर	ओर	ADV	NST	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing|Person=3	9	obl	_	_	_	ADV	ओर	_	_	_	_	_	O-ADV
 9	देखें	देख	VERB	VM	Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	advcl	_	_	_	V	देख	_	_	_	_	_	O-V
-10	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+10	तो	तो	SCONJ	CC	None=_	13	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 11	कुछ	कुछ	PRON	PRP	Case=Nom|Person=3|PronType=Prs	13	nsubj	_	_	_	PRON	कुछ	_	_	_	_	_	O-PRON
 12	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	13	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
 13	दिखाई	दिखा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	V	दिखा	_	_	_	_	_	O-V
@@ -20593,7 +20593,7 @@
 11	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nmod	_	_	_	PRON	कोई	_	_	_	_	_	O-PRON
 12	शर्मा	शर्मा	PROPN	NNP	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_	_	N	शर्मा	_	_	_	_	_	O-N
 13	जाए	जा	VERB	VM	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	advcl	_	_	_	V	जा	_	_	_	_	_	O-V
-14	तो	तो	SCONJ	CC	None=_	16	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+14	तो	तो	SCONJ	CC	None=_	16	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 15	उस	उस	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 16	का	का	ADP	PRP	_	14	case	_	_	_	P	का	p.`d	p.`d	_	_	_	O-P-p.`d
 17	मतलब	मतलब	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	N	मतलब	_	_	_	_	_	O-N
@@ -20879,12 +20879,12 @@
 14	।	।	PUNCT	SYM	None=_	11	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_26-9
-# text = राजकुमार ने फिर_से कहा , " ... निश्चित ही ।
-# mwe = राजकुमार ने फिर_से कहा , " ... निश्चित ही ।
+# text = राजकुमार ने फिर से कहा , " ... निश्चित ही ।
+# mwe = राजकुमार ने फिर से कहा , " ... निश्चित ही ।
 1	राजकुमार	राजकुमार	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	N	राजकुमार	_	_	_	_	_	O-N
 2	ने	ने	ADP	PSP	AdpType=Post	1	case	_	_	_	P	ने	p.Originator	p.Agent	_	_	_	O-P-p.Originator|p.Agent
-3	फिर	फिर	ADV	RB	None=_	5	advmod	_	_	1:1	P	फिर से	p.`d	p.`d	_	_	_	B-P-p.`d
-4	से	से	PART	RP	None=_	3	dep	_	_	1:2	_	_	_	_	_	_	_	I_
+3	फिर	फिर	ADV	RB	None=_	5	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
+4	से	से	PART	RP	None=_	3	dep	_	_	_	PART	से	_	_	_	_	_	O-PART
 5	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	कह	_	_	_	_	_	O-V
 6	,	COMMA	PUNCT	SYM	None=_	5	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 7	"	"	PUNCT	SYM	None=_	9	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
@@ -21597,12 +21597,12 @@
 3	!	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_26-49
-# text = मैं तुझे फिर_से हंसते हुए सुनना चाहता हूं ... ! "
-# mwe = मैं तुझे फिर_से हंसते हुए सुनना चाहता हूं ... ! "
+# text = मैं तुझे फिर से हंसते हुए सुनना चाहता हूं ... ! "
+# mwe = मैं तुझे फिर से हंसते हुए सुनना चाहता हूं ... ! "
 1	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 2	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	7	obj	_	_	_	PRON	तुझे	p.Stimulus	p.Theme	_	_	_	O-PRON-p.Stimulus|p.Theme
-3	फिर	फिर	ADV	RB	None=_	5	advmod	_	_	1:1	P	फिर से	p.`d	p.`d	_	_	_	B-P-p.`d
-4	से	से	PART	RP	None=_	3	dep	_	_	1:2	_	_	_	_	_	_	_	I_
+3	फिर	फिर	ADV	RB	None=_	5	advmod	_	_	_	ADV	फिर	_	_	_	_	_	O-ADV
+4	से	से	PART	RP	None=_	3	dep	_	_	_	PART	से	_	_	_	_	_	O-PART
 5	हंसते	हंस	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	7	advcl	_	_	_	V	हंस	_	_	_	_	_	O-V
 6	हुए	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
 7	सुनना	सुन	VERB	VM	Case=Nom|VerbForm=Inf	8	obj	_	_	_	V	सुन	_	_	_	_	_	O-V
@@ -21753,7 +21753,7 @@
 14	पर	पर	ADP	PSP	AdpType=Post	13	case	_	_	_	P	पर	p.Locus	p.Locus	_	_	_	O-P-p.Locus
 15	खिला	खिल	VERB	VM	Voice=Act	19	advcl	_	_	_	V	खिल	_	_	_	_	_	O-V
 16	हो	हो	AUX	VAUX	None=_	15	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
-17	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+17	तो	तो	SCONJ	CC	None=_	19	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 18	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_	_	PRON	तुझे	p.Experiencer	p.Recipient	_	_	_	O-PRON-p.Experiencer|p.Recipient
 19	लगेगा	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	V	लग	_	_	_	_	_	O-V
 20	जैसे	जैसे	SCONJ	CC	None=_	23	mark	_	_	_	P	जैसे	p.Manner	p.ComparisonRef	_	_	_	O-P-p.Manner|p.ComparisonRef
@@ -21770,7 +21770,7 @@
 # mwe = " लगेगा तो ... ! "
 1	"	"	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 2	लगेगा	लग	VERB	VM	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_	V	लग	_	_	_	_	_	O-V
-3	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+3	तो	तो	SCONJ	CC	None=_	2	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 4	...	...	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	...	_	_	_	_	_	O-PUNCT
 5	!	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 6	"	"	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
@@ -22145,7 +22145,7 @@
 17	लेता	ले	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	15	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
 18	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 19	)	)	PUNCT	SYM	None=_	15	punct	_	_	_	PUNCT	)	_	_	_	_	_	O-PUNCT
-20	तो	तो	SCONJ	CC	None=_	25	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+20	तो	तो	SCONJ	CC	None=_	25	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 21	तुझे	तुझे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_	_	PRON	तुझे	p.Experiencer	p.Recipient	_	_	_	O-PRON-p.Experiencer|p.Recipient
 22	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	obj	_	_	_	PRON	यह	_	_	_	_	_	O-PRON
 23	सोचकर	सोच	VERB	VM	VerbForm=Conv	25	advcl	_	_	_	V	सोच	_	_	_	_	_	O-V
@@ -23536,7 +23536,7 @@
 19	कुछ	कुछ	PRON	PRP	Case=Nom|Person=3|PronType=Prs	20	nsubj	_	_	_	PRON	कुछ	_	_	_	_	_	O-PRON
 20	दिखाई	दिखा	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	12	conj	_	_	_	V	दिखा	_	_	_	_	_	O-V
 21	पड़े	पु	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_	_	AUX	पु	_	_	_	_	_	O-AUX
-22	तो	तो	SCONJ	CC	None=_	27	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+22	तो	तो	SCONJ	CC	None=_	27	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 23	आप	आप	PRON	PRP	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	27	nsubj	_	_	_	PRON	आप	_	_	_	_	_	O-PRON
 24	उसे	उसे	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	27	obj	_	_	_	PRON	उसे	p.Stimulus	p.Theme	_	_	_	O-PRON-p.Stimulus|p.Theme
 25	फौरन	फौरन	ADV	RB	None=_	27	advmod	_	_	_	ADV	फौरन	_	_	_	_	_	O-ADV
@@ -23556,7 +23556,7 @@
 7	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	6	mark	_	_	_	P	का	p.Purpose	p.Purpose	_	_	_	O-P-p.Purpose
 8	अवसर	अवसर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_	_	N	अवसर	_	_	_	_	_	O-N
 9	मिले	मिल	VERB	VM	Mood=Sub|Number=Sing|Person=3|Polite=Form|VerbForm=Fin|Voice=Act	23	advcl	_	_	_	V	मिल	_	_	_	_	_	O-V
-10	तो	तो	SCONJ	CC	None=_	23	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+10	तो	तो	SCONJ	CC	None=_	23	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 11	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_	_	PRON	मैं	_	_	_	_	_	O-PRON
 12	आप	आप	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=2|Polite=Form|PronType=Prs	14	obj	_	_	_	PRON	आप	_	_	_	_	_	O-PRON
 13	से	से	ADP	PRP	_	11	case	_	_	_	P	से	p.Recipient	p.Source	_	_	_	O-P-p.Recipient|p.Source
@@ -23613,7 +23613,7 @@
 22	उत्तर	उत्तर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	obj	_	_	_	N	उत्तर	_	_	_	_	_	O-N
 23	न	न	PART	NEG	Polarity=Neg|PronType=Neg	22	advmod	_	_	_	PART	न	_	_	_	_	_	O-PART
 24	दे	दे	VERB	VM	Mood=Sub|Number=Sing|Person=3|Polite=Form|VerbForm=Fin|Voice=Act	25	advcl	_	_	_	V	दे	_	_	_	_	_	O-V
-25	तो	तो	SCONJ	CC	None=_	25	mark	_	_	_	P	तो	p.`d	p.`d	_	_	_	O-P-p.`d
+25	तो	तो	SCONJ	CC	None=_	25	mark	_	_	_	SCONJ	तो	_	_	_	_	_	O-SCONJ
 26	आप	आप	PRON	PRP	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	25	nsubj	_	_	_	PRON	आप	_	_	_	_	_	O-PRON
 27	समझ	समझ	VERB	VM	Number=Sing|Person=3|Polite=Form|Voice=Act	13	conj	_	_	_	V	समझ	_	_	_	_	_	O-V
 28	लीजिएगा	ले	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Fut|VerbForm=Fin	25	aux	_	_	_	AUX	ले	_	_	_	_	_	O-AUX
