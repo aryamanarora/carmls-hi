@@ -1343,8 +1343,8 @@
 5	।	।	PUNCT	SYM	None=_	3	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_2-41
-# text = उस ने ठीक से देखा और बोला यह तो अभी से बीमार है , दूसरी बनाओ।
-# mwe = उस ने ठीक से देखा और बोला यह तो अभी से बीमार है , दूसरी बनाओ।
+# text = उस ने ठीक से देखा और बोला यह तो अभी से बीमार है , दूसरी बनाओ ।
+# mwe = उस ने ठीक से देखा और बोला यह तो अभी से बीमार है , दूसरी बनाओ ।
 1	उस	उस	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_	_	PRON	उस	_	_	_	_	_	O-PRON
 2	ने	ने	ADP	PRP	_	0	case	_	_	_	P	ने	p.Experiencer	p.Agent	_	_	_	O-P-p.Experiencer|p.Agent
 3	ठीक	ठीक	ADV	RB	None=_	4	advmod	_	_	_	ADV	ठीक	_	_	_	_	_	O-ADV
@@ -1360,7 +1360,8 @@
 13	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 14	,	COMMA	PUNCT	SYM	None=_	11	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 15	दूसरी	दूसरा	ADJ	QO	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing	15	amod	_	_	_	ADJ	दूसरा	_	_	_	_	_	O-ADJ
-16	बनाओ।	बनाओ।	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	N	बनाओ।	_	_	_	_	_	O-N
+16	बनाओ	बनाओ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_	_	N	बनाओ	_	_	_	_	_	O-N
+17	।	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 
 # sent_id = lp_hi_2-42
 # text = फिर मैं ने बनाया ।
