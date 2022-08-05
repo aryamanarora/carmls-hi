@@ -7,8 +7,8 @@ Currently, this includes the entire annotated *Nanhā Rājkumār* (*The Little P
 Some open guidelines issues are stored (expectedly) as issues on the repo.
 
 ## Some differences from English STREUSLE annotations
-1. Irregular pronouns directly receive the SNACS label. This applies to genitive, dative, and accusative case forms. It's hard to find a theory to extract the genitive post-position from the irregular form.
-2. 'Regular' pronouns which can be split into oblique form + post-position, have been re-tokenized into the two tokens, and SNACS label applied to the post-position. This includes case markers [ne, se, mem] and accusative/dative ko and genitive [ka,ke,ki] - basically when these markers are obvious in the morphology. 
-3. New PART lexcat for tokens with UD tag PART. The exception is negative particles [nahin, na] which get ADV lexcat.
+1. All PRON lexcat gets SNACS annotation. Exceptions for nominative, wh-pronoun, oblique-case pronoun and unmarked reflexive pronouns, are created in PRON.NOM, PRON.WH, PRON.OBL and PRON.REFL exceptions. 
+2. PRON lexcat skips validator check where MWE lexlemma must match MWE lemma, given some decisions around indexing the case marker in the lexlemma for irregular pronoun forms.
+3. New PART.FOC lexcat for tokens with UD tag PART which get FOCUS annotations. Negative particles [nahin, na] get ADV lexcat. Other particles get PART lexcat.
 4. Some MWE adpositions can't be validated using the lemma forms, as the tokens [ki, ke] seem to be lemmatized into [ka] but the MWE is always [ki tarah] or [ke/ki upar]. I haven't heard any case myself like [ka upar] or [ka tarah]. So MWE lexlemmas are validated against the raw token, instead of the lemma forms.
 5. NONSNACS label has been removed.  
