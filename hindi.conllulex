@@ -79,7 +79,7 @@
 11	भूख	भूख	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obl	_	_	_	N	भूख	_	_	_	_	_	O-N
 12	और	और	CCONJ	CC	None=_	13	cc	_	_	_	CCONJ	और	_	_	_	_	_	O-CCONJ
 13	सर्दी	सर्दी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	conj	_	_	_	N	सर्दी	_	_	_	_	_	O-N
-14	से	से	ADP	PSP	AdpType=Post	11	case	_	_	_	P	से	p.Agent	p.Ancillary	_	_	_	O-P-p.Agent|p.Ancillary
+14	से	से	ADP	PSP	AdpType=Post	11	case	_	_	_	P	से	p.Force	p.Ancillary	_	_	_	O-P-p.Force|p.Ancillary
 15	जूझ	जूझ	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	3	acl:relcl	_	_	_	V	जूझ	_	_	_	_	_	O-V
 16	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	aux	_	_	_	AUX	रह	_	_	_	_	_	O-AUX
 17	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
@@ -241,7 +241,7 @@
 1	अपना	अपना	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	nmod	_	_	_	PRON	का	p.Originator	p.Gestalt	_	_	_	O-PRON-p.Originator|p.Gestalt
 2	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	det	_	_	_	DET	यह	_	_	_	_	_	O-DET
 3	चित्र	चित्र	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	_	_	N	चित्र	_	_	_	_	_	O-N
-4	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_	_	PRON	ने	p.Agent	p.Agent	_	_	_	O-PRON-p.Agent
+4	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_	_	PRON	ने	p.Causer	p.Agent	_	_	_	O-PRON-p.Causer|p.Agent
 5	बड़े	बु	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_	_	V	बु	_	_	_	_	_	O-V
 6	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	8	obj	_	_	_	N	लोग	_	_	_	_	_	O-N
 7	को	को	ADP	PSP	AdpType=Post	6	case	_	_	_	P	को	p.Experiencer	p.Recipient	_	_	_	O-P-p.Experiencer|p.Recipient
@@ -839,7 +839,7 @@
 16	कच्ची	कच्चा	ADJ	JJ	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	_	_	ADJ	कच्चा	_	_	_	_	_	O-ADJ
 17	सी	सा	PART	RP	Case=Acc|Gender=Fem|Number=Sing	16	dep	_	_	_	P	सा	p.Extent	p.Extent	_	_	_	O-P-p.Extent
 18	आवाज	आवाज	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_	_	N	आवाज	_	_	_	_	_	O-N
-19	ने	ने	ADP	PSP	AdpType=Post	18	case	_	_	_	P	ने	p.Causer	p.Causer	_	_	_	O-P-p.Causer
+19	ने	ने	ADP	PSP	AdpType=Post	18	case	_	_	_	P	ने	p.Force	p.Force	_	_	_	O-P-p.Force
 20	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	21	obj	_	_	_	PRON	को	p.Theme	p.Theme	_	_	_	O-PRON-p.Theme
 21	जगाया	जगा	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	acl:relcl	_	_	_	V	जगा	_	_	_	_	_	O-V
 22	।	।	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -1556,7 +1556,7 @@
 # sent_id = lp_hi_2-61
 # text = उसने चित्र पर सिर झुकाया ।
 # mwe = उसने चित्र पर सिर झुकाया ।
-1	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_	PRON	ने	p.Agent	p.Agent	_	_	_	O-PRON-p.Agent
+1	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_	PRON	ने	p.Causer	p.Agent	_	_	_	O-PRON-p.Causer|p.Agent
 2	चित्र	चित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	_	_	N	चित्र	_	_	_	_	_	O-N
 3	पर	पर	ADP	PSP	AdpType=Post	2	case	_	_	_	P	पर	p.Direction	p.Locus	_	_	_	O-P-p.Direction|p.Locus
 4	सिर	सिर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	_	_	N	सिर	_	_	_	_	_	O-N
@@ -3384,7 +3384,7 @@
 19	,	COMMA	PUNCT	SYM	None=_	20	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 20	फैलने	फैल	VERB	VM	Case=Acc|VerbForm=Inf	18	conj	_	_	_	V	फैल	_	_	_	_	_	O-V
 21	और	और	CCONJ	CC	None=_	24	cc	_	_	_	CCONJ	और	_	_	_	_	_	O-CCONJ
-22	उससे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	_	_	PRON	से	p.Causer	p.Source	_	_	_	O-PRON-p.Causer|p.Source
+22	उससे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	_	_	PRON	से	p.Force	p.Source	_	_	_	O-PRON-p.Force|p.Source
 23	उत्पन्न	उत्पन्न	ADJ	JJ	Case=Acc	24	amod	_	_	_	ADJ	उत्पन्न	_	_	_	_	_	O-ADJ
 24	खतरे	खतरा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	conj	_	_	_	N	खतरा	_	_	_	_	_	O-N
 25	के	का	ADP	PSP	AdpType=Post	24	case	_	_	1:1	P	के बारे में	p.Topic	p.Topic	_	_	_	B-P-p.Topic
@@ -3864,7 +3864,7 @@
 1	वहां	वहाँ	ADV	RB	_	3	nmod	_	_	_	ADV	वहाँ	_	_	_	_	_	O-ADV
 2	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	1	case	_	_	_	P	का	p.Gestalt	p.Gestalt	_	_	_	O-P-p.Gestalt
 3	धरती	धरती	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_	_	N	धरती	_	_	_	_	_	O-N
-4	उनसे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nmod	_	_	_	PRON	से	p.Stimulus	p.Causer	_	_	_	O-PRON-p.Stimulus|p.Causer
+4	उनसे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nmod	_	_	_	PRON	से	p.Stimulus	p.Force	_	_	_	O-PRON-p.Stimulus|p.Force
 5	आक्रांत	आक्रांत	ADJ	JJ	None=_	0	root	_	_	_	ADJ	आक्रांत	_	_	_	_	_	O-ADJ
 6	थी	था	AUX	VM	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_	_	AUX	था	_	_	_	_	_	O-AUX
 7	।	।	PUNCT	SYM	None=_	5	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -4180,7 +4180,7 @@
 6	करता	कर	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	कर	_	_	_	_	_	O-V
 7	मगर	मगर	CCONJ	CC	None=_	18	cc	_	_	_	CCONJ	मगर	_	_	_	_	_	O-CCONJ
 8	बाओबाब	बाओबाब	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_	_	N	बाओबाब	_	_	_	_	_	O-N
-9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	P	से	p.Causer	p.Source	_	_	_	O-P-p.Causer|p.Source
+9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	P	से	p.Force	p.Source	_	_	_	O-P-p.Force|p.Source
 10	खतरों	खतरा	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	18	nmod	_	_	_	N	खतरा	_	_	_	_	_	O-N
 11	के	का	ADP	PSP	AdpType=Post	10	case	_	_	1:1	P	के बारे में	p.Topic	p.Topic	_	_	_	B-P-p.Topic
 12	बारे	बारे	ADP	PSP	AdpType=Post	10	case	_	_	1:2	_	_	_	_	_	_	_	I_
@@ -4699,7 +4699,7 @@
 5	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	4	case	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	B-P-p.ComparisonRef
 6	तरह	तरह	ADP	PSP	Case=Acc|Gender=Fem	4	case	_	_	1:2	_	_	_	_	_	_	_	I_
 7	भेड़	भेड़	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_	_	N	भेड़	_	_	_	_	_	O-N
-8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	7	case	_	_	2:1	P	की कृपा से	p.Causer	p.Causer	_	_	_	B-P-p.Causer
+8	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	7	case	_	_	2:1	P	की कृपा से	p.Force	p.Force	_	_	_	B-P-p.Force
 9	कृपा	कृपा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obl	_	_	2:2	_	_	_	_	_	_	_	I_
 10	से	से	ADP	PSP	AdpType=Post	9	case	_	_	2:3	_	_	_	_	_	_	_	I_
 11	ही	ही	PART	RP	None=_	9	dep	_	_	_	PART.FOC	ही	p.Focus	p.Focus	_	_	_	O-PART.FOC-p.Focus
@@ -4904,7 +4904,7 @@
 # mwe = मैं मरम्मत से खीजा हुआ था ।
 1	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_	_	PRON.NOM	मैं	_	_	_	_	_	O-PRON.NOM
 2	मरम्मत	मरम्मत	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	obl	_	_	_	N	मरम्मत	_	_	_	_	_	O-N
-3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	_	P	से	p.Stimulus	p.Causer	_	_	_	O-P-p.Stimulus|p.Causer
+3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	_	P	से	p.Stimulus	p.Force	_	_	_	O-P-p.Stimulus|p.Force
 4	खीजा	खीज	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	खीज	_	_	_	_	_	O-V
 5	हुआ	हो	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
 6	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux:pass	_	_	_	AUX	था	_	_	_	_	_	O-AUX
@@ -5415,7 +5415,7 @@
 # text = गुस्से से वह नीला-पीला होने लगा ।
 # mwe = गुस्से से वह नीला-पीला होने लगा ।
 1	गुस्से	गुस्सा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obl	_	_	_	N	गुस्सा	_	_	_	_	_	O-N
-2	से	से	ADP	PSP	AdpType=Post	1	case	_	_	_	P	से	p.Causer	p.Causer	_	_	_	O-P-p.Causer
+2	से	से	ADP	PSP	AdpType=Post	1	case	_	_	_	P	से	p.Force	p.Force	_	_	_	O-P-p.Force
 3	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_	PRON.NOM	वह	_	_	_	_	_	O-PRON.NOM
 4	नीला-पीला	नीला-पीला	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obl	_	_	_	N	नीला-पीला	_	_	_	_	_	O-N
 5	होने	हो	VERB	VM	Gender=Masc|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_	_	V	हो	_	_	_	_	_	O-V
@@ -5558,7 +5558,7 @@
 # mwe = वह शर्म से लाल हो रहा था ।
 1	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_	_	PRON.NOM	वह	_	_	_	_	_	O-PRON.NOM
 2	शर्म	शर्म	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	obl	_	_	_	N	शर्म	_	_	_	_	_	O-N
-3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	_	P	से	p.Causer	p.Causer	_	_	_	O-P-p.Causer
+3	से	से	ADP	PSP	AdpType=Post	2	case	_	_	_	P	से	p.Force	p.Force	_	_	_	O-P-p.Force
 4	लाल	लाल	ADJ	JJ	None=_	5	xcomp	_	_	_	ADJ	लाल	_	_	_	_	_	O-ADJ
 5	हो	हो	VERB	VM	Gender=Masc|Number=Sing|Voice=Act	0	root	_	_	_	V	हो	_	_	_	_	_	O-V
 6	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	5	aux	_	_	_	AUX	रह	_	_	_	_	_	O-AUX
@@ -6243,7 +6243,7 @@
 7	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	6	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
 8	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	_	AUX	है	_	_	_	_	_	O-AUX
 9	पर	पर	SCONJ	CC	None=_	15	cc	_	_	_	SCONJ	पर	_	_	_	_	_	O-SCONJ
-10	उससे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_	_	PRON	से	p.Causer	p.Causer	_	_	_	O-PRON-p.Causer
+10	उससे	वह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_	_	PRON	से	p.Force	p.Force	_	_	_	O-PRON-p.Force
 11	प्रभावित	प्रभावित	ADJ	JJ	None=_	12	compound	_	_	_	ADJ	प्रभावित	_	_	_	_	_	O-ADJ
 12	हुए	हो	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	advcl	_	_	_	V	हो	_	_	_	_	_	O-V
 13	बिना	बिना	PART	RP	Polarity=Neg|PronType=Neg	12	dep	_	_	_	P	बिना	p.Manner	p.Manner	_	_	_	O-P-p.Manner
@@ -6324,7 +6324,7 @@
 11	मान	मान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	obj	_	_	_	N	मान	_	_	_	_	_	O-N
 12	भरे	भर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_	_	V	भर	_	_	_	_	_	O-V
 13	अहंकार	अहंकार	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	_	_	N	अहंकार	_	_	_	_	_	O-N
-14	से	से	ADP	PSP	AdpType=Post	13	case	_	_	_	P	से	p.Stimulus	p.Causer	_	_	_	O-P-p.Stimulus|p.Causer
+14	से	से	ADP	PSP	AdpType=Post	13	case	_	_	_	P	से	p.Instrument	p.Instrument	_	_	_	O-P-p.Instrument
 15	परेशान	परेशान	ADJ	JJ	None=_	16	compound	_	_	_	ADJ	परेशान	_	_	_	_	_	O-ADJ
 16	कर	कर	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	V	कर	_	_	_	_	_	O-V
 17	डाला	डाल	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	16	aux	_	_	_	AUX	डाल	_	_	_	_	_	O-AUX
@@ -6435,7 +6435,7 @@
 1	"	"	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 2	मुझे	मैं	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_	_	PRON	को	p.Experiencer	p.Theme	_	_	_	O-PRON-p.Experiencer|p.Theme
 3	बाघ	बाघ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_	_	N	बाघ	_	_	_	_	_	O-N
-4	से	से	ADP	PSP	AdpType=Post	3	case	_	_	_	P	से	p.Stimulus	p.Causer	_	_	_	O-P-p.Stimulus|p.Causer
+4	से	से	ADP	PSP	AdpType=Post	3	case	_	_	_	P	से	p.Stimulus	p.Force	_	_	_	O-P-p.Stimulus|p.Force
 5	परवाह	परवाह	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	compound	_	_	_	N	परवाह	_	_	_	_	_	O-N
 6	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	13	obl	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
 7	पर	पर	SCONJ	CC	AdpType=Post	5	case	_	_	_	SCONJ	पर	_	_	_	_	_	O-SCONJ
@@ -6592,7 +6592,7 @@
 # text = स्वयं से अपमानित होती हुई मानो राजकुमार को गलत साबित करने के लिए एक-दो बार खांसती हुई बोली ,
 # mwe = स्वयं से अपमानित होती हुई मानो राजकुमार को गलत साबित करने के_लिए एक-दो बार खांसती हुई बोली ,
 1	स्वयं	स्वयं	PRON	PRP	Case=Acc|PronType=Prs	4	obl	_	_	_	PRON.REFL	स्वयं	_	_	_	_	_	O-PRON.REFL
-2	से	से	ADP	PSP	AdpType=Post	1	case	_	_	_	P	से	p.Causer	p.Causer	_	_	_	O-P-p.Causer
+2	से	से	ADP	PSP	AdpType=Post	1	case	_	_	_	P	से	p.Agent	p.Agent	_	_	_	O-P-p.Agent
 3	अपमानित	अपमानित	ADJ	JJ	None=_	4	compound	_	_	_	ADJ	अपमानित	_	_	_	_	_	O-ADJ
 4	होती	हो	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	acl	_	_	_	V	हो	_	_	_	_	_	O-V
 5	हुई	हो	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	4	aux	_	_	_	AUX	हो	_	_	_	_	_	O-AUX
@@ -6795,7 +6795,7 @@
 12	में	में	ADP	PSP	AdpType=Post	11	case	_	_	_	P	में	p.Circumstance	p.Circumstance	_	_	_	O-P-p.Circumstance
 13	उन	वह	DET	DEM	Case=Acc|Number=Plur|Person=3|PronType=Dem	14	det	_	_	_	DET	वह	_	_	_	_	_	O-DET
 14	बातों	बात	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	19	obl	_	_	_	N	बात	_	_	_	_	_	O-N
-15	से	से	ADP	PSP	AdpType=Post	14	case	_	_	_	P	से	p.Stimulus	p.Causer	_	_	_	O-P-p.Stimulus|p.Causer
+15	से	से	ADP	PSP	AdpType=Post	14	case	_	_	_	P	से	p.Stimulus	p.Force	_	_	_	O-P-p.Stimulus|p.Force
 16	मुझमें	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_	_	PRON	में	p.Experiencer	p.Locus	_	_	_	O-PRON-p.Experiencer|p.Locus
 17	मृदुभाव	मृदुभाव	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	_	_	N	मृदुभाव	_	_	_	_	_	O-N
 18	पैदा	पैदा	ADJ	JJ	None=_	19	compound	_	_	_	ADJ	पैदा	_	_	_	_	_	O-ADJ
@@ -7505,7 +7505,7 @@
 2	अल्हड़	अल्हड़	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obl	_	_	_	N	अल्हड़	_	_	_	_	_	O-N
 3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem	2	case	_	_	1:1	P	की तरह	p.ComparisonRef	p.ComparisonRef	_	_	_	B-P-p.ComparisonRef
 4	तरह	तरह	ADP	PSP	Case=Acc|Gender=Fem	2	case	_	_	1:2	_	_	_	_	_	_	_	I_
-5	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_	_	PRON	ने	p.Agent	p.Agent	_	_	_	O-PRON-p.Agent
+5	उसने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_	_	PRON	ने	p.Causer	p.Agent	_	_	_	O-PRON-p.Causer|p.Agent
 6	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	8	nmod	_	_	_	PRON	का	p.Whole	p.Whole	_	_	_	O-PRON-p.Whole
 7	चार	चार	NUM	QC	NumType=Card	8	nummod	_	_	_	NUM	चार	_	_	_	_	_	O-NUM
 8	कांटे	कांटा	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	obj	_	_	_	N	कांटा	_	_	_	_	_	O-N
@@ -8672,7 +8672,7 @@
 # mwe = " राजकुमार ने याद दिलाया ।
 1	"	"	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 2	राजकुमार	राजकुमार	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_	_	N	राजकुमार	_	_	_	_	_	O-N
-3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	_	_	P	ने	p.Agent	p.Agent	_	_	_	O-P-p.Agent
+3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	_	_	P	ने	p.Causer	p.Agent	_	_	_	O-P-p.Causer|p.Agent
 4	याद	याद	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	compound	_	_	_	N	याद	_	_	_	_	_	O-N
 5	दिलाया	दिला	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_	_	V	दिला	_	_	_	_	_	O-V
 6	।	।	PUNCT	SYM	None=_	5	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -9304,7 +9304,7 @@
 # mwe = लेकिन राजकुमार ने , जो जाने के_लिए तत्पर था , राजा को और दुखी करना नहीं चाहा ।
 1	लेकिन	लेकिन	CCONJ	CC	None=_	18	cc	_	_	_	CCONJ	लेकिन	_	_	_	_	_	O-CCONJ
 2	राजकुमार	राजकुमार	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_	_	N	राजकुमार	_	_	_	_	_	O-N
-3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	_	_	P	ने	p.Agent	p.Agent	_	_	_	O-P-p.Agent
+3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	_	_	P	ने	p.Causer	p.Agent	_	_	_	O-P-p.Causer|p.Agent
 4	,	COMMA	PUNCT	SYM	None=_	2	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 5	जो	जो	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_	_	PRON.NOM	जो	_	_	_	_	_	O-PRON.NOM
 6	जाने	जा	VERB	VM	Case=Acc|VerbForm=Inf	10	advcl	_	_	_	V	जा	_	_	_	_	_	O-V
@@ -11476,7 +11476,7 @@
 # sent_id = lp_hi_13-115
 # text = इससे उन्हें लाभ होता है -
 # mwe = इससे उन्हें लाभ होता है -
-1	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	4	obl	_	_	_	PRON	से	p.Causer	p.Source	_	_	_	O-PRON-p.Causer|p.Source
+1	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	4	obl	_	_	_	PRON	से	p.Force	p.Source	_	_	_	O-PRON-p.Force|p.Source
 2	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	4	nsubj	_	_	_	PRON	को	p.Beneficiary	p.Recipient	_	_	_	O-PRON-p.Beneficiary|p.Recipient
 3	लाभ	लाभ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_	_	N	लाभ	_	_	_	_	_	O-N
 4	होता	हो	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	V	हो	_	_	_	_	_	O-V
@@ -17308,7 +17308,7 @@
 4	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	3	case	_	_	_	P	का	p.Whole	p.Whole	_	_	_	O-P-p.Whole
 5	गर्दन	गर्दन	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_	_	N	गर्दन	_	_	_	_	_	O-N
 6	शर्म	शर्म	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	obl	_	_	_	N	शर्म	_	_	_	_	_	O-N
-7	से	से	ADP	PSP	AdpType=Post	6	case	_	_	_	P	से	p.Causer	p.Source	_	_	_	O-P-p.Causer|p.Source
+7	से	से	ADP	PSP	AdpType=Post	6	case	_	_	_	P	से	p.Force	p.Source	_	_	_	O-P-p.Force|p.Source
 8	झुक	झुक	VERB	VM	Number=Sing|Voice=Act	0	root	_	_	_	V	झुक	_	_	_	_	_	O-V
 9	गई	जा	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	8	aux	_	_	_	AUX	जा	_	_	_	_	_	O-AUX
 10	।	।	PUNCT	SYM	None=_	8	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
@@ -18003,7 +18003,7 @@
 4	बेच	बेच	VERB	VM	Gender=Masc|Number=Sing|Voice=Act	0	root	_	_	_	V	बेच	_	_	_	_	_	O-V
 5	रहा	रह	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	aux	_	_	_	AUX	रह	_	_	_	_	_	O-AUX
 6	था	था	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux:pass	_	_	_	AUX	था	_	_	_	_	_	O-AUX
-7	जिससे	जो	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	10	obl	_	_	_	PRON	से	p.Causer	p.Source	_	_	_	O-PRON-p.Causer|p.Source
+7	जिससे	जो	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	10	obl	_	_	_	PRON	से	p.Force	p.Source	_	_	_	O-PRON-p.Force|p.Source
 8	प्यास	प्यास	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_	_	N	प्यास	_	_	_	_	_	O-N
 9	शांत	शांत	ADJ	JJ	None=_	10	compound	_	_	_	ADJ	शांत	_	_	_	_	_	O-ADJ
 10	हो	हो	VERB	VM	Number=Sing|Person=3|Voice=Act	3	acl:relcl	_	_	_	V	हो	_	_	_	_	_	O-V
@@ -18050,7 +18050,7 @@
 3	वक्त	वक्त	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_	_	N	वक्त	_	_	_	_	_	O-N
 4	बचता	बच	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	_	_	V	बच	_	_	_	_	_	O-V
 5	है	है	AUX	VAUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-6	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	10	obl	_	_	_	PRON	से	p.Causer	p.Source	_	_	_	O-PRON-p.Causer|p.Source
+6	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	10	obl	_	_	_	PRON	से	p.Force	p.Source	_	_	_	O-PRON-p.Force|p.Source
 7	,	COMMA	PUNCT	SYM	None=_	6	punct	_	_	_	PUNCT	COMMA	_	_	_	_	_	O-PUNCT
 8	"	"	PUNCT	SYM	None=_	9	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 9	दुकानदार	दुकानदार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	obj	_	_	_	N	दुकानदार	_	_	_	_	_	O-N
@@ -18069,7 +18069,7 @@
 22	मिनट	मिनट	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	obl	_	_	_	N	मिनट	_	_	_	_	_	O-N
 23	बचते	बच	VERB	VM	Aspect=Imp|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	10	conj	_	_	_	V	बच	_	_	_	_	_	O-V
 24	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_	_	AUX	है	_	_	_	_	_	O-AUX
-25	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	_	_	PRON	से	p.Causer	p.Source	_	_	_	O-PRON-p.Causer|p.Source
+25	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	_	_	PRON	से	p.Force	p.Source	_	_	_	O-PRON-p.Force|p.Source
 26	।	।	PUNCT	SYM	None=_	23	punct	_	_	_	PUNCT	।	_	_	_	_	_	O-PUNCT
 27	"	"	PUNCT	SYM	None=_	23	punct	_	_	_	PUNCT	"	_	_	_	_	_	O-PUNCT
 
@@ -18237,7 +18237,7 @@
 2	क्योंकि	क्योंकि	SCONJ	CC	None=_	6	mark	_	_	_	SCONJ	क्योंकि	_	_	_	_	_	O-SCONJ
 3	हम	हम	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_	_	PRON.NOM	हम	_	_	_	_	_	O-PRON.NOM
 4	प्यास	प्यास	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obl	_	_	_	N	प्यास	_	_	_	_	_	O-N
-5	से	से	ADP	PSP	AdpType=Post	4	case	_	_	_	P	से	p.Causer	p.Source	_	_	_	O-P-p.Causer|p.Source
+5	से	से	ADP	PSP	AdpType=Post	4	case	_	_	_	P	से	p.Force	p.Source	_	_	_	O-P-p.Force|p.Source
 6	मरने	मर	VERB	VM	Gender=Masc|Number=Plur|Person=3|VerbForm=Inf|Voice=Act	0	root	_	_	_	V	मर	_	_	_	_	_	O-V
 7	वाले	वाला	AUX	VAUX	Gender=Masc|Number=Plur	6	aux	_	_	_	AUX	वाला	_	_	_	_	_	O-AUX
 8	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_	_	AUX	है	_	_	_	_	_	O-AUX
@@ -19020,7 +19020,7 @@
 6	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	5	case	_	_	_	P	का	p.Originator	p.Gestalt	_	_	_	O-P-p.Originator|p.Gestalt
 7	जिस	जो	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	det	_	_	_	DET	जो	_	_	_	_	_	O-DET
 8	बात	बात	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	12	obj	_	_	_	N	बात	_	_	_	_	_	O-N
-9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	P	से	p.Causer	p.Source	_	_	_	O-P-p.Causer|p.Source
+9	से	से	ADP	PSP	AdpType=Post	8	case	_	_	_	P	से	p.Force	p.Source	_	_	_	O-P-p.Force|p.Source
 10	मैं	मैं	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_	_	PRON.NOM	मैं	_	_	_	_	_	O-PRON.NOM
 11	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_	_	DET	इतना	_	_	_	_	_	O-DET
 12	प्रभावित	प्रभावित	ADJ	JJ	None=_	2	obj	_	_	_	ADJ	प्रभावित	_	_	_	_	_	O-ADJ
@@ -19552,7 +19552,7 @@
 25	मिल	मिल	VERB	VM	None=_	14	conj	_	_	_	V	मिल	_	_	_	_	_	O-V
 26	कर	कर	AUX	VAUX	None=_	25	aux	_	_	_	AUX	कर	_	_	_	_	_	O-AUX
 27	उपहारों	उपहार	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	29	obl	_	_	_	N	उपहार	_	_	_	_	_	O-N
-28	से	से	ADP	PSP	AdpType=Post	27	case	_	_	_	P	से	p.Causer	p.Source	_	_	_	O-P-p.Causer|p.Source
+28	से	से	ADP	PSP	AdpType=Post	27	case	_	_	_	P	से	p.Force	p.Source	_	_	_	O-P-p.Force|p.Source
 29	मिली	मिल	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	30	acl	_	_	_	V	मिल	_	_	_	_	_	O-V
 30	खुशी	खुशी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	32	obl	_	_	_	N	खुशी	_	_	_	_	_	O-N
 31	पर	पर	ADP	PSP	AdpType=Post	30	case	_	_	_	P	पर	p.Explanation	p.Time	_	_	_	O-P-p.Explanation|p.Time
@@ -22067,7 +22067,7 @@
 7	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obl	_	_	_	N	बार	_	_	_	_	_	O-N
 8	काटने	काट	VERB	VM	Case=Acc|VerbForm=Inf	14	obl	_	_	_	V	काट	_	_	_	_	_	O-V
 9	पर	पर	ADP	PSP	AdpType=Post	8	mark	_	_	_	P	पर	p.Explanation	p.Time	_	_	_	O-P-p.Explanation|p.Time
-10	उसका	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	_	_	PRON	का	p.Causer	p.Gestalt	_	_	_	O-PRON-p.Causer|p.Gestalt
+10	उसका	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod	_	_	_	PRON	का	p.Force	p.Gestalt	_	_	_	O-PRON-p.Force|p.Gestalt
 11	असर	असर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_	_	N	असर	_	_	_	_	_	O-N
 12	जहरीला	जहरीला	ADJ	JJ	Gender=Masc|Number=Sing	14	compound	_	_	_	ADJ	जहरीला	_	_	_	_	_	O-ADJ
 13	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	14	advmod	_	_	_	ADV	नहीं	_	_	_	_	_	O-ADV
@@ -23039,7 +23039,7 @@
 # text = पर मैंने एक बार और इसलिए बनाया है कि आपको ठीक से दिखा सकूं ।
 # mwe = पर मैंने एक बार और इसलिए बनाया है कि आपको ठीक से दिखा सकूं ।
 1	पर	पर	SCONJ	CC	None=_	7	cc	_	_	_	SCONJ	पर	_	_	_	_	_	O-SCONJ
-2	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	PRON	ने	p.Originator	p.Agent	_	_	_	O-PRON-p.Originator|p.Agent
+2	मैंने	मैं	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_	_	PRON	ने	p.Causer	p.Agent	_	_	_	O-PRON-p.Causer|p.Agent
 3	एक	एक	NUM	QC	NumType=Card	4	nummod	_	_	_	NUM	एक	_	_	_	_	_	O-NUM
 4	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obl	_	_	_	N	बार	_	_	_	_	_	O-N
 5	और	और	CCONJ	CC	None=_	6	cc	_	_	_	CCONJ	और	_	_	_	_	_	O-CCONJ
